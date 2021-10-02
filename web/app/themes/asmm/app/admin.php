@@ -4,6 +4,8 @@
  * Theme admin.
  */
 
+declare(strict_types=1);
+
 namespace App;
 
 use WP_Customize_Manager;
@@ -32,5 +34,11 @@ add_action('customize_register', static function (WP_Customize_Manager $wp_custo
  * @return void
  */
 add_action('customize_preview_init', static function () {
-    wp_enqueue_script('sage/customizer.js', asset('scripts/customizer.js')->uri(), ['customize-preview'], null, true);
+    wp_enqueue_script(
+        'sage/customizer.js',
+        asset('scripts/customizer.js')->uri(),
+        ['customize-preview'],
+        null,
+        true,
+    );
 });
