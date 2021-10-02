@@ -24,7 +24,7 @@ class Post extends Composer
      *
      * @return array
      */
-    public function override()
+    public function override(): array
     {
         return [
             'title' => $this->title(),
@@ -36,18 +36,19 @@ class Post extends Composer
      *
      * @return string
      */
-    public function title()
+    public function title(): array
     {
         if ($this->view->name() !== 'partials.page-header') {
             return get_the_title();
         }
 
         if (is_home()) {
-            if ($home = get_option('page_for_posts', true)) {
-                return get_the_title($home);
+            $home = get_option('page_for_posts', true);
+            if (empty($home)) {
+                return __('Latest Posts', 'asmm');
             }
 
-            return __('Latest Posts', 'sage');
+            return get_the_title($home);
         }
 
         if (is_archive()) {
@@ -57,13 +58,13 @@ class Post extends Composer
         if (is_search()) {
             return sprintf(
                 /* translators: %s is replaced with the search query */
-                __('Search Results for %s', 'sage'),
+                __('Search Results for %s', 'asmm'),
                 get_search_query()
             );
         }
 
         if (is_404()) {
-            return __('Not Found', 'sage');
+            return __('Not Found', 'asmm');
         }
 
         return get_the_title();
