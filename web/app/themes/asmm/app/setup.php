@@ -4,6 +4,8 @@
  * Theme setup.
  */
 
+declare(strict_types=1);
+
 namespace App;
 
 use function Roots\asset;
@@ -13,11 +15,27 @@ use function Roots\asset;
  *
  * @return void
  */
-add_action('wp_enqueue_scripts', function () {
-    wp_enqueue_script('sage/vendor.js', asset('scripts/vendor.js')->uri(), ['jquery'], null, true);
-    wp_enqueue_script('sage/app.js', asset('scripts/app.js')->uri(), ['sage/vendor.js'], null, true);
+add_action('wp_enqueue_scripts', static function () {
+    wp_enqueue_script(
+        'sage/vendor.js',
+        asset('scripts/vendor.js')->uri(),
+        ['jquery'],
+        null,
+        true,
+    );
+    wp_enqueue_script(
+        'sage/app.js',
+        asset('scripts/app.js')->uri(),
+        ['sage/vendor.js'],
+        null,
+        true,
+    );
 
-    wp_add_inline_script('sage/vendor.js', asset('scripts/manifest.js')->contents(), 'before');
+    wp_add_inline_script(
+        'sage/vendor.js',
+        asset('scripts/manifest.js')->contents(),
+        'before',
+    );
 
     if (is_single() && comments_open() && get_option('thread_comments')) {
         wp_enqueue_script('comment-reply');
@@ -31,10 +49,22 @@ add_action('wp_enqueue_scripts', function () {
  *
  * @return void
  */
-add_action('enqueue_block_editor_assets', function () {
-    if ($manifest = asset('scripts/manifest.asset.php')->load()) {
-        wp_enqueue_script('sage/vendor.js', asset('scripts/vendor.js')->uri(), ...array_values($manifest));
-        wp_enqueue_script('sage/editor.js', asset('scripts/editor.js')->uri(), ['sage/vendor.js'], null, true);
+add_action('enqueue_block_editor_assets', static function () {
+    $manifest = asset('scripts/manifest.asset.php')->load();
+    if ($manifest) {
+        // phpcs:ignore WordPress.WP.EnqueuedResourceParameters.NotInFooter
+        wp_enqueue_script(
+            'sage/vendor.js',
+            asset('scripts/vendor.js')->uri(),
+            ...array_values($manifest),
+        );
+        wp_enqueue_script(
+            'sage/editor.js',
+            asset('scripts/editor.js')->uri(),
+            ['sage/vendor.js'],
+            null,
+            true,
+        );
 
         wp_add_inline_script('sage/vendor.js', asset('scripts/manifest.js')->contents(), 'before');
     }
@@ -47,7 +77,7 @@ add_action('enqueue_block_editor_assets', function () {
  *
  * @return void
  */
-add_action('after_setup_theme', function () {
+add_action('after_setup_theme', static function () {
     /**
      * Enable features from the Soil plugin if activated.
      * @link https://roots.io/plugins/soil/
@@ -56,7 +86,7 @@ add_action('after_setup_theme', function () {
         'clean-up',
         'nav-walker',
         'nice-search',
-        'relative-urls'
+        'relative-urls',
     ]);
 
     /**
@@ -71,7 +101,7 @@ add_action('after_setup_theme', function () {
      * @link https://developer.wordpress.org/reference/functions/register_nav_menus/
      */
     register_nav_menus([
-        'primary_navigation' => __('Primary Navigation', 'sage')
+        'primary_navigation' => __('Primary Navigation', 'asmm'),
     ]);
 
     /**
@@ -169,7 +199,7 @@ add_action('after_setup_theme', function () {
         'gallery',
         'search-form',
         'script',
-        'style'
+        'style',
     ]);
 
     /**
@@ -184,21 +214,21 @@ add_action('after_setup_theme', function () {
  *
  * @return void
  */
-add_action('widgets_init', function () {
+add_action('widgets_init', static function () {
     $config = [
         'before_widget' => '<section class="widget %1$s %2$s">',
         'after_widget' => '</section>',
         'before_title' => '<h3>',
-        'after_title' => '</h3>'
+        'after_title' => '</h3>',
     ];
 
     register_sidebar([
-        'name' => __('Primary', 'sage'),
-        'id' => 'sidebar-primary'
+        'name' => __('Primary', 'asmm'),
+        'id' => 'sidebar-primary',
     ] + $config);
 
     register_sidebar([
-        'name' => __('Footer', 'sage'),
-        'id' => 'sidebar-footer'
+        'name' => __('Footer', 'asmm'),
+        'id' => 'sidebar-footer',
     ] + $config);
 });

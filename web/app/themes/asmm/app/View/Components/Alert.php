@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace App\View\Components;
 
 use Roots\Acorn\View\Component;
@@ -11,21 +13,21 @@ class Alert extends Component
      *
      * @var string
      */
-    public $type;
+    protected string $type;
 
     /**
      * The alert message.
      *
      * @var string
      */
-    public $message;
+    protected string $message;
 
     /**
      * The alert types.
      *
      * @var array
      */
-    public $types = [
+    protected array $types = [
         'default' => 'text-indigo-50 bg-indigo-400',
         'success' => 'text-green-50 bg-green-400',
         'caution' => 'text-yellow-50 bg-yellow-400',
@@ -39,7 +41,7 @@ class Alert extends Component
      * @param  string  $message
      * @return void
      */
-    public function __construct($type = 'default', $message = null)
+    public function __construct(string $type = 'default', ?string $message = null)
     {
         $this->type = $this->types[$type] ?? $this->types['default'];
         $this->message = $message;
@@ -50,7 +52,7 @@ class Alert extends Component
      *
      * @return \Illuminate\View\View|string
      */
-    public function render()
+    public function render(): string
     {
         return $this->view('components.alert');
     }

@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace App\View\Composers;
 
 use Roots\Acorn\View\Composer;
@@ -20,7 +22,7 @@ class App extends Composer
      *
      * @return array
      */
-    public function with()
+    public function with(): array
     {
         return [
             'siteName' => $this->siteName(),
@@ -32,7 +34,7 @@ class App extends Composer
      *
      * @return string
      */
-    public function siteName()
+    public function siteName(): string
     {
         return get_bloginfo('name', 'display');
     }
