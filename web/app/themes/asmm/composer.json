@@ -59,9 +59,8 @@
   "minimum-stability": "dev",
   "prefer-stable": true,
   "scripts": {
-    "lint": [
-      "phpcs --extensions=php --standard=PSR12 app config"
-    ],
+    "style:check": "phpcs",
+    "style:fix": "phpcbf",
     "post-autoload-dump": [
       "Roots\\Acorn\\ComposerScripts::postAutoloadDump"
     ]
