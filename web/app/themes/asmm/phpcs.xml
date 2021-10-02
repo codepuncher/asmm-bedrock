@@ -5,6 +5,7 @@
     <exclude-pattern>/*.scss</exclude-pattern>
     <exclude-pattern>/*.js</exclude-pattern>
     <exclude-pattern>/functions.php</exclude-pattern>
+    <exclude-pattern>/functions.php</exclude-pattern>
     <exclude-pattern>/node_modules/*</exclude-pattern>
     <exclude-pattern>/config/*</exclude-pattern>
     <exclude-pattern>/public/*</exclude-pattern>
@@ -24,5 +25,13 @@
 
     <rule ref="Inpsyde">
         <exclude name="WordPress.WP.EnqueuedResourceParameters.MissingVersion" />
+    </rule>
+
+    <rule ref="WordPress.Security.EscapeOutput.OutputNotEscaped">
+      <exclude-pattern>index.php</exclude-pattern>
+    </rule>
+
+    <rule ref="Generic.PHP.CharacterBeforePHPOpeningTag.Found">
+      <exclude-pattern>index.php</exclude-pattern>
     </rule>
 </ruleset>
