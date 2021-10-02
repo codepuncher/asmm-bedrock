@@ -16,10 +16,26 @@ use function Roots\asset;
  * @return void
  */
 add_action('wp_enqueue_scripts', static function () {
-    wp_enqueue_script('sage/vendor.js', asset('scripts/vendor.js')->uri(), ['jquery'], null, true);
-    wp_enqueue_script('sage/app.js', asset('scripts/app.js')->uri(), ['sage/vendor.js'], null, true);
+    wp_enqueue_script(
+        'sage/vendor.js',
+        asset('scripts/vendor.js')->uri(),
+        ['jquery'],
+        null,
+        true,
+    );
+    wp_enqueue_script(
+        'sage/app.js',
+        asset('scripts/app.js')->uri(),
+        ['sage/vendor.js'],
+        null,
+        true,
+    );
 
-    wp_add_inline_script('sage/vendor.js', asset('scripts/manifest.js')->contents(), 'before');
+    wp_add_inline_script(
+        'sage/vendor.js',
+        asset('scripts/manifest.js')->contents(),
+        'before',
+    );
 
     if (is_single() && comments_open() && get_option('thread_comments')) {
         wp_enqueue_script('comment-reply');
@@ -34,9 +50,21 @@ add_action('wp_enqueue_scripts', static function () {
  * @return void
  */
 add_action('enqueue_block_editor_assets', static function () {
-    if ($manifest = asset('scripts/manifest.asset.php')->load()) {
-        wp_enqueue_script('sage/vendor.js', asset('scripts/vendor.js')->uri(), ...array_values($manifest));
-        wp_enqueue_script('sage/editor.js', asset('scripts/editor.js')->uri(), ['sage/vendor.js'], null, true);
+    $manifest = asset('scripts/manifest.asset.php')->load();
+    if ($manifest) {
+        // phpcs:ignore WordPress.WP.EnqueuedResourceParameters.NotInFooter
+        wp_enqueue_script(
+            'sage/vendor.js',
+            asset('scripts/vendor.js')->uri(),
+            ...array_values($manifest),
+        );
+        wp_enqueue_script(
+            'sage/editor.js',
+            asset('scripts/editor.js')->uri(),
+            ['sage/vendor.js'],
+            null,
+            true,
+        );
 
         wp_add_inline_script('sage/vendor.js', asset('scripts/manifest.js')->contents(), 'before');
     }
@@ -73,7 +101,7 @@ add_action('after_setup_theme', static function () {
      * @link https://developer.wordpress.org/reference/functions/register_nav_menus/
      */
     register_nav_menus([
-        'primary_navigation' => __('Primary Navigation', 'sage'),
+        'primary_navigation' => __('Primary Navigation', 'asmm'),
     ]);
 
     /**
@@ -195,12 +223,12 @@ add_action('widgets_init', static function () {
     ];
 
     register_sidebar([
-        'name' => __('Primary', 'sage'),
+        'name' => __('Primary', 'asmm'),
         'id' => 'sidebar-primary',
     ] + $config);
 
     register_sidebar([
-        'name' => __('Footer', 'sage'),
+        'name' => __('Footer', 'asmm'),
         'id' => 'sidebar-footer',
     ] + $config);
 });
