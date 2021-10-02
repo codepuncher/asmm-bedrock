@@ -34,4 +34,8 @@
     <rule ref="Generic.PHP.CharacterBeforePHPOpeningTag.Found">
       <exclude-pattern>index.php</exclude-pattern>
     </rule>
+
+    <rule ref="Internal.NoCodeFound">
+      <exclude-pattern>resources/views</exclude-pattern>
+    </rule>
 </ruleset>
