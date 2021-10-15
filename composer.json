@@ -39,7 +39,8 @@
     "roots/bedrock-disallow-indexing": "^2.0",
     "roots/wordpress": "^5.8",
     "roots/wp-config": "^1.0",
-    "roots/wp-password-bcrypt": "^1.0"
+    "roots/wp-password-bcrypt": "^1.0",
+    "wpackagist-plugin/two-factor": "^0.7.1"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.6.0",
