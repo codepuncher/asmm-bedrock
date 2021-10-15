@@ -40,7 +40,13 @@
     "roots/wordpress": "^5.8",
     "roots/wp-config": "^1.0",
     "roots/wp-password-bcrypt": "^1.0",
-    "wpackagist-plugin/two-factor": "^0.7.1"
+    "wpackagist-plugin/two-factor": "^0.7.1",
+    "wpackagist-plugin/crop-thumbnails": "^1.4",
+    "wpackagist-plugin/duplicate-post": "^4.1",
+    "wpackagist-plugin/kirki": "^3.1",
+    "wpackagist-plugin/redirection": "^5.1",
+    "wpackagist-plugin/stream": "^3.8",
+    "wpackagist-plugin/wordpress-seo": "^17.3"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.6.0",
