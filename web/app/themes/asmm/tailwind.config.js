@@ -23,6 +23,9 @@ module.exports = {
           DEFAULT: '#ffd166',
         },
       },
+      fontFamily: {
+        sans: ['Oswald', 'sans-serif'],
+      },
     },
   },
   variants: {

@@ -37,6 +37,26 @@ add_action('wp_enqueue_scripts', static function () {
         'before',
     );
 
+    $googleFontsJs = <<<JS
+        WebFontConfig = {
+          google: {
+            families: ['Oswald&display=swap'],
+          },
+        };
+
+        (function(d) {
+          var wf = d.createElement('script'), s = d.scripts[0];
+          wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+          wf.async = true;
+          s.parentNode.insertBefore(wf, s);
+        })(document);
+    JS;
+    wp_add_inline_script(
+        'sage/app.js',
+        $googleFontsJs,
+        'before',
+    );
+
     if (is_single() && comments_open() && get_option('thread_comments')) {
         wp_enqueue_script('comment-reply');
     }
