@@ -8,7 +8,21 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      colors: {},
+      colors: {
+        blue: {
+          light: '#118ab2',
+          dark: '#073b4c',
+        },
+        green: {
+          DEFAULT: '#06d6a0',
+        },
+        red: {
+          DEFAULT: '#ef4767',
+        },
+        yellow: {
+          DEFAULT: '#ffd166',
+        },
+      },
     },
   },
   variants: {
