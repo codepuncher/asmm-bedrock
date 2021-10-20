@@ -1,5 +1,5 @@
 <header class="banner">
-  <nav class="nav-primary bg-gray-800">
+  <nav class="nav-primary bg-blue-dark">
     <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
       <div class="relative flex items-center justify-between h-16">
         @include('partials.menu-mobile-toggle')
