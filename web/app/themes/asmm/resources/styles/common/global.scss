@@ -5,3 +5,10 @@ body {
 .brand {
   @apply text-3xl font-medium text-white;
 }
+
+.admin-bar {
+  @media (max-width: 420px) {
+    display: none;
+    margin-top: 0;
+  }
+}
