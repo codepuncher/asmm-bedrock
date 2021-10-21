@@ -7,7 +7,7 @@ namespace App\View\Composers;
 use Log1x\Navi\Facades\Navi;
 use Roots\Acorn\View\Composer;
 
-class Header extends Composer
+class Navigation extends Composer
 {
     /**
      * List of views served by this composer.
@@ -15,7 +15,8 @@ class Header extends Composer
      * @var array
      */
     protected static $views = [
-        'partials.header',
+        'partials.nav.desktop',
+        'partials.nav.mobile',
     ];
 
     /**
@@ -26,7 +27,7 @@ class Header extends Composer
     public function with(): array
     {
         return [
-            'menu' => $this->getMenu(),
+            'items' => $this->getMenu(),
         ];
     }
 

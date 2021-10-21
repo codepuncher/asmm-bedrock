@@ -6,17 +6,16 @@
 
         <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-between">
           <div class="flex-shrink-0 flex items-center">
-            <a class="brand" href="{{ home_url('/') }}">{{ $siteName }}</a>
+            <a class="brand sm:hidden" href="{{ home_url('/') }}">ASMM</a>
+            <a class="brand hidden sm:block" href="{{ home_url('/') }}">{{ $siteName }}</a>
           </div>
-          @unless(empty($menu))
-            <div class="hidden sm:block sm:ml-6">
-              @include('partials.nav.nav', ['items' => $menu])
-            </div>
-        @endunless
+          <div class="hidden sm:block sm:ml-6">
+            @include('partials.nav.desktop')
+          </div>
         </div>
       </div>
     </div>
 
-    @include('partials.menu-mobile')
+    @include('partials.nav.mobile')
   </nav>
 </header>
