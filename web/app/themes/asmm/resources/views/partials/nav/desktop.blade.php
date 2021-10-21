@@ -3,9 +3,9 @@
     <a
       href="{{ $item->url }}"
       @if($item->active)
-      class="bg-green text-blue-dark px-3 py-2 rounded-md text-sm font-medium"
+      class="bg-green text-white px-3 py-2 rounded-md text-sm font-medium"
       @else
-      class="text-gray-300 hover:bg-green-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors"
+      class="text-white hover:bg-green hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors"
       @endif
       aria-current="page"
     >{!! esc_html($item->label) !!}</a>

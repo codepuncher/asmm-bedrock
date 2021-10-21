@@ -1,5 +1,19 @@
 body {
   @apply font-sans;
+
+  @apply bg-page;
+  background-color: theme('colors.black');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
 }
 
 .brand {
