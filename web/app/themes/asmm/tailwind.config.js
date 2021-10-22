@@ -26,22 +26,25 @@ module.exports = {
       fontFamily: {
         sans: ['Oswald', 'sans-serif'],
       },
-      typography: (theme) => ({
-        DEFAULT: {
-          css: {
-            color: theme('colors.white'),
-            a: {
-              color: theme('colors.yellow.DEFAULT'),
-            },
-            p: {
-              color: theme('colors.white'),
-            },
-            h1: {
-              color: theme('colors.red.DEFAULT'),
-            },
-          },
-        },
-      }),
+      // typography: (theme) => ({
+      //   DEFAULT: {
+      //     css: {
+      //       color: theme('colors.white'),
+      //       a: {
+      //         color: theme('colors.yellow.DEFAULT'),
+      //       },
+      //       p: {
+      //         color: theme('colors.white'),
+      //       },
+      //       h1: {
+      //         color: theme('colors.red.DEFAULT'),
+      //       },
+      //     },
+      //   },
+      // }),
+      container: {
+        center: true,
+      },
       backgroundImage: {
         page: "url('https://picsum.photos/id/982/1920/1080')",
       },

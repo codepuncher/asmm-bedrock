@@ -1,7 +1,7 @@
-<header class="banner">
+<header id="header">
   <nav class="nav-primary">
-    <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
-      <div class="relative flex items-center justify-between h-16">
+    <div class="max-w-5xl mx-auto p-2 sm:px-6 lg:px-8">
+      <div class="relative flex items-start justify-between">
         @include('partials.menu-mobile-toggle')
 
         <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-between">
@@ -18,4 +18,8 @@
 
     @include('partials.nav.mobile')
   </nav>
+
+  <div class="separator">
+    @svg('images.wave')
+  </div>
 </header>

@@ -1,0 +1,27 @@
+#header {
+  @apply bg-page;
+  background-color: theme('colors.black');
+  background-position: top left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+
+  // .nav-primary {
+  //   background-image: url('../images/wave.svg');
+  //   background-size: cover;
+  //   background-repeat: no-repeat;
+  // }
+
+  // .separator {
+  //    display: block;
+  //    position: relative;
+  //    height: 50px;
+  //    background-image: url('../images/wave.svg');
+  //    background-size: cover;
+  //    background-repeat: no-repeat;
+  // }
+
+  .brand {
+    @apply text-3xl font-medium text-white;
+  }
+}

@@ -1,11 +1,6 @@
 body {
   @apply font-sans;
 
-  @apply bg-page;
-  background-color: theme('colors.black');
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
   min-height: 100vh;
 }
 
@@ -14,10 +9,6 @@ body {
   flex-direction: column;
   justify-content: space-between;
   min-height: 100vh;
-}
-
-.brand {
-  @apply text-3xl font-medium text-white;
 }
 
 .admin-bar {
