@@ -1,6 +1,6 @@
 /**
  * This file allows you to add functionality to the Theme Customizer
- * live preview. jQuery is readily available.
+ * live preview.
  *
  * {@link https://codex.wordpress.org/Theme_Customization_API}
  */
@@ -11,5 +11,5 @@
  * @param {string} value
  */
 wp.customize('blogname', value => {
-  value.bind(to => $('.brand').text(to));
+  value.bind(to => document.querySelector('.brand').innerHTML = to);
 });

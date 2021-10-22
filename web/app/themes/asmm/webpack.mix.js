@@ -27,8 +27,6 @@ mix
 mix
   .js('resources/scripts/app.js', 'scripts')
   .js('resources/scripts/customizer.js', 'scripts')
-  .blocks('resources/scripts/editor.js', 'scripts')
-  .autoload({ jquery: ['$', 'window.jQuery'] })
   .extract();
 
 mix
