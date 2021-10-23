@@ -31,6 +31,7 @@ module.exports = {
           css: {
             a: {
               color: theme('colors.green.DEFAULT'),
+              textDecoration: 'none',
             },
           },
         },

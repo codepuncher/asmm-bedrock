@@ -1,5 +1,5 @@
 <header id="header">
-  <nav class="nav-primary">
+  <nav class="nav-primary py-5">
     <div class="max-w-5xl mx-auto p-2 sm:px-6 lg:px-8">
       <div class="relative flex items-start justify-between">
         @include('partials.menu-mobile-toggle')

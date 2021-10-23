@@ -1,3 +1,3 @@
-<svg class="transition duration-300 ease-in-out delay-150" width="100%" height="64" preserveAspectRatio="none" version="1.1" viewBox="0 0 1440 64.097" xmlns="http://www.w3.org/2000/svg">
- <path class="filter drop-shadow-lg transition-all duration-300 ease-in-out delay-150 path-0" d="m-0.39984 65.566 0.13386-65.29c973.53 27.699 717.26 64.931 1440.3-0.32329v65.612z" fill="#fff" stroke-width="0"/>
+<svg class="h-4 md:h-8" width="100%" height="32" preserveAspectRatio="none" version="1.1" viewBox="0 0 1440 64.097" xmlns="http://www.w3.org/2000/svg">
+ <path d="m-0.39984 65.566 0.13386-65.29c973.53 27.699 717.26 64.931 1440.3-0.32329v65.612z" fill="#ffffff" stroke-width="0"/>
 </svg>

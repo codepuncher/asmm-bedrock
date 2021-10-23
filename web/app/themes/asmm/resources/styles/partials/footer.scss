@@ -1,5 +1,11 @@
 #footer {
+  --link-underline-color: theme('colors.white');
+
   a {
     @apply text-yellow;
+  }
+
+  h2 {
+    @apply text-lg;
   }
 }
