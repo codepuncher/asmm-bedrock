@@ -19,7 +19,12 @@ body {
 
 .admin-bar {
   @media (max-width: 420px) {
-    display: none;
-    margin-top: 0;
+    margin-top: -46px;
+  }
+
+  #wpadminbar {
+    @media (max-width: 420px) {
+      display: none;
+    }
   }
 }
