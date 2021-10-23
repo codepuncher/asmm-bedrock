@@ -1,8 +1,11 @@
 #header {
   @apply bg-page;
-  background-position: top left;
-  background-size: cover;
+  background-position: top center;
   background-repeat: no-repeat;
+
+  @screen md {
+    background-size: cover;
+  }
 
   a {
     &::before {
