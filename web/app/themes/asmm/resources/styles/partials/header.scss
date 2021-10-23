@@ -1,18 +1,12 @@
 #header {
   @apply bg-page;
-  background-color: theme('colors.blue.dark');
   background-position: top left;
   background-size: cover;
   background-repeat: no-repeat;
-  position: relative;
 
   a {
     &::before {
       content: none;
     }
-  }
-
-  .brand {
-    @apply text-3xl font-medium text-white;
   }
 }
