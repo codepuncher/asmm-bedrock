@@ -12,6 +12,29 @@ body {
   @apply font-sans;
 }
 
+@keyframes wave {
+  0% {
+    transform: skewY(6deg);
+  }
+  50% {
+    transform: skewY(-1deg);
+  }
+  100% {
+    transform: skewY(6deg);
+  }
+}
+
+.separator.wave {
+  svg {
+    #wave1 {
+      display: block;
+      transform: skewY(6deg);
+      animation: wave 25000ms infinite;
+      animation-delay: 5000ms;
+    }
+  }
+}
+
 #app {
   a {
     &::before {

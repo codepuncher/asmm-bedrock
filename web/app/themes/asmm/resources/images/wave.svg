@@ -1,3 +1,4 @@
-<svg class="h-4 md:h-8" width="100%" height="32" preserveAspectRatio="none" version="1.1" viewBox="0 0 1440 64.097" xmlns="http://www.w3.org/2000/svg">
- <path d="m-0.39984 65.566 0.13386-65.29c973.53 27.699 717.26 64.931 1440.3-0.32329v65.612z" fill="#ffffff" stroke-width="0"/>
+<svg class="w-full h-4 md:h-8" width="100%" height="32" preserveAspectRatio="none" version="1.1" viewBox="0 0 1440 64.097" xmlns="http://www.w3.org/2000/svg">
+ <path id="wave1" class="hidden" d="m-0.39984 65.566 0.5637-50.354c93.571 12.837 250.52-15.217 326.51-0.80358 92.261 17.5 205.55 40.397 307.28 14.504 78.35-19.944 222.89 40.08 355.43 18.612 134.3-21.753 252.49-25.673 450.75-41.221l-0.1008 59.263z" fill="#d2d2d2" fill-opacity=".7463" stroke-width="0"/>
+ <path id="wave2" d="m-0.39984 69.572 0.48075-69.666c461.24 74.994 716.91 69.307 1440 4.0526v65.612z" fill="#ffffff" stroke-width="0"/>
 </svg>
