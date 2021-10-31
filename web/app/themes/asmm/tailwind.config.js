@@ -59,7 +59,12 @@ module.exports = {
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      display: [
+        'hover',
+        'group-hover',
+      ],
+    },
   },
   plugins: [require('@tailwindcss/typography')],
 };
