@@ -25,7 +25,7 @@ mix
   });
 
 mix
-  .js('resources/scripts/app.js', 'scripts')
+  .ts('resources/scripts/app.ts', 'scripts')
   .js('resources/scripts/customizer.js', 'scripts')
   .extract();
 
