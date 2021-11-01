@@ -1,3 +1,22 @@
+const fs = require('fs');
+const themeJson = fs.readFileSync('./theme.json');
+const theme = JSON.parse(themeJson);
+const colors = theme.settings.color.palette.reduce((acc, item) => {
+  const [color, number] = item.slug.split('-');
+
+  // If there is a number identifier, make this an object
+  if (undefined !== number) {
+    if (!acc[color]) {
+      acc[color] = {};
+    }
+    acc[color][number] = item.color;
+  } else {
+    acc[color] = item.color;
+  }
+
+  return acc;
+}, {});
+
 module.exports = {
   purge: {
     content: [
@@ -9,21 +28,7 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      colors: {
-        blue: {
-          light: '#118ab2',
-          dark: '#073b4c',
-        },
-        green: {
-          DEFAULT: '#06d6a0',
-        },
-        red: {
-          DEFAULT: '#ef4767',
-        },
-        yellow: {
-          DEFAULT: '#ffd166',
-        },
-      },
+      colors,
       fontFamily: {
         sans: ['Oswald', 'sans-serif'],
       },

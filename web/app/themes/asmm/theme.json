@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "settings": {
+    "color": {
+      "palette": [
+        {
+          "name": "Black",
+          "slug": "black",
+          "color": "#000000"
+        },
+        {
+          "name": "White",
+          "slug": "white",
+          "color": "#ffffff"
+        },
+        {
+          "name": "Blue (light)",
+          "slug": "blue-light",
+          "color": "#118ab2"
+        },
+        {
+          "name": "Blue (dark)",
+          "slug": "blue-dark",
+          "color": "#073b4c"
+        },
+        {
+          "name": "Green",
+          "slug": "green",
+          "color": "#06d6a0"
+        },
+        {
+          "name": "Red",
+          "slug": "red",
+          "color": "#ef4767"
+        },
+        {
+          "name": "Yellow",
+          "slug": "yellow",
+          "color": "#ffd166"
+        }
+      ]
+    }
+  }
+}
