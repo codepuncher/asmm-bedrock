@@ -1,7 +1,7 @@
-<ul class="flex">
+<ul class="flex justify-between">
   @foreach($items as $item)
     @empty($item->children)
-      <li class="px-4 text-purple-500 hover:text-purple-700 cursor-pointer font-bold text-base uppercase tracking-wide">
+      <li class="{{ $loop->first ? '' : 'ml-3' }}">
         <a
           href="{{ $item->url }}"
           @if($item->active)
@@ -13,22 +13,25 @@
         >{!! esc_html($item->label) !!}</a>
       </li>
     @else
-      <li class="group relative dropdown px-4 text-purple-500 hover:text-purple-700 cursor-pointer font-bold text-base uppercase tracking-wide">
+      <li class="group relative dropdown ml-3">
         <a
           href="{{ $item->url }}"
           @if($item->active)
-          class="bg-green text-white px-3 py-2 rounded-md text-sm font-medium"
+          class="bg-green text-white px-3 py-2 rounded-md font-medium"
           @else
-          class="text-white hover:bg-green hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors"
+          class="text-white group-hover:bg-green px-3 py-2 rounded-md text-sm font-medium transition-colors"
           @endif
           aria-current="page"
         >{!! esc_html($item->label) !!}</a>
 
-        <div class="group-hover:block dropdown-menu absolute hidden h-auto">
-          <ul clas="top-0 w-48 bg-white shadow px-6 py-8 hidden h-auto">
+        <div class="hidden absolute group-hover:block dropdown-menu h-auto shadow w-48 pt-3">
+          <ul class="bg-white p-2 rounded">
             @foreach($item->children as $child)
-              <li>
-                <a href="{{ $child->url }}">{!! esc_html($child->label) !!}</a>
+              <li class="font-base">
+                <a
+                  href="{{ $child->url }}"
+                  class="text-sm"
+                >{!! esc_html($child->label) !!}</a>
               </li>
             @endforeach
           </ul>
