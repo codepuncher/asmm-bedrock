@@ -25,12 +25,20 @@
         >{!! esc_html($item->label) !!}</a>
 
         <div class="hidden absolute group-hover:block dropdown-menu h-auto shadow w-48 pt-3">
-          <ul class="bg-white p-2 rounded">
+          <ul>
             @foreach($item->children as $child)
-              <li class="font-base">
+              <li>
                 <a
                   href="{{ $child->url }}"
-                  class="text-sm"
+                  @if($loop->first && $loop->last)
+                    class="bg-white text-green text-sm block p-3 hover:bg-green hover:text-white transition-colors rounded"
+                  @elseif($loop->first)
+                    class="bg-white text-green text-sm block p-3 hover:bg-green hover:text-white transition-colors rounded-t"
+                  @elseif($loop->last)
+                    class="bg-white text-green text-sm block p-3 hover:bg-green hover:text-white transition-colors rounded-b"
+                  @else
+                    class="bg-white text-green text-sm block p-3 hover:bg-green hover:text-white"
+                  @endif
                 >{!! esc_html($child->label) !!}</a>
               </li>
             @endforeach
