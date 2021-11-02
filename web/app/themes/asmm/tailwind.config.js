@@ -42,9 +42,6 @@ module.exports = {
           },
         },
       }),
-      backgroundImage: {
-        page: "url('https://picsum.photos/id/982/1920/1080')",
-      },
       scale: {
         '-100': '-1',
       },

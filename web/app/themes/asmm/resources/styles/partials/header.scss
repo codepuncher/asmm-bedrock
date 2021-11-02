@@ -1,12 +1,4 @@
 #header {
-  @apply bg-page;
-  background-position: top center;
-  background-repeat: no-repeat;
-
-  @screen md {
-    background-size: cover;
-  }
-
   a {
     &::before {
       content: none;
