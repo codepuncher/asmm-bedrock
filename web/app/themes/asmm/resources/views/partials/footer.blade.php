@@ -1,4 +1,4 @@
-<footer id="footer" class="bg-blue-dark text-white text-sm">
+<footer id="footer" class="text-sm border-t border-yellow">
   <div class="max-w-5xl mx-auto px-2 py-8 sm:px-6 lg:px-8">
     <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8">
       @php(dynamic_sidebar('sidebar-footer'))
