@@ -10,7 +10,7 @@
     <?php wp_body_open(); ?>
     <?php do_action('get_header'); ?>
 
-    <div id="app" class="w-full max-w-5xl min-h-screen mx-auto px-2 sm:px-6 lg:px-8">
+    <div id="app" class="w-full max-w-5xl min-h-screen mx-auto ">
       <?php echo \Roots\view(\Roots\app('sage.view'), \Roots\app('sage.data'))->render(); ?>
     </div>
 
