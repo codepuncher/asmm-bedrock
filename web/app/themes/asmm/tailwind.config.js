@@ -48,19 +48,6 @@ module.exports = {
       scale: {
         '-100': '-1',
       },
-      keyframes: {
-        separator: {
-          '0%': {
-            transform: 'scale(1,0)',
-          },
-          '100%': {
-            transform: 'scale(1,1)',
-          },
-        },
-      },
-      animation: {
-        'wave': 'separator 1000ms cubic-bezier(0.23, 2, 0.32, 1) forwards',
-      },
     },
   },
   variants: {

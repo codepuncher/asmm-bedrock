@@ -18,8 +18,4 @@
 
     @include('partials.nav.mobile')
   </nav>
-
-  <div class="separator wave">
-    @svg('images.wave')
-  </div>
 </header>
