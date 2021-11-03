@@ -24,6 +24,9 @@ module.exports = {
       './app/**/*.php',
       './resources/**/*.{php,vue,js}',
     ],
+    safelist: [
+      /^([a-z]{2})-(\d)$/,
+    ],
   },
   darkMode: false, // or 'media' or 'class'
   theme: {
