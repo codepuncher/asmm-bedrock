@@ -1,6 +1,6 @@
 #!/bin/bash
 
-REMOTE_DOMAIN='secularmeditation.me'
+REMOTE_DOMAIN='www.secularmeditation.me'
 LOCAL_DOMAIN='asmm.test'
 LOCAL_PATH="$(pwd)/bedrock/web/wp"
 
