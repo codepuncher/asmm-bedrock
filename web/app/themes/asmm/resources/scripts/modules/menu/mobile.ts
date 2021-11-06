@@ -1,29 +1,34 @@
 class Mobile {
-  toggleButton: HTMLElement | null;
+  headerElement: HTMLElement | null;
   menuElement: HTMLElement | null;
 
   constructor() {
-    this.toggleButton = document.getElementById('menu-mobile-toggle');
+    this.headerElement = document.getElementById('header');
     this.menuElement = document.getElementById('menu-mobile');
   }
 
   run() {
-    if (!(this.toggleButton instanceof HTMLElement)) {
+    if (!(this.headerElement instanceof HTMLElement)) {
       return;
     }
 
-    this.toggleButton.addEventListener('click', () => this.buttonClick());
+    this.headerElement.addEventListener('click', e => this.buttonClick(e), false);
   }
 
-  buttonClick() {
+  protected buttonClick(e: Event) {
+    const target = e.target as Element;
+    if (!target || !target.closest('#menu-mobile-toggle')) {
+      return;
+    }
+
     if (!(this.menuElement instanceof HTMLElement)) {
       return;
     }
 
-    if (this.menuElement.classList.contains('hidden')) {
-      this.menuElement.classList.remove('hidden');
+    if (this.menuElement.classList.contains('translate-x-full')) {
+      this.menuElement.classList.remove('translate-x-full');
     } else {
-      this.menuElement.classList.add('hidden');
+      this.menuElement.classList.add('translate-x-full');
     }
   }
 }
