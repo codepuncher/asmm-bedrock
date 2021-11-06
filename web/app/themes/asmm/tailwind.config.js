@@ -28,6 +28,7 @@ module.exports = {
       safelist: {
         standard: [
           /^([a-z]{2})-(\d)$/,
+          /^text-(\d)([a-z]{2})$/,
         ],
       },
     },
