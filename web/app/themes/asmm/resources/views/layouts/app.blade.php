@@ -4,7 +4,7 @@
   {{ __('Skip to content') }}
 </a>
 
-<main id="main" class="py-8 px-2 sm:px-6 lg:px-8 max-w-none main">
+<main id="main" class="w-full max-w-screen-xl min-h-screen mx-auto py-8 px-2 sm:px-6 lg:px-8 main">
   @yield('content')
 </main>
 

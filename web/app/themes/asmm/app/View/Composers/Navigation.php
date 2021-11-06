@@ -53,9 +53,9 @@ class Navigation extends Composer
 
     protected function setItemClasses(object $parent): object
     {
-        $baseClasses = 'text-white px-3 py-2 text-sm font-medium transition-colors border-b-2 border-transparent hover:text-green hover:border-green';
-        $activeClasses = "{$baseClasses} border-green";
-        $inactiveClasses = "{$baseClasses} hover:border-b hover:border-green";
+        $baseClasses = 'text-yellow px-3 py-2 text-sm font-medium transition-colors border-b-2 border-transparent hover:text-yellow hover:border-yellow';
+        $activeClasses = "{$baseClasses} border-yellow";
+        $inactiveClasses = "{$baseClasses} hover:border-b hover:border-yellow";
         $additionalParentclasses = $parent->active ? $activeClasses : $inactiveClasses;
         $parent->classes .= " {$additionalParentclasses}";
 
@@ -65,7 +65,7 @@ class Navigation extends Composer
 
         $parentChildrenCount = count($parent->children);
         $parent->children = array_map(function (object $item, int $index) use ($parentChildrenCount): object {
-            $baseClasses = 'bg-white text-green text-sm block p-3 hover:bg-green hover:text-white';
+            $baseClasses = 'bg-blue-dark text-yellow text-sm block p-3 hover:bg-yellow hover:text-blue-dark';
             $item->classes .= " {$baseClasses}";
 
             return $item;
