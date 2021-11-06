@@ -53,9 +53,9 @@ class Navigation extends Composer
 
     protected function setItemClasses(object $parent): object
     {
-        $baseClasses = 'text-yellow px-3 py-2 text-sm font-medium transition-colors border-b-2 border-transparent hover:text-yellow hover:border-yellow';
-        $activeClasses = "{$baseClasses} border-yellow";
-        $inactiveClasses = "{$baseClasses} hover:border-b hover:border-yellow";
+        $baseClasses = 'text-yellow px-3 py-2 text-sm font-medium transition-colors';
+        $activeClasses = "{$baseClasses}";
+        $inactiveClasses = "{$baseClasses}";
         $additionalParentclasses = $parent->active ? $activeClasses : $inactiveClasses;
         $parent->classes .= " {$additionalParentclasses}";
 

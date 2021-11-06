@@ -1,7 +1,7 @@
 <header id="header" class="w-full flex justify-center relative z-10 border-b border-yellow">
-  <div class="w-full max-w-screen-xl">
-    <nav class="nav-primary py-5">
-      <div class="mx-auto p-2 sm:px-6 lg:px-8">
+  <div class="w-full max-w-screen-xl py-8 px-2 sm:px-6 lg:px-8">
+    <nav class="nav-primary">
+      <div class="mx-auto">
         <div class="relative flex items-start justify-between">
           @include('partials.menu-mobile-toggle')
 

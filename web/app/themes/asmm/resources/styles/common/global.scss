@@ -1,10 +1,10 @@
 :root {
-  --link-underline-color: theme('colors.blue.dark');
+  --link-underline-color: theme('colors.yellow');
 }
 
 @layer base {
   a {
-    @apply text-green relative;
+    @apply text-yellow relative;
   }
 }
 
@@ -13,7 +13,8 @@ body {
 }
 
 #app {
-  a {
+  // Must stay here. Otherwise it breaks admin bar.
+  a:not(.wp-block-button__link) {
     &::before {
       content: "";
       position: absolute;
@@ -27,8 +28,11 @@ body {
       transition: transform 0.3s ease;
     }
 
-    &:hover::before {
-      transform: scaleX(1);
+    &:hover,
+    &.current-menu-item {
+      &::before {
+        transform: scaleX(1);
+      }
     }
   }
 }
