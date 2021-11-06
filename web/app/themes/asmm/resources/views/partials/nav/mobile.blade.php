@@ -14,10 +14,20 @@
             @if($item->active)
             class="bg-blue-dark text-white block p-2 sm:p-6 text-sm font-medium"
             @else
-            class="text-blue-dark hover:bg-blue-dark hover:text-white block p-2 sm:p-6 text-sm font-medium transition-colors"
+            class="text-blue-dark hover:bg-blue-dark hover:text-white block p-2 sm:p-6 text-sm sm:text-lg font-medium transition-colors"
             @endif
             aria-current="page"
           >{!! esc_html($item->label) !!}</a>
+
+          @unless(empty($item->children))
+            <ul>
+              @foreach($item->children as $child)
+                <li class="ml-5">
+                  <a href="{{ $child->url }}" class="text-blue-dark">{!! esc_html($child->label) !!}</a>
+                </li>
+              @endforeach
+            </ul>
+          @endunless
         </li>
       @endforeach
     </ul>
