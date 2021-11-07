@@ -65,7 +65,7 @@ class Navigation extends Composer
 
         $parentChildrenCount = count($parent->children);
         $parent->children = array_map(function (object $item, int $index) use ($parentChildrenCount): object {
-            $baseClasses = 'bg-blue-dark text-yellow text-sm block p-3 hover:bg-yellow hover:text-blue-dark';
+            $baseClasses = 'bg-blue-dark text-yellow text-sm block p-3 hover:bg-yellow hover:text-blue-dark transition-colors';
             $item->classes .= " {$baseClasses}";
 
             return $item;
