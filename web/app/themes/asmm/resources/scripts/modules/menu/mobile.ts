@@ -21,7 +21,7 @@ class Mobile {
     }
 
     const target = e.target as Element;
-    if (!target || !target.closest('.menu-mobile-toggle')) {
+    if (!target || !target.closest('#menu-mobile-toggle')) {
       return;
     }
 
