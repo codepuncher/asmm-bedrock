@@ -45,19 +45,10 @@ class Navigation extends Composer
         return array_map([$this, 'setItemClasses'], Navi::build()->toArray());
     }
 
-    protected function setChildItemClasses(object $item, int $index, object $parent): object
-    {
-
-        return $item;
-    }
-
     protected function setItemClasses(object $parent): object
     {
         $baseClasses = 'text-yellow px-3 py-2 text-sm font-medium transition-colors';
-        $activeClasses = "{$baseClasses}";
-        $inactiveClasses = "{$baseClasses}";
-        $additionalParentclasses = $parent->active ? $activeClasses : $inactiveClasses;
-        $parent->classes .= " {$additionalParentclasses}";
+        $parent->classes .= " {$baseClasses}";
 
         if (empty($parent->children)) {
             return $parent;
