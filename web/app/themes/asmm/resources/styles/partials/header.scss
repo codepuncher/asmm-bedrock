@@ -1,7 +1,13 @@
 #header {
-  a {
-    &::before {
-      content: none;
+  .group {
+    ul {
+      a {
+        &:hover {
+          &::before {
+            content: none;
+          }
+        }
+      }
     }
   }
 }
