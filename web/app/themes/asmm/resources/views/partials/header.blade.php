@@ -9,7 +9,7 @@
           @include('partials.nav.desktop')
         </div>
 
-        @include('partials.menu-mobile-toggle')
+        @include('partials.menu-mobile-toggle', ['type' => 'open'])
       </div>
 
       @include('partials.nav.mobile')

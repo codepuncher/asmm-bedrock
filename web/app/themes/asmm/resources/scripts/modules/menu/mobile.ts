@@ -16,12 +16,12 @@ class Mobile {
   }
 
   protected buttonClick(e: Event) {
-    const target = e.target as Element;
-    if (!target || !target.closest('#menu-mobile-toggle')) {
+    if (!(this.menuElement instanceof HTMLElement)) {
       return;
     }
 
-    if (!(this.menuElement instanceof HTMLElement)) {
+    const target = e.target as Element;
+    if (!target || !target.closest('.menu-mobile-toggle')) {
       return;
     }
 
