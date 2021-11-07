@@ -7,13 +7,15 @@
   <nav>
     <ul>
       @foreach($items as $item)
-        <li>
+        <li class="{{ $item->active || $item->activeParent ? 'bg-blue-dark' : '' }} {{ empty($item->children) ? '' : 'pb-2' }}">
           <a
             href="{{ $item->url }}"
             @if($item->active)
-            class="bg-blue-dark text-white block p-2 sm:p-6 text-sm font-medium"
+            class="text-yellow block p-2 sm:p-6 text-lg font-medium"
+            @elseif($item->activeParent)
+            class="text-white block p-2 sm:p-6 text-lg font-medium"
             @else
-            class="text-blue-dark hover:bg-blue-dark hover:text-white block p-2 sm:p-6 text-sm sm:text-lg font-medium transition-colors"
+            class="text-blue-dark hover:bg-blue-dark hover:text-white block p-2 sm:p-6 text-lg font-medium transition-colors"
             @endif
             aria-current="page"
           >{!! esc_html($item->label) !!}</a>
@@ -22,7 +24,16 @@
             <ul>
               @foreach($item->children as $child)
                 <li class="ml-5">
-                  <a href="{{ $child->url }}" class="text-blue-dark">{!! esc_html($child->label) !!}</a>
+                  <a
+                    href="{{ $child->url }}"
+                    @if($child->active)
+                    class="text-yellow text-sm"
+                    @elseif($item->active || $item->activeParent)
+                    class="text-white text-sm"
+                    @else
+                    class="text-blue-dark text-sm"
+                    @endif
+                  >{!! esc_html($child->label) !!}</a>
                 </li>
               @endforeach
             </ul>
