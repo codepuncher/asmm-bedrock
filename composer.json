@@ -42,7 +42,7 @@
     "roots/wp-password-bcrypt": "^1.0",
     "wpackagist-plugin/two-factor": "^0.7.1",
     "wpackagist-plugin/crop-thumbnails": "^1.4",
-    "wpackagist-plugin/duplicate-post": "^4.1",
+    "wpackagist-plugin/duplicate-post": "^4.3",
     "wpackagist-plugin/kirki": "^3.1",
     "wpackagist-plugin/redirection": "^5.1",
     "wpackagist-plugin/stream": "^3.8",
