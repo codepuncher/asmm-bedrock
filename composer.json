@@ -44,7 +44,7 @@
     "wpackagist-plugin/crop-thumbnails": "^1.4",
     "wpackagist-plugin/duplicate-post": "^4.1",
     "wpackagist-plugin/kirki": "^3.1",
-    "wpackagist-plugin/redirection": "^5.1",
+    "wpackagist-plugin/redirection": "^5.2",
     "wpackagist-plugin/stream": "^3.8",
     "wpackagist-plugin/wordpress-seo": "^17.4"
   },
