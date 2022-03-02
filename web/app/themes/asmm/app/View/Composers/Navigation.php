@@ -27,7 +27,7 @@ class Navigation extends Composer
     public function with(): array
     {
         return [
-            'items' => $this->getMenu(),
+            'items' => $this->menu(),
         ];
     }
 
@@ -36,16 +36,16 @@ class Navigation extends Composer
      *
      * @return array
      */
-    public function getMenu(): array
+    public function menu(): array
     {
         if (Navi::build()->isEmpty()) {
             return [];
         }
 
-        return array_map([$this, 'setItemClasses'], Navi::build()->toArray());
+        return array_map([$this, 'addItemClasses'], Navi::build()->toArray());
     }
 
-    protected function setItemClasses(object $parent): object
+    protected function addItemClasses(object $parent): object
     {
         $baseClasses = 'text-yellow px-3 py-2 text-sm font-medium transition-colors';
         $parent->classes .= " {$baseClasses}";
@@ -55,8 +55,18 @@ class Navigation extends Composer
         }
 
         $parentChildrenCount = count($parent->children);
-        $parent->children = array_map(function (object $item, int $index) use ($parentChildrenCount): object {
-            $baseClasses = 'bg-blue-dark text-yellow text-sm block p-3 hover:bg-yellow hover:text-blue-dark transition-colors';
+        $parent->children = array_map(static function (object $item, int $index) use ($parentChildrenCount): object {
+            $baseClasses = [
+                'bg-blue-dark',
+                'text-yellow',
+                'text-sm',
+                'block',
+                'p-3',
+                'hover:bg-yellow',
+                'hover:text-blue-dark',
+                'transition-colors',
+            ];
+            $baseClasses = implode(' ', $baseClasses);
             $item->classes .= " {$baseClasses}";
 
             return $item;
