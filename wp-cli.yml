@@ -1,5 +1,3 @@
 path: web/wp
 server:
   docroot: web
-_:
-  inherit: wp-cli.trellis-alias.yml

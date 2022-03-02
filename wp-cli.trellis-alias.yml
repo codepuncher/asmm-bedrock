@@ -1,6 +1,0 @@
-@production:
-  ssh: "web@207.246.97.230:22"
-  path: "/srv/www/asmm/current/web/wp"
-@staging:
-  ssh: "web@your_server_hostname:22"
-  path: "/srv/www/asmm/current/web/wp"
