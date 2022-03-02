@@ -33,5 +33,20 @@ jobs:
     - name: Install Composer dependencies
       run: composer install --no-progress --prefer-dist --optimize-autoloader
 
+    - uses: actions/cache@v2
+      with:
+        path: ${{ steps.composer-cache.outputs.dir }}
+        key: ${{ runner.os }}-composer-${{ hashFiles('**/web/app/themes/*/composer.lock') }}
+        restore-keys: ${{ runner.os }}-composer-
+
+    - name: Check Composer lock file is up to date
+      working-directory: web/app/themes/asmm
+      run: composer validate --no-check-all
+
+    - name: Install Composer dependencies
+      working-directory: web/app/themes/asmm
+      run: composer install --no-progress --prefer-dist --optimize-autoloader
+
     - name: Run tests
-      run: composer test
+      working-directory: web/app/themes/asmm
+      run: composer style:check
