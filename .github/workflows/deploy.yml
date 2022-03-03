@@ -16,7 +16,7 @@ jobs:
 
     - uses: actions/checkout@v2
       with:
-        repository: https://github.com/codepuncher/asmm-trellis.git
+        repository: codepuncher/asmm-trellis
         path: 'trellis'
 
     - uses: roots/setup-trellis-cli@v1
