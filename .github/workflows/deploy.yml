@@ -1,0 +1,26 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        place: 'bedrock'
+
+    - uses: actions/checkout@v2
+      with:
+        repository: https://github.com/codepuncher/asmm-trellis.git
+        place: 'trellis'
+
+    - uses: roots/setup-trellis-cli@v1
+      with:
+        ansible-vault-password: ${{ secrets.ANSIBLE_VAULT_PASSWORD }}
+
+    - run: trellis deploy production
