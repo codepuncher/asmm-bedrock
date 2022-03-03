@@ -14,6 +14,12 @@ jobs:
       with:
         path: bedrock
 
+    - uses: actions/setup-node@v2
+      with:
+        node-version: '16'
+        cache: yarn
+        cache-dependency-path: bedrock/web/app/themes/asmm/yarn.lock
+
     - uses: actions/checkout@v2
       with:
         repository: codepuncher/asmm-trellis
@@ -24,5 +30,6 @@ jobs:
       with:
         ansible-vault-password: ${{ secrets.ANSIBLE_VAULT_PASSWORD }}
 
-    - run: trellis deploy production
+    - name: Deploy
+      run: trellis deploy production
       working-directory: trellis
