@@ -54,7 +54,7 @@
     "wpackagist-plugin/kirki": "^4.0",
     "wpackagist-plugin/redirection": "^5.1",
     "wpackagist-plugin/stream": "^3.8",
-    "wpackagist-plugin/wordpress-seo": "^17.4"
+    "wpackagist-plugin/wordpress-seo": "^18.2"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.6.2",
