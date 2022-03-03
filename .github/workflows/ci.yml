@@ -3,7 +3,7 @@ name: CI
 on: [push]
 
 jobs:
-  build-php:
+  php:
     runs-on: ubuntu-latest
     strategy:
       matrix:
