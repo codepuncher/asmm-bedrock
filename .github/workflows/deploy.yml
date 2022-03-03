@@ -25,3 +25,4 @@ jobs:
         ansible-vault-password: ${{ secrets.ANSIBLE_VAULT_PASSWORD }}
 
     - run: trellis deploy production
+      working-directory: trellis
