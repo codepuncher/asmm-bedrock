@@ -12,12 +12,12 @@ jobs:
     steps:
     - uses: actions/checkout@v2
       with:
-        place: 'bedrock'
+        path: 'bedrock'
 
     - uses: actions/checkout@v2
       with:
         repository: https://github.com/codepuncher/asmm-trellis.git
-        place: 'trellis'
+        path: 'trellis'
 
     - uses: roots/setup-trellis-cli@v1
       with:
