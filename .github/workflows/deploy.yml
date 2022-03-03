@@ -12,12 +12,12 @@ jobs:
     steps:
     - uses: actions/checkout@v2
       with:
-        path: 'bedrock'
+        path: bedrock
 
     - uses: actions/checkout@v2
       with:
         repository: codepuncher/asmm-trellis
-        path: 'trellis'
+        path: trellis
         token: ${{ secrets.REPO_PAT }}
 
     - uses: roots/setup-trellis-cli@v1
@@ -25,3 +25,4 @@ jobs:
         ansible-vault-password: ${{ secrets.ANSIBLE_VAULT_PASSWORD }}
 
     - run: trellis deploy production
+      working-directory: trellis
