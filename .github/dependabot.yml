@@ -9,7 +9,7 @@ updates:
   open-pull-requests-limit: 10
   versioning-strategy: increase
 - package-ecosystem: npm
-  directory: "/"
+  directory: "web/app/themes/asmm"
   schedule:
     interval: daily
     time: "08:00"
