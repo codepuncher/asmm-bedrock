@@ -8,3 +8,11 @@ updates:
     timezone: US/Central
   open-pull-requests-limit: 10
   versioning-strategy: increase
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "08:00"
+    timezone: US/Central
+  open-pull-requests-limit: 10
+  versioning-strategy: increase
