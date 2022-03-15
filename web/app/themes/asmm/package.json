@@ -30,7 +30,7 @@
     "babel-eslint": "^10.1.0",
     "browser-sync": "^2.27.8",
     "browser-sync-webpack-plugin": "^2.3.0",
-    "eslint": "^8.10.0",
+    "eslint": "^8.11.0",
     "eslint-plugin-import": "^2.25.4",
     "laravel-mix": "^6.0.34",
     "postcss": "^8.4.8",
