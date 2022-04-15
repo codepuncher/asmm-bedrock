@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5c1f64a00ca16b4fee7c4725d477b28f",
+    "content-hash": "3e5d13631cc69b4f40dda4694430af99",
     "packages": [
         {
             "name": "composer/installers",
@@ -1056,15 +1056,15 @@
         },
         {
             "name": "wpackagist-plugin/autoptimize",
-            "version": "3.0.2",
+            "version": "3.0.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/autoptimize/",
-                "reference": "tags/3.0.2"
+                "reference": "tags/3.0.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/autoptimize.3.0.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/autoptimize.3.0.3.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
