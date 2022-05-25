@@ -1110,15 +1110,15 @@
         },
         {
             "name": "wpackagist-plugin/kirki",
-            "version": "4.0.23",
+            "version": "4.0.24",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/kirki/",
-                "reference": "tags/4.0.23"
+                "reference": "trunk"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/kirki.4.0.23.zip"
+                "url": "https://downloads.wordpress.org/plugin/kirki.zip?timestamp=1653480954"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
