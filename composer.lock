@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "61157a4b6889421a4caf6c303610ffa0",
+    "content-hash": "533b28889f0256809c8ecc399c32f60c",
     "packages": [
         {
             "name": "composer/installers",
@@ -474,7 +474,7 @@
         },
         {
             "name": "roots/wordpress",
-            "version": "6.0.0",
+            "version": "6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/roots/wordpress.git",
@@ -495,7 +495,7 @@
             "description": "WordPress is open source software you can use to create a beautiful website, blog, or app.",
             "support": {
                 "issues": "https://github.com/roots/wordpress/issues",
-                "source": "https://github.com/roots/wordpress/tree/6.0.0"
+                "source": "https://github.com/roots/wordpress/tree/6.0"
             },
             "funding": [
                 {
