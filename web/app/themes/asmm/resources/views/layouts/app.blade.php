@@ -1,4 +1,4 @@
-@include('partials.header')
+@include('sections.header')
 
 @if(function_exists('yoast_breadcrumb') && ! is_front_page())
   <div class="breadcrumbs w-full flex justify-center border-b border-yellow">
@@ -22,4 +22,4 @@
   </aside>
 @endif
 
-@include('partials.footer')
+@include('sections.footer')

@@ -1,19 +1,23 @@
-:root {
-  --link-underline-color: theme('colors.yellow');
-}
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
 
 @layer base {
+  :root {
+    --link-underline-color: theme('colors.yellow');
+  }
+
+  body {
+    @apply font-sans;
+  }
+
   a {
     @apply text-yellow relative;
   }
 }
 
-body {
-  @apply font-sans;
-}
-
 #app {
-  // Must stay here. Otherwise it breaks admin bar.
+  /* Must stay here. Otherwise it breaks admin bar. */
   a:not(.wp-block-button__link) {
     &::before {
       content: "";
@@ -46,5 +50,13 @@ body {
     @media (max-width: 420px) {
       display: none;
     }
+  }
+}
+
+#footer {
+  --link-underline-color: theme('colors.white');
+
+  h2 {
+    @apply text-lg;
   }
 }

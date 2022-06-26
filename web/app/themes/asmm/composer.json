@@ -46,11 +46,9 @@
     "log1x/pagi": "^1.0",
     "log1x/poet": "^2.0",
     "log1x/sage-directives": "^1.1",
-    "log1x/sage-svg": "^1.0",
-    "roots/acorn": "2.0.0-alpha.0"
+    "log1x/sage-svg": "^1.0"
   },
   "require-dev": {
-    "filp/whoops": "^2.12",
     "inpsyde/php-coding-standards": "^1@dev",
     "squizlabs/php_codesniffer": "^3.6"
   },
@@ -70,9 +68,13 @@
   "prefer-stable": true,
   "scripts": {
     "style:check": "phpcs",
-    "style:fix": "phpcbf",
-    "post-autoload-dump": [
-      "Roots\\Acorn\\ComposerScripts::postAutoloadDump"
-    ]
+    "style:fix": "phpcbf"
+  },
+  "extra": {
+    "acorn": {
+      "providers": [
+        "App\\Providers\\ThemeServiceProvider"
+      ]
+    }
   }
 }

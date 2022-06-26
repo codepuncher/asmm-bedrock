@@ -13,9 +13,10 @@
     >
   </label>
 
-  <input
+  <button
     type="submit"
     class="px-3 py-1 text-white bg-indigo-500 cursor-pointer"
-    value="{{ esc_attr_x('Search', 'submit button', 'sage') }}"
   >
+    {{ _x('Search', 'submit button', 'sage') }}
+  </button>
 </form>

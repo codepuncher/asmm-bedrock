@@ -2,11 +2,11 @@
 web/app/plugins/*
 !web/app/plugins/.gitkeep
 web/app/mu-plugins/*/
+web/app/themes/twentytwentytwo/
 web/app/upgrade
 web/app/uploads/*
 !web/app/uploads/.gitkeep
 web/app/cache/*
-web/app/themes/twentytwentytwo
 
 # WordPress
 web/wp
@@ -28,3 +28,8 @@ wp-cli.local.yml
 
 # SQL
 *.sql
+
+# Generated files
+web/app/w3tc-config/
+web/app/advanced-cache.php
+web/app/autoptimize_404_handler.php

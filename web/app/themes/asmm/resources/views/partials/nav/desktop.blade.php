@@ -12,7 +12,7 @@
       <li class="group relative dropdown ml-3">
         <a
           href="{{ $item->url }}"
-          class="{{ $item->classes }}"
+          class="hover:before:content-none {{ $item->classes }}"
           aria-current="page"
         >{!! esc_html($item->label) !!}</a>
 
