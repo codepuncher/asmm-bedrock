@@ -18,22 +18,19 @@ const colors = theme.settings.color.palette.reduce((acc, item) => {
 }, {});
 
 module.exports = {
-  purge: {
-    content: [
-      './index.php',
-      './app/**/*.php',
-      './resources/**/*.{php,vue,js}',
-    ],
-    options: {
-      safelist: {
-        standard: [
-          /^([a-z]{2})-(\d)$/,
-          /^text-(\d)([a-z]{2})$/,
-        ],
-      },
+  content: [
+    './index.php',
+    './app/**/*.php',
+    './resources/**/*.{php,vue,js}',
+  ],
+  safelist: [
+    {
+      pattern: /^([a-z]{2})-(\d)$/,
     },
-  },
-  darkMode: false, // or 'media' or 'class'
+    {
+      pattern: /^text-(\d)([a-z]{2})$/,
+    }
+  ],
   theme: {
     extend: {
       colors,

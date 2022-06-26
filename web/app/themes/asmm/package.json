@@ -5,42 +5,27 @@
     "extends @wordpress/browserslist-config"
   ],
   "engines": {
-    "node": ">=12.14.0"
+    "node": ">=16.0.0"
   },
+  "type": "module",
   "scripts": {
-    "build": "mix",
-    "build:production": "mix --production",
-    "start": "mix watch",
-    "hot": "mix watch --hot",
-    "clear": "wp acorn optimize:clear",
-    "test": "npm run lint",
-    "lint": "npm run lint:js && npm run lint:css",
-    "lint:js": "eslint resources/scripts",
-    "lint:css": "stylelint \"resources/**/*.{css,scss,vue}\"",
-    "translate": "npm run translate:pot && npm run translate:js",
-    "translate:pot": "wp i18n make-pot . ./resources/lang/sage.pot --ignore-domain --include=\"app,resources\"",
-    "translate:js": "wp i18n make-json ./resources/lang --pretty-print"
+    "dev": "ts-bud dev",
+    "build": "ts-bud build",
+    "translate": "yarn translate:pot && yarn translate:update",
+    "translate:pot": "wp i18n make-pot . ./resources/lang/sage.pot --include=\"app,resources\"",
+    "translate:update": "for filename in ./resources/lang/*.po; do msgmerge -U $filename ./resources/lang/sage.pot; done; rm -f ./resources/lang/*.po~",
+    "translate:compile": "yarn translate:mo && yarn translate:js",
+    "translate:js": "wp i18n make-json ./resources/lang --pretty-print",
+    "translate:mo": "wp i18n make-mo ./resources/lang ./resources/lang"
   },
   "devDependencies": {
+    "@roots/bud": "^6.1.0",
+    "@roots/bud-tailwindcss": "^6.1.0",
+    "@roots/bud-typescript": "^6.1.0",
+    "@roots/sage": "^6.1.0",
     "@tailwindcss/typography": "^0.5.2",
-    "@tinypixelco/laravel-mix-wp-blocks": "^1.1.0",
-    "@wordpress/babel-preset-default": "^6.13.0",
-    "@wordpress/browserslist-config": "^4.0.0",
-    "@wordpress/dependency-extraction-webpack-plugin": "^3.6.0",
-    "babel-eslint": "^10.1.0",
-    "browser-sync": "^2.27.10",
-    "browser-sync-webpack-plugin": "^2.3.0",
-    "eslint": "^8.18.0",
-    "eslint-plugin-import": "^2.26.0",
-    "laravel-mix": "^6.0.34",
-    "postcss": "^8.4.14",
-    "sass": "^1.52.3",
-    "sass-loader": "13.0.0",
-    "stylelint": "^14.9.1",
-    "stylelint-config-standard": "^26.0.0",
-    "tailwindcss": "^3.1.4",
-    "ts-loader": "^9.3.0",
-    "typescript": "^4.7.4"
+    "@typescript-eslint/eslint-plugin": "^5.29.0",
+    "@typescript-eslint/parser": "^5.29.0"
   },
   "peerDependencies": {
     "jquery": "^3.5.1"

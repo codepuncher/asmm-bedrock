@@ -4,7 +4,7 @@
       @php(dynamic_sidebar('sidebar-footer'))
     </div>
     <div class="flex justify-end">
-      <span class="text-xs">Site by <a href="https://github.com/codepuncher/" target="_blank" rel="nofollow noopener5">codepuncher</a>.</span>
+      <span class="text-xs">Site by <a href="https://github.com/codepuncher/" target="_blank" rel="nofollow noopener" class="text-yellow">codepuncher</a>.</span>
     </div>
   </div>
 </footer>
