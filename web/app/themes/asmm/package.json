@@ -22,7 +22,7 @@
     "@roots/bud": "^6.2.0",
     "@roots/bud-tailwindcss": "^6.2.0",
     "@roots/bud-typescript": "^6.2.0",
-    "@roots/sage": "^6.1.0",
+    "@roots/sage": "^6.2.0",
     "@tailwindcss/typography": "^0.5.2",
     "@typescript-eslint/eslint-plugin": "^5.30.0",
     "@typescript-eslint/parser": "^5.30.0"
