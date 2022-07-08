@@ -58,7 +58,7 @@
     "wpackagist-plugin/w3-total-cache": "^2.2",
     "roots/wordpress-no-content": "^6.0",
     "wpackagist-theme/twentytwentytwo": "^1.2",
-    "roots/acorn": "^2.0"
+    "roots/acorn": "^2.1"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.7.1",
