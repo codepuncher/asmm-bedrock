@@ -2093,16 +2093,16 @@
         },
         {
             "name": "roots/acorn",
-            "version": "v2.1.0",
+            "version": "v2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/roots/acorn.git",
-                "reference": "c61a1deca46150c09f6e659bf9a7893ec5ac72fa"
+                "reference": "0d68d0fbd2d61a3141d277ef588bd53c7a2cf5e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/roots/acorn/zipball/c61a1deca46150c09f6e659bf9a7893ec5ac72fa",
-                "reference": "c61a1deca46150c09f6e659bf9a7893ec5ac72fa",
+                "url": "https://api.github.com/repos/roots/acorn/zipball/0d68d0fbd2d61a3141d277ef588bd53c7a2cf5e0",
+                "reference": "0d68d0fbd2d61a3141d277ef588bd53c7a2cf5e0",
                 "shasum": ""
             },
             "require": {
@@ -2177,7 +2177,7 @@
             "support": {
                 "forum": "https://discourse.roots.io/",
                 "issues": "https://github.com/roots/acorn/issues",
-                "source": "https://github.com/roots/acorn/tree/v2.1.0"
+                "source": "https://github.com/roots/acorn/tree/v2.1.1"
             },
             "funding": [
                 {
@@ -2189,7 +2189,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2022-07-08T03:12:14+00:00"
+            "time": "2022-07-10T17:51:21+00:00"
         },
         {
             "name": "roots/bedrock-autoloader",
