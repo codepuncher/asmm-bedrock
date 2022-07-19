@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ab103860491cfb4694e0e094107dfff6",
+    "content-hash": "89edcf94220e9979d3ac708d24c032c6",
     "packages": [
         {
             "name": "brick/math",
@@ -4800,15 +4800,15 @@
         },
         {
             "name": "wpackagist-plugin/autoptimize",
-            "version": "3.0.4",
+            "version": "3.1.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/autoptimize/",
-                "reference": "tags/3.0.4"
+                "reference": "tags/3.1.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/autoptimize.3.0.4.zip"
+                "url": "https://downloads.wordpress.org/plugin/autoptimize.3.1.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
