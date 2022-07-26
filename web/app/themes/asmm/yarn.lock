@@ -1452,6 +1452,23 @@
     nanoid "4.0.0"
     tslib "2.4.0"
 
+"@roots/bud-api@6.3.4":
+  version "6.3.4"
+  resolved "https://registry.yarnpkg.com/@roots/bud-api/-/bud-api-6.3.4.tgz#e100e461f4bd6f744ba119cd054af0a8c4887a55"
+  integrity sha512-+AbRDwF1vtOOe/ovyBBBB5bHjBLXkkXNzyWUIcXd4v3NVc3wL+i/bgymVY61URM2502ZLX7dws3HsB7hkWiS+w==
+  dependencies:
+    "@roots/bud-framework" "6.3.4"
+    chalk "5.0.1"
+    copy-webpack-plugin "11.0.0"
+    fs-extra "10.1.0"
+    get-port "6.1.2"
+    globby "13.1.2"
+    helpful-decorators "2.1.0"
+    html-webpack-plugin "5.5.0"
+    lodash-es "4.17.21"
+    nanoid "4.0.0"
+    tslib "2.4.0"
+
 "@roots/bud-babel@6.3.3":
   version "6.3.3"
   resolved "https://registry.yarnpkg.com/@roots/bud-babel/-/bud-babel-6.3.3.tgz#d0fabab9e7292c725773e7dee52350d4d2fe7ca1"
@@ -1464,6 +1481,22 @@
     "@babel/plugin-transform-runtime" "7.18.9"
     "@babel/preset-env" "7.18.9"
     "@roots/bud-framework" "6.3.3"
+    babel-loader "8.2.5"
+    lodash-es "4.17.21"
+    tslib "2.4.0"
+
+"@roots/bud-babel@6.3.4":
+  version "6.3.4"
+  resolved "https://registry.yarnpkg.com/@roots/bud-babel/-/bud-babel-6.3.4.tgz#7f0f4810a60bfd4a60b6c185fdaccca44c01b120"
+  integrity sha512-J9fnb7ZctajqjtmJJtDSlzlkmPfquQzUsFFVlDScU6sc5NCu8di7VegHt4zKvvkjMRnDGD5XLsmIrVgxIeacHw==
+  dependencies:
+    "@babel/core" "7.18.9"
+    "@babel/plugin-proposal-class-properties" "7.18.6"
+    "@babel/plugin-proposal-object-rest-spread" "7.18.9"
+    "@babel/plugin-syntax-dynamic-import" "7.8.3"
+    "@babel/plugin-transform-runtime" "7.18.9"
+    "@babel/preset-env" "7.18.9"
+    "@roots/bud-framework" "6.3.4"
     babel-loader "8.2.5"
     lodash-es "4.17.21"
     tslib "2.4.0"
@@ -1714,17 +1747,17 @@
     terser-webpack-plugin "^5.3.3"
     tslib "2.4.0"
 
-"@roots/bud-typescript@^6.3.3":
-  version "6.3.3"
-  resolved "https://registry.yarnpkg.com/@roots/bud-typescript/-/bud-typescript-6.3.3.tgz#3454d7518b24dd29d1fe5710aa1fbb6f47cac55d"
-  integrity sha512-mnfuXncxfQlTFJlHFCNXxV7Pbg7CZrnffZO/5jzGLYAzK8F9YgV7LuJ8rmxc43Sk4g4nwREebAIITHL08FiQ2w==
+"@roots/bud-typescript@^6.3.4":
+  version "6.3.4"
+  resolved "https://registry.yarnpkg.com/@roots/bud-typescript/-/bud-typescript-6.3.4.tgz#9446050a4cfdbc2127d55d02ffebad2280c218e7"
+  integrity sha512-cJbsil+tdl2+AbevtZgTNuKGFmFYpPFdPwr4/dP42sWiSI8HkdqixtApnGxY7A8MolKkdJ3d/N7JdMjHph5Qlw==
   dependencies:
-    "@roots/bud-api" "6.3.3"
-    "@roots/bud-babel" "6.3.3"
-    "@roots/bud-framework" "6.3.3"
+    "@roots/bud-api" "6.3.4"
+    "@roots/bud-babel" "6.3.4"
+    "@roots/bud-framework" "6.3.4"
     "@types/webpack-env" "^1.17.0"
     fork-ts-checker-webpack-plugin "^7.2.6"
-    react-refresh-typescript "2.0.5"
+    react-refresh-typescript "2.0.7"
     ts-loader "^9.3.0"
     ts-node "10.9.1"
     tslib "2.4.0"
@@ -5770,10 +5803,10 @@ react-lifecycles-compat@^3.0.4:
   resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
   integrity sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==
 
-react-refresh-typescript@2.0.5:
-  version "2.0.5"
-  resolved "https://registry.yarnpkg.com/react-refresh-typescript/-/react-refresh-typescript-2.0.5.tgz#8b0a3879be5cfb6e1f316e5315d605e587b20a98"
-  integrity sha512-TlcxF9VMBBS8dHvMD+3dklgArXeIhjbtT7R09ycsXvhPPYmv70J67kiGT8mxe6/tYzkql9aCHaZAY6QYdutLdw==
+react-refresh-typescript@2.0.7:
+  version "2.0.7"
+  resolved "https://registry.yarnpkg.com/react-refresh-typescript/-/react-refresh-typescript-2.0.7.tgz#ba91be2da4f1e86bba8629f1df0d4b9ff87b9970"
+  integrity sha512-KbuW57FauO11e6a9gU836sCm3M3z0b2+J2qPhUudg0QplOfz0eAF3gMeshcUC/ChfNLJCK1SZxvYmUtRxiZE5A==
 
 react-refresh@^0.13.0:
   version "0.13.0"
