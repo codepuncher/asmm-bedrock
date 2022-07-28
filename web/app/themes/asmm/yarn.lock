@@ -1622,20 +1622,6 @@
     lodash-es "4.17.21"
     tslib "2.4.0"
 
-"@roots/bud-postcss@6.3.4":
-  version "6.3.4"
-  resolved "https://registry.yarnpkg.com/@roots/bud-postcss/-/bud-postcss-6.3.4.tgz#74821eb329639124658a998c2364b4b5b3175f6b"
-  integrity sha512-ocZI0tvzfHmPJ4MnJ4ZIpfKVTLnlZvCUZi6QCkvzd3IcG+rCy6cthW0WK6Cj/pYCKQ33OEJA5LTnTRNIAiotkw==
-  dependencies:
-    "@roots/bud-framework" "6.3.4"
-    lodash-es "4.17.21"
-    postcss "8.4.14"
-    postcss-import "14.1.0"
-    postcss-loader "7.0.1"
-    postcss-nested "5.0.6"
-    postcss-preset-env "7.7.2"
-    tslib "2.4.0"
-
 "@roots/bud-postcss@6.3.5":
   version "6.3.5"
   resolved "https://registry.yarnpkg.com/@roots/bud-postcss/-/bud-postcss-6.3.5.tgz#d2b795576528407e7d5a30fe4203b07146773212"
@@ -1714,13 +1700,13 @@
     tslib "2.4.0"
     webpack-dev-middleware "5.3.3"
 
-"@roots/bud-tailwindcss@^6.3.4":
-  version "6.3.4"
-  resolved "https://registry.yarnpkg.com/@roots/bud-tailwindcss/-/bud-tailwindcss-6.3.4.tgz#c587ad4b907b122491a7d3b6c2deb9f692a14487"
-  integrity sha512-4/zDB8eJOT6zNUt00SzFbkmBmI3HAKhZcaeX76U/jfna39lZOI5N/K4WuqKwuzmYDxLyMnff52ISgg+kWNbLcg==
+"@roots/bud-tailwindcss@^6.3.5":
+  version "6.3.5"
+  resolved "https://registry.yarnpkg.com/@roots/bud-tailwindcss/-/bud-tailwindcss-6.3.5.tgz#9fe47f3130553122d694ddadfe09a1aab1c0f85c"
+  integrity sha512-Wlh7BDbN6M8KhEbaDassX4p7v38QnSpAh+E7c4r7IoK8CnyWBOY9vPhgDYgfj774EoH7/ANCMfAOJ9Af1PbxIg==
   dependencies:
-    "@roots/bud-framework" "6.3.4"
-    "@roots/bud-postcss" "6.3.4"
+    "@roots/bud-framework" "6.3.5"
+    "@roots/bud-postcss" "6.3.5"
     autoprefixer "^10.4.0"
     tailwindcss "^3.0.24"
     tslib "2.4.0"
