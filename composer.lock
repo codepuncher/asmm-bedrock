@@ -4908,15 +4908,15 @@
         },
         {
             "name": "wpackagist-plugin/w3-total-cache",
-            "version": "2.2.3",
+            "version": "2.2.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/w3-total-cache/",
-                "reference": "tags/2.2.3"
+                "reference": "tags/2.2.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/w3-total-cache.2.2.3.zip"
+                "url": "https://downloads.wordpress.org/plugin/w3-total-cache.2.2.4.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
