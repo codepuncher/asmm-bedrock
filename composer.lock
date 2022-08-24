@@ -4891,15 +4891,15 @@
         },
         {
             "name": "wpackagist-plugin/stream",
-            "version": "3.9.0",
+            "version": "3.9.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/stream/",
-                "reference": "tags/3.9.0"
+                "reference": "tags/3.9.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/stream.3.9.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/stream.3.9.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
