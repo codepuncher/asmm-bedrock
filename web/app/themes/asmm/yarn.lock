@@ -1668,6 +1668,20 @@
     postcss-preset-env "7.8.0"
     tslib "2.4.0"
 
+"@roots/bud-postcss@6.4.1":
+  version "6.4.1"
+  resolved "https://registry.yarnpkg.com/@roots/bud-postcss/-/bud-postcss-6.4.1.tgz#969e23acb4e561411829bf78d98b107a184d146d"
+  integrity sha512-X/xco6RtPOJB5xm4F3M5lRtApYQCAlCaPMg99k/Z5VV3Keb7fEYI33yMdWSMbPd6ZyZmdYPLsvi/Km5YNlBghA==
+  dependencies:
+    "@roots/bud-framework" "6.4.1"
+    "@roots/bud-support" "6.4.1"
+    postcss "8.4.16"
+    postcss-import "14.1.0"
+    postcss-loader "7.0.1"
+    postcss-nested "5.0.6"
+    postcss-preset-env "7.8.0"
+    tslib "2.4.0"
+
 "@roots/bud-preset-recommend@6.4.0":
   version "6.4.0"
   resolved "https://registry.yarnpkg.com/@roots/bud-preset-recommend/-/bud-preset-recommend-6.4.0.tgz#7f4eeb4ef61511f8c05f0ef6926e6ea2cc0e2077"
@@ -1769,14 +1783,14 @@
     typanion "3.12.0"
     type-fest "2.19.0"
 
-"@roots/bud-tailwindcss@^6.4.0":
-  version "6.4.0"
-  resolved "https://registry.yarnpkg.com/@roots/bud-tailwindcss/-/bud-tailwindcss-6.4.0.tgz#05780896d113150272211301fe4dac41398f237f"
-  integrity sha512-3aXsd0AfDiX89gtxTUBYQANgBIYlhBHy0Yo8Fu1NLQzaX2PRyyXEBiKTjJNXTo5gVLbtHzn/n8PbkghI0h4a6g==
+"@roots/bud-tailwindcss@^6.4.1":
+  version "6.4.1"
+  resolved "https://registry.yarnpkg.com/@roots/bud-tailwindcss/-/bud-tailwindcss-6.4.1.tgz#18942e182de0a3fb5ce238c0471896563d5a134e"
+  integrity sha512-eeytYmK8+wfogkYW/sLen5MNYpurkKEKhmf4E2WD/KEDTE2+eyWy9odr22sw9p8KGFTYjQjTlUdEIILdc9Pmjw==
   dependencies:
-    "@roots/bud-framework" "6.4.0"
-    "@roots/bud-postcss" "6.4.0"
-    "@roots/bud-support" "6.4.0"
+    "@roots/bud-framework" "6.4.1"
+    "@roots/bud-postcss" "6.4.1"
+    "@roots/bud-support" "6.4.1"
     "@types/fs-extra" "9.0.13"
     autoprefixer "^10.4.8"
     chalk "5.0.1"
