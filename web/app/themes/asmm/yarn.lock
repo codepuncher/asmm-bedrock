@@ -1668,6 +1668,20 @@
     postcss-preset-env "7.8.0"
     tslib "2.4.0"
 
+"@roots/bud-postcss@6.4.3":
+  version "6.4.3"
+  resolved "https://registry.yarnpkg.com/@roots/bud-postcss/-/bud-postcss-6.4.3.tgz#ccfffd17a296508bbb779d5933d0b1ef5b86c12a"
+  integrity sha512-EZmGJkarWGJ7T7a5OMBWyF8mBWnUdJK7cVGIDNNuIZRaMsjDQrdpNFE5ey3GAD2qoEqlHVzQV+6GCERRyTy2tw==
+  dependencies:
+    "@roots/bud-framework" "6.4.3"
+    "@roots/bud-support" "6.4.3"
+    postcss "8.4.16"
+    postcss-import "14.1.0"
+    postcss-loader "7.0.1"
+    postcss-nested "5.0.6"
+    postcss-preset-env "7.8.0"
+    tslib "2.4.0"
+
 "@roots/bud-preset-recommend@6.4.2":
   version "6.4.2"
   resolved "https://registry.yarnpkg.com/@roots/bud-preset-recommend/-/bud-preset-recommend-6.4.2.tgz#dc0232ff5b41e3ed11c784688501147708029e3a"
@@ -1775,19 +1789,20 @@
     typanion "3.12.0"
     type-fest "2.19.0"
 
-"@roots/bud-tailwindcss@^6.4.2":
-  version "6.4.2"
-  resolved "https://registry.yarnpkg.com/@roots/bud-tailwindcss/-/bud-tailwindcss-6.4.2.tgz#5ef5f9405625ec097a92d6d9e43945476af09c82"
-  integrity sha512-BZIY6o6QZ58PME76KNTpboqJ1APZPb0sT27BM75Kq0pyAyte3/THIp8CoSVnxh0kkJjXTvDqdQJZAb29ybP4Aw==
+"@roots/bud-tailwindcss@^6.4.3":
+  version "6.4.3"
+  resolved "https://registry.yarnpkg.com/@roots/bud-tailwindcss/-/bud-tailwindcss-6.4.3.tgz#ad1b1a9201709996350e9283306c879015e9d11f"
+  integrity sha512-BxgOESZLHnrCB2Xvzz/ek/sXxmLO60fKF3LkXCkpQrGlfOF7/kgSOjxT5Nx4Upp+JKxQkDkKOuVa0A7uM+SOdA==
   dependencies:
-    "@roots/bud-framework" "6.4.2"
-    "@roots/bud-postcss" "6.4.2"
-    "@roots/bud-support" "6.4.2"
+    "@roots/bud-framework" "6.4.3"
+    "@roots/bud-postcss" "6.4.3"
+    "@roots/bud-support" "6.4.3"
     "@types/fs-extra" "9.0.13"
     autoprefixer "^10.4.8"
     chalk "5.0.1"
     tailwindcss "^3.1.8"
     tslib "2.4.0"
+    webpack-virtual-modules "0.4.5"
 
 "@roots/bud-terser@6.4.3":
   version "6.4.3"
@@ -7210,6 +7225,11 @@ webpack-sources@^3.2.3:
   version "3.2.3"
   resolved "https://registry.yarnpkg.com/webpack-sources/-/webpack-sources-3.2.3.tgz#2d4daab8451fd4b240cc27055ff6a0c2ccea0cde"
   integrity sha512-/DyMEOrDgLKKIG0fmvtz+4dUX/3Ghozwgm6iPp8KRhvn+eQf9+Q7GWxVNMk3+uCPWfdXYC4ExGBckIXdFEfH1w==
+
+webpack-virtual-modules@0.4.5:
+  version "0.4.5"
+  resolved "https://registry.yarnpkg.com/webpack-virtual-modules/-/webpack-virtual-modules-0.4.5.tgz#e476842dab5eafb7beb844aa2f747fc12ebbf6ec"
+  integrity sha512-8bWq0Iluiv9lVf9YaqWQ9+liNgXSHICm+rg544yRgGYaR8yXZTVBaHZkINZSB2yZSWo4b0F6MIxqJezVfOEAlg==
 
 webpack@5.74.0:
   version "5.74.0"
