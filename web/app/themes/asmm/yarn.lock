@@ -1476,6 +1476,11 @@
   resolved "https://registry.yarnpkg.com/@roots/browserslist-config/-/browserslist-config-6.4.3.tgz#3a5a0d28709059f59fa42e5b691a6d4661b96111"
   integrity sha512-7CeV8WN5/zRB6kP9fvPAVFCAtsKlcDn7YBQuMmr63I3E3P0oeP/lH0UFXCMenp8bby7Ol0+IRpZz8AdxHI3Jrg==
 
+"@roots/browserslist-config@6.4.4":
+  version "6.4.4"
+  resolved "https://registry.yarnpkg.com/@roots/browserslist-config/-/browserslist-config-6.4.4.tgz#915f552c78e865925051b3b58c8416b80c592548"
+  integrity sha512-CpMIzMny4WQW9WKSBlBsXb9JdZwkupXPTxRxEuCiPd3Ku7rRiimhP35sUK3wmTfCC19yzxAOBy6M6v6v3Ls8Ng==
+
 "@roots/bud-api@6.4.3":
   version "6.4.3"
   resolved "https://registry.yarnpkg.com/@roots/bud-api/-/bud-api-6.4.3.tgz#6daab7e8f871f3b712f55abc23089032a87cb682"
@@ -1484,6 +1489,21 @@
     "@roots/bud-framework" "6.4.3"
     "@roots/bud-support" "6.4.3"
     "@roots/container" "6.4.3"
+    chalk "5.0.1"
+    copy-webpack-plugin "11.0.0"
+    get-port "6.1.2"
+    html-webpack-plugin "5.5.0"
+    nanoid "4.0.0"
+    tslib "2.4.0"
+
+"@roots/bud-api@6.4.4":
+  version "6.4.4"
+  resolved "https://registry.yarnpkg.com/@roots/bud-api/-/bud-api-6.4.4.tgz#898d2b88ca4e8264177a0cde4f2028c370aadbac"
+  integrity sha512-pZtNuEUAC7ItnlmtwCAJndZb0jJIgrRVhu4Kb9IFfVj3MrbsfHalfdxzF8MDwQGyLHorblklCUCQMhST4+utQQ==
+  dependencies:
+    "@roots/bud-framework" "6.4.4"
+    "@roots/bud-support" "6.4.4"
+    "@roots/container" "6.4.4"
     chalk "5.0.1"
     copy-webpack-plugin "11.0.0"
     get-port "6.1.2"
@@ -1531,6 +1551,30 @@
     xml-loader "1.2.1"
     yml-loader "2.1.0"
 
+"@roots/bud-build@6.4.4":
+  version "6.4.4"
+  resolved "https://registry.yarnpkg.com/@roots/bud-build/-/bud-build-6.4.4.tgz#ef0765e0e70f74a65a047bbef76b45b781da9e51"
+  integrity sha512-7seyna4e5JfaxN8oNw+S9kVvGRzfmtlAkKeX7tiCizpbPyP+Y9nEkE+ZbVm/IvlJbhe8Vw0Lk6lh5B8zQ4xuRQ==
+  dependencies:
+    "@roots/bud-framework" "6.4.4"
+    "@roots/bud-support" "6.4.4"
+    css-loader "^6.5.1"
+    csv-loader "^3.0.3"
+    file-loader "^6.2.0"
+    fs-extra "10.1.0"
+    helpful-decorators "2.1.0"
+    html-loader "^4.1.0"
+    json5 "2.2.1"
+    mini-css-extract-plugin "^2.4.5"
+    remark "14.0.2"
+    remark-html "15.0.1"
+    remark-loader "5.0.0"
+    style-loader "3.3.1"
+    toml "3.0.0"
+    tslib "2.4.0"
+    xml-loader "1.2.1"
+    yml-loader "2.1.0"
+
 "@roots/bud-cache@6.4.3":
   version "6.4.3"
   resolved "https://registry.yarnpkg.com/@roots/bud-cache/-/bud-cache-6.4.3.tgz#c968e164588b1e7e82f3d3ec0bc67e64230b30ab"
@@ -1541,10 +1585,28 @@
     strip-ansi "7.0.1"
     tslib "2.4.0"
 
+"@roots/bud-cache@6.4.4":
+  version "6.4.4"
+  resolved "https://registry.yarnpkg.com/@roots/bud-cache/-/bud-cache-6.4.4.tgz#ab3cd47220881a964256c943f98087d41b53a012"
+  integrity sha512-YxaoBoszOGqEKim5etf193Fh1AUHuWGuPXLZAaC5m2YqvrUgMmFKzphwTH8vmypN+Lek52m56zgVdW7N0aIFPw==
+  dependencies:
+    "@roots/bud-framework" "6.4.4"
+    "@roots/bud-support" "6.4.4"
+    strip-ansi "7.0.1"
+    tslib "2.4.0"
+
 "@roots/bud-client@6.4.3":
   version "6.4.3"
   resolved "https://registry.yarnpkg.com/@roots/bud-client/-/bud-client-6.4.3.tgz#9f04581aa4a7c9cb6433cf478f0281094fbbb1bc"
   integrity sha512-fyWeJbC3gpfksmdqYlr7x0ZHU60k8FRf1Pzz4VXpEPsSZnOFS9+rmOsJ2lRsOt+Fe4rWhLWK+EH9x8x/EsmZoQ==
+  dependencies:
+    strip-ansi "7.0.1"
+    tslib "2.4.0"
+
+"@roots/bud-client@6.4.4":
+  version "6.4.4"
+  resolved "https://registry.yarnpkg.com/@roots/bud-client/-/bud-client-6.4.4.tgz#372da119de64eaa21cb97a34394650cd92148a11"
+  integrity sha512-mUJrD6QS8uAjRT9/CdwrLo8z5S/GVKa4HGmZuKnnBeq9HiMWBAE4YQJ1RbCJZ/SSfw6K6JszFe5T6jbiQjoAYA==
   dependencies:
     strip-ansi "7.0.1"
     tslib "2.4.0"
@@ -1558,6 +1620,15 @@
     "@roots/bud-support" "6.4.3"
     tslib "2.4.0"
 
+"@roots/bud-compiler@6.4.4":
+  version "6.4.4"
+  resolved "https://registry.yarnpkg.com/@roots/bud-compiler/-/bud-compiler-6.4.4.tgz#427b7e3bdadf5a7d5d3524f6bdc27b44842c4dba"
+  integrity sha512-6wtSkR9tPE7zbYYe9fqBD288EwZ8XRKWaCE/P3vdEotOcOzWV9XdJ7+7XQTiLHk+omOB0TiiNsYckPypxe0KGg==
+  dependencies:
+    "@roots/bud-framework" "6.4.4"
+    "@roots/bud-support" "6.4.4"
+    tslib "2.4.0"
+
 "@roots/bud-dashboard@6.4.3":
   version "6.4.3"
   resolved "https://registry.yarnpkg.com/@roots/bud-dashboard/-/bud-dashboard-6.4.3.tgz#95fec8f1e973403707b6586d8eef77825c01ac89"
@@ -1565,6 +1636,19 @@
   dependencies:
     "@roots/bud-framework" "6.4.3"
     "@roots/bud-support" "6.4.3"
+    chalk "5.0.1"
+    figures "5.0.0"
+    human-readable "0.2.1"
+    webpack-format-messages "3.0.1"
+    webpack-messages "2.0.4"
+
+"@roots/bud-dashboard@6.4.4":
+  version "6.4.4"
+  resolved "https://registry.yarnpkg.com/@roots/bud-dashboard/-/bud-dashboard-6.4.4.tgz#3c727d6e8be5bc365ee2c9577b139110cfad58bc"
+  integrity sha512-7IzQ9O+5SJvs0VX47idUX4NwDcKBVyUq+MKvOTVGpsLanB6cMSWrzhWKLb25qbYFIjSj/t/ttcaVZcyetaI2KA==
+  dependencies:
+    "@roots/bud-framework" "6.4.4"
+    "@roots/bud-support" "6.4.4"
     chalk "5.0.1"
     figures "5.0.0"
     human-readable "0.2.1"
@@ -1590,6 +1674,16 @@
     chalk "5.0.1"
     tslib "2.4.0"
 
+"@roots/bud-extensions@6.4.4":
+  version "6.4.4"
+  resolved "https://registry.yarnpkg.com/@roots/bud-extensions/-/bud-extensions-6.4.4.tgz#e01ac3ead20a65429d96319a7d96b4047b1bdeb8"
+  integrity sha512-VXL60HqvyWNwOFU/XDriIszqJFq72v8BQMDuckTinYtmh7smJWb1YdQSFjgUMcv0JGzhTZCGgR+tPiIt22I7rA==
+  dependencies:
+    "@roots/bud-framework" "6.4.4"
+    "@roots/bud-support" "6.4.4"
+    chalk "5.0.1"
+    tslib "2.4.0"
+
 "@roots/bud-framework@6.4.3":
   version "6.4.3"
   resolved "https://registry.yarnpkg.com/@roots/bud-framework/-/bud-framework-6.4.3.tgz#981e110be3dc0916f9450c1b77567fb43520c43b"
@@ -1607,6 +1701,23 @@
     signale "1.4.0"
     tslib "2.4.0"
 
+"@roots/bud-framework@6.4.4":
+  version "6.4.4"
+  resolved "https://registry.yarnpkg.com/@roots/bud-framework/-/bud-framework-6.4.4.tgz#9e2c2b79c0d404ab962a68c3244c049d64b7e53d"
+  integrity sha512-zJL10ew0WePmtDgQ6h/DhPBcokmT1IZ8Pa4qNylEQ1VInBBJ+xQdt3IQRpslRMfSZEdnrP1azPlaYFQKLIwq9A==
+  dependencies:
+    "@roots/bud-support" "6.4.4"
+    "@roots/container" "6.4.4"
+    chalk "5.0.1"
+    figures "5.0.0"
+    globby "13.1.2"
+    import-meta-resolve "2.1.0"
+    js-yaml "4.1.0"
+    json5 "2.2.1"
+    safe-json-stringify "1.2.0"
+    signale "1.4.0"
+    tslib "2.4.0"
+
 "@roots/bud-hooks@6.4.3":
   version "6.4.3"
   resolved "https://registry.yarnpkg.com/@roots/bud-hooks/-/bud-hooks-6.4.3.tgz#fd0b5e88a4e27c055181e09d82bce9fe783bbbda"
@@ -1614,6 +1725,15 @@
   dependencies:
     "@roots/bud-framework" "6.4.3"
     "@roots/bud-support" "6.4.3"
+    tslib "2.4.0"
+
+"@roots/bud-hooks@6.4.4":
+  version "6.4.4"
+  resolved "https://registry.yarnpkg.com/@roots/bud-hooks/-/bud-hooks-6.4.4.tgz#24f38947a0bdddf613cc1b0b0fbac16dc419989b"
+  integrity sha512-dzBgLfobBeT/gphW179wIGBIB5XMOBJjF16Ps5TYbFctb5CHupi2HAqB0/akVOSt1YpS68xxIQ30jKZEPcVw1A==
+  dependencies:
+    "@roots/bud-framework" "6.4.4"
+    "@roots/bud-support" "6.4.4"
     tslib "2.4.0"
 
 "@roots/bud-postcss@6.4.3":
@@ -1691,10 +1811,49 @@
     tslib "2.4.0"
     webpack-dev-middleware "5.3.3"
 
+"@roots/bud-server@6.4.4":
+  version "6.4.4"
+  resolved "https://registry.yarnpkg.com/@roots/bud-server/-/bud-server-6.4.4.tgz#4992606f907a52f6ab7527ce875ec454db4792e1"
+  integrity sha512-szuxa+FvYAErqQBOJ3qBg6CP8tgafz5CqkMfHt4Xvl10Es+pdyhqFaeaS/NTz9O0DDoYIdNg6aoDGF31tHiBhA==
+  dependencies:
+    "@roots/bud-client" "6.4.4"
+    "@roots/bud-framework" "6.4.4"
+    "@roots/bud-support" "6.4.4"
+    ansi-html-community "0.0.8"
+    chokidar "3.5.3"
+    cookie-parser "1.4.6"
+    express "4.18.1"
+    http-proxy-middleware "2.0.6"
+    tslib "2.4.0"
+    webpack-dev-middleware "5.3.3"
+
 "@roots/bud-support@6.4.3":
   version "6.4.3"
   resolved "https://registry.yarnpkg.com/@roots/bud-support/-/bud-support-6.4.3.tgz#3c13c28ab42d29162a4ba747ec7a2c696bf61c74"
   integrity sha512-OFqYg8ASv71A3+JmWirFXczhQNHH2X0HobCfPTMyByjZRhTxqb2RoRFb+52e8jKdBoYrXir41kJIfdLR4NEHFw==
+  dependencies:
+    chalk "5.0.1"
+    clipanion "3.2.0-rc.12"
+    execa "6.1.0"
+    fs-extra "10.1.0"
+    globby "13.1.2"
+    helpful-decorators "2.1.0"
+    highlight.js "11.6.0"
+    ink "3.2.0"
+    ink-link "2.0.0"
+    ink-text-input "4.0.3"
+    lodash-es "4.17.21"
+    parse5 "7.1.1"
+    parse5-htmlparser2-tree-adapter "7.0.0"
+    pretty-format "29.0.3"
+    react "17.0.2"
+    typanion "3.12.0"
+    type-fest "2.19.0"
+
+"@roots/bud-support@6.4.4":
+  version "6.4.4"
+  resolved "https://registry.yarnpkg.com/@roots/bud-support/-/bud-support-6.4.4.tgz#9e020c73307495a39a2ad5b6ca76fd0f0cc0cac7"
+  integrity sha512-bJf/1e39HMdg7RBrqEhNpJ7fwDGLKVt1tz7qcBcJ1MXOMlIXttKVu6D9ecyye5pi1TnFfowVBMgERb2NqiyqkA==
   dependencies:
     chalk "5.0.1"
     clipanion "3.2.0-rc.12"
@@ -1735,6 +1894,16 @@
   integrity sha512-e3+KZ7DJMZwmkz8sI51TMcYKnjbufx/Cnizk/qvtmM8qguE6vM6Zmwb4FN0pPO+yJmyV7VfywJn51jKFFVGv8g==
   dependencies:
     "@roots/bud-framework" "6.4.3"
+    css-minimizer-webpack-plugin "4.0.0"
+    terser-webpack-plugin "^5.3.3"
+    tslib "2.4.0"
+
+"@roots/bud-terser@6.4.4":
+  version "6.4.4"
+  resolved "https://registry.yarnpkg.com/@roots/bud-terser/-/bud-terser-6.4.4.tgz#f4c9a27a491b912335814aff4cfc81c21571f3bb"
+  integrity sha512-C9lwx9Eau7en6oO7U65mN89MxbefCLHpcG2/D3Ng/zGA5uva97n6dcqqKOH6a53/AgaBR+YTTS0XIcxHP4wNnw==
+  dependencies:
+    "@roots/bud-framework" "6.4.4"
     css-minimizer-webpack-plugin "4.0.0"
     terser-webpack-plugin "^5.3.3"
     tslib "2.4.0"
@@ -1783,7 +1952,7 @@
     "@roots/merged-manifest-webpack-plugin" "6.4.3"
     tslib "2.4.0"
 
-"@roots/bud@6.4.3", "@roots/bud@^6.4.2":
+"@roots/bud@6.4.3":
   version "6.4.3"
   resolved "https://registry.yarnpkg.com/@roots/bud/-/bud-6.4.3.tgz#99b126e5ec225b57f2d4b4b09bf112a99670552f"
   integrity sha512-UpR1Mj3fHU+Ria/Wb5szFewY+LOZBqMrY+Vz/6aT6oI5rdgqzq2YGuY7niaXmrKdklDDp13KhF93XnI7Sns3VA==
@@ -1818,12 +1987,57 @@
     webpack-cli "^4.9.2"
     webpack-manifest-plugin "^5.0.0"
 
+"@roots/bud@^6.4.4":
+  version "6.4.4"
+  resolved "https://registry.yarnpkg.com/@roots/bud/-/bud-6.4.4.tgz#c16450a9a2ddc68f60b576193e414991e84fb8ed"
+  integrity sha512-g6JPD9zvN80m40BM5j3+2+dVnsHUHB1Mt0JtO6wrouwMCDYxcYilNo+QRKaKkzNqOOiEUZWymeYgak95acjXvw==
+  dependencies:
+    "@roots/browserslist-config" "6.4.4"
+    "@roots/bud-api" "6.4.4"
+    "@roots/bud-build" "6.4.4"
+    "@roots/bud-cache" "6.4.4"
+    "@roots/bud-compiler" "6.4.4"
+    "@roots/bud-dashboard" "6.4.4"
+    "@roots/bud-extensions" "6.4.4"
+    "@roots/bud-framework" "6.4.4"
+    "@roots/bud-hooks" "6.4.4"
+    "@roots/bud-server" "6.4.4"
+    "@roots/bud-support" "6.4.4"
+    "@roots/bud-terser" "6.4.4"
+    "@roots/container" "6.4.4"
+    browserslist latest
+    caniuse-lite latest
+    clean-webpack-plugin "^4.0.0"
+    conf "10.2.0"
+    copy-webpack-plugin "11.0.0"
+    dotenv "16.0.2"
+    dotenv-expand "9.0.0"
+    import-meta-resolve "2.1.0"
+    mini-css-extract-plugin "^2.4.5"
+    node-notifier "10.0.1"
+    open "8.4.0"
+    open-editor "4.0.0"
+    tslib "2.4.0"
+    webpack "5.74.0"
+    webpack-cli "^4.9.2"
+    webpack-manifest-plugin "^5.0.0"
+
 "@roots/container@6.4.3":
   version "6.4.3"
   resolved "https://registry.yarnpkg.com/@roots/container/-/container-6.4.3.tgz#98a5e3b4cd91d8850368c53596eac6fbb771a736"
   integrity sha512-cf7gVNcuYkPPctJaL/m8xCbPFof15ydLIn+N6k6bRMs0woLHHslRGBFQ4663hCexjdPDewdydThTEXBpxlQe6Q==
   dependencies:
     "@roots/bud-support" "6.4.3"
+    helpful-decorators "2.1.0"
+    lodash-es "4.17.21"
+    tslib "2.4.0"
+
+"@roots/container@6.4.4":
+  version "6.4.4"
+  resolved "https://registry.yarnpkg.com/@roots/container/-/container-6.4.4.tgz#10a3b4049ae49bfacecda0ee6ca2afadddae4468"
+  integrity sha512-1RLbBeaDXUTkNIVBGdcqgYiNkAQ/6u7IQL47O3yn1nykDO2utx+UK6g6dw5oZKlujOdl4cCKjOgv/Vd+nDlqBQ==
+  dependencies:
+    "@roots/bud-support" "6.4.4"
     helpful-decorators "2.1.0"
     lodash-es "4.17.21"
     tslib "2.4.0"
