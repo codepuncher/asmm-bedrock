@@ -1649,23 +1649,6 @@
     chalk "5.0.1"
     tslib "2.4.0"
 
-"@roots/bud-framework@6.4.4":
-  version "6.4.4"
-  resolved "https://registry.yarnpkg.com/@roots/bud-framework/-/bud-framework-6.4.4.tgz#9e2c2b79c0d404ab962a68c3244c049d64b7e53d"
-  integrity sha512-zJL10ew0WePmtDgQ6h/DhPBcokmT1IZ8Pa4qNylEQ1VInBBJ+xQdt3IQRpslRMfSZEdnrP1azPlaYFQKLIwq9A==
-  dependencies:
-    "@roots/bud-support" "6.4.4"
-    "@roots/container" "6.4.4"
-    chalk "5.0.1"
-    figures "5.0.0"
-    globby "13.1.2"
-    import-meta-resolve "2.1.0"
-    js-yaml "4.1.0"
-    json5 "2.2.1"
-    safe-json-stringify "1.2.0"
-    signale "1.4.0"
-    tslib "2.4.0"
-
 "@roots/bud-framework@6.4.5":
   version "6.4.5"
   resolved "https://registry.yarnpkg.com/@roots/bud-framework/-/bud-framework-6.4.5.tgz#50dd20fa086941b42de414ec252f74c3e444d31f"
@@ -1690,20 +1673,6 @@
   dependencies:
     "@roots/bud-framework" "6.4.5"
     "@roots/bud-support" "6.4.5"
-    tslib "2.4.0"
-
-"@roots/bud-postcss@6.4.4":
-  version "6.4.4"
-  resolved "https://registry.yarnpkg.com/@roots/bud-postcss/-/bud-postcss-6.4.4.tgz#ac345b305f97668871d37447ba9299630b2d027c"
-  integrity sha512-ZphnRqKYeEEcAjsHApNCNIKj5oysWYX+lB9PM0JZUvsBqA3i10TuWM+6eCWEsKHF0iYoCtgUFdS9pUo5tf/wtA==
-  dependencies:
-    "@roots/bud-framework" "6.4.4"
-    "@roots/bud-support" "6.4.4"
-    postcss "8.4.16"
-    postcss-import "14.1.0"
-    postcss-loader "7.0.1"
-    postcss-nested "5.0.6"
-    postcss-preset-env "7.8.2"
     tslib "2.4.0"
 
 "@roots/bud-postcss@6.4.5":
@@ -1781,29 +1750,6 @@
     tslib "2.4.0"
     webpack-dev-middleware "5.3.3"
 
-"@roots/bud-support@6.4.4":
-  version "6.4.4"
-  resolved "https://registry.yarnpkg.com/@roots/bud-support/-/bud-support-6.4.4.tgz#9e020c73307495a39a2ad5b6ca76fd0f0cc0cac7"
-  integrity sha512-bJf/1e39HMdg7RBrqEhNpJ7fwDGLKVt1tz7qcBcJ1MXOMlIXttKVu6D9ecyye5pi1TnFfowVBMgERb2NqiyqkA==
-  dependencies:
-    chalk "5.0.1"
-    clipanion "3.2.0-rc.12"
-    execa "6.1.0"
-    fs-extra "10.1.0"
-    globby "13.1.2"
-    helpful-decorators "2.1.0"
-    highlight.js "11.6.0"
-    ink "3.2.0"
-    ink-link "2.0.0"
-    ink-text-input "4.0.3"
-    lodash-es "4.17.21"
-    parse5 "7.1.1"
-    parse5-htmlparser2-tree-adapter "7.0.0"
-    pretty-format "29.0.3"
-    react "17.0.2"
-    typanion "3.12.0"
-    type-fest "2.19.0"
-
 "@roots/bud-support@6.4.5":
   version "6.4.5"
   resolved "https://registry.yarnpkg.com/@roots/bud-support/-/bud-support-6.4.5.tgz#2a3b41ee62206458389ba06645c86cd20a528de6"
@@ -1827,14 +1773,14 @@
     typanion "3.12.0"
     type-fest "2.19.0"
 
-"@roots/bud-tailwindcss@^6.4.4":
-  version "6.4.4"
-  resolved "https://registry.yarnpkg.com/@roots/bud-tailwindcss/-/bud-tailwindcss-6.4.4.tgz#c7bad6c81ec6cfbfbc67e15f89a08a8b78233d64"
-  integrity sha512-vVfxbdzaieIiOAMW6W7aFBBilSocy2W9sQUx4IT2Kecx1ogVn23tiNVsEkHzEYRDgbDyGucZg3nJHD1kWVtsew==
+"@roots/bud-tailwindcss@^6.4.5":
+  version "6.4.5"
+  resolved "https://registry.yarnpkg.com/@roots/bud-tailwindcss/-/bud-tailwindcss-6.4.5.tgz#2a1c8920105b56822b99567a382b2c13a11b48c5"
+  integrity sha512-0rKnfP/QrJ7tEJtIePslOhA1oskWrdpZcaXZQvMJ7ABpT8h2PfRCVcPYayrdVDbqnHeQPHtShdQBHgJ7KYtNGA==
   dependencies:
-    "@roots/bud-framework" "6.4.4"
-    "@roots/bud-postcss" "6.4.4"
-    "@roots/bud-support" "6.4.4"
+    "@roots/bud-framework" "6.4.5"
+    "@roots/bud-postcss" "6.4.5"
+    "@roots/bud-support" "6.4.5"
     "@types/fs-extra" "9.0.13"
     autoprefixer "^10.4.8"
     chalk "5.0.1"
@@ -1930,16 +1876,6 @@
     webpack "5.74.0"
     webpack-cli "^4.9.2"
     webpack-manifest-plugin "^5.0.0"
-
-"@roots/container@6.4.4":
-  version "6.4.4"
-  resolved "https://registry.yarnpkg.com/@roots/container/-/container-6.4.4.tgz#10a3b4049ae49bfacecda0ee6ca2afadddae4468"
-  integrity sha512-1RLbBeaDXUTkNIVBGdcqgYiNkAQ/6u7IQL47O3yn1nykDO2utx+UK6g6dw5oZKlujOdl4cCKjOgv/Vd+nDlqBQ==
-  dependencies:
-    "@roots/bud-support" "6.4.4"
-    helpful-decorators "2.1.0"
-    lodash-es "4.17.21"
-    tslib "2.4.0"
 
 "@roots/container@6.4.5":
   version "6.4.5"
@@ -6010,15 +5946,6 @@ postcss-value-parser@^4.0.0, postcss-value-parser@^4.1.0, postcss-value-parser@^
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/postcss-value-parser/-/postcss-value-parser-4.2.0.tgz#723c09920836ba6d3e5af019f92bc0971c02e514"
   integrity sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==
-
-postcss@8.4.16:
-  version "8.4.16"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.16.tgz#33a1d675fac39941f5f445db0de4db2b6e01d43c"
-  integrity sha512-ipHE1XBvKzm5xI7hiHCZJCSugxvsdq2mPnsq5+UF+VHCjiBvtDrlxJfMBToWaP9D5XlgNmcFGqoHmUn0EYEaRQ==
-  dependencies:
-    nanoid "^3.3.4"
-    picocolors "^1.0.0"
-    source-map-js "^1.0.2"
 
 postcss@8.4.17:
   version "8.4.17"
