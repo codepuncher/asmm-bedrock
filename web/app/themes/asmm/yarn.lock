@@ -2650,6 +2650,20 @@
     postcss-preset-env "7.8.2"
     tslib "2.4.0"
 
+"@roots/bud-postcss@6.5.0":
+  version "6.5.0"
+  resolved "https://registry.yarnpkg.com/@roots/bud-postcss/-/bud-postcss-6.5.0.tgz#8b8d9a046040043d16835ee423ec3728b2eb7bd8"
+  integrity sha512-ekY9bMTfH9rzsy/DnVYM4w7169R4Ckun4UvgU5qOdBs4cC0ExMRx/dhfXP7me0KBdr74juduCi6oAQQATab4GQ==
+  dependencies:
+    "@roots/bud-framework" "6.5.0"
+    "@roots/bud-support" "6.5.0"
+    postcss "8.4.18"
+    postcss-import "14.1.0"
+    postcss-loader "7.0.1"
+    postcss-nested "5.0.6"
+    postcss-preset-env "7.8.2"
+    tslib "2.4.0"
+
 "@roots/bud-preset-recommend@6.4.5":
   version "6.4.5"
   resolved "https://registry.yarnpkg.com/@roots/bud-preset-recommend/-/bud-preset-recommend-6.4.5.tgz#e5e2f54b92812e2216861bed8b93fc564d198d3a"
@@ -2760,14 +2774,14 @@
     typanion "3.12.0"
     type-fest "2.19.0"
 
-"@roots/bud-tailwindcss@^6.4.5":
-  version "6.4.5"
-  resolved "https://registry.yarnpkg.com/@roots/bud-tailwindcss/-/bud-tailwindcss-6.4.5.tgz#2a1c8920105b56822b99567a382b2c13a11b48c5"
-  integrity sha512-0rKnfP/QrJ7tEJtIePslOhA1oskWrdpZcaXZQvMJ7ABpT8h2PfRCVcPYayrdVDbqnHeQPHtShdQBHgJ7KYtNGA==
+"@roots/bud-tailwindcss@^6.5.0":
+  version "6.5.0"
+  resolved "https://registry.yarnpkg.com/@roots/bud-tailwindcss/-/bud-tailwindcss-6.5.0.tgz#d89c2f2ec036018af739a84eda91e4206ee7e791"
+  integrity sha512-u9jDM/95dDEeHCR9kUqYGhOYcg9nfLmkIfCSUxD7h/uSBIrxZQK1kGe5cYE4t5Mrooaiuituv0yPvmtPee6ghA==
   dependencies:
-    "@roots/bud-framework" "6.4.5"
-    "@roots/bud-postcss" "6.4.5"
-    "@roots/bud-support" "6.4.5"
+    "@roots/bud-framework" "6.5.0"
+    "@roots/bud-postcss" "6.5.0"
+    "@roots/bud-support" "6.5.0"
     "@types/fs-extra" "9.0.13"
     autoprefixer "^10.4.8"
     chalk "5.0.1"
@@ -7028,6 +7042,15 @@ postcss@8.4.17:
   version "8.4.17"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.17.tgz#f87863ec7cd353f81f7ab2dec5d67d861bbb1be5"
   integrity sha512-UNxNOLQydcOFi41yHNMcKRZ39NeXlr8AxGuZJsdub8vIb12fHzcq37DTU/QtbI6WLxNg2gF9Z+8qtRwTj1UI1Q==
+  dependencies:
+    nanoid "^3.3.4"
+    picocolors "^1.0.0"
+    source-map-js "^1.0.2"
+
+postcss@8.4.18:
+  version "8.4.18"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.18.tgz#6d50046ea7d3d66a85e0e782074e7203bc7fbca2"
+  integrity sha512-Wi8mWhncLJm11GATDaQKobXSNEYGUHeQLiQqDFG1qQ5UTDPTEvKw0Xt5NsTpktGTwLps3ByrWsBrG0rB8YQ9oA==
   dependencies:
     nanoid "^3.3.4"
     picocolors "^1.0.0"
