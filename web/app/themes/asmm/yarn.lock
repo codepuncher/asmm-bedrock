@@ -962,6 +962,11 @@
   resolved "https://registry.yarnpkg.com/@babel/compat-data/-/compat-data-7.19.3.tgz#707b939793f867f5a73b2666e6d9a3396eb03151"
   integrity sha512-prBHMK4JYYK+wDjJF1q99KK4JLL+egWS4nmNqdlMUgCExMZ+iZW0hGhyC3VEbsPjvaN0TBhW//VIFwBrk8sEiw==
 
+"@babel/compat-data@^7.19.4":
+  version "7.19.4"
+  resolved "https://registry.yarnpkg.com/@babel/compat-data/-/compat-data-7.19.4.tgz#95c86de137bf0317f3a570e1b6e996b427299747"
+  integrity sha512-CHIGpJcUQ5lU9KrPHTjBMhVwQG6CQjxfg36fGXl3qk/Gik1WwWachaXFuo0uCWJT/mStOKtcbFJCaVLihC1CMw==
+
 "@babel/core@7.19.3":
   version "7.19.3"
   resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.19.3.tgz#2519f62a51458f43b682d61583c3810e7dcee64c"
@@ -1319,6 +1324,11 @@
   resolved "https://registry.yarnpkg.com/@babel/helper-string-parser/-/helper-string-parser-7.18.10.tgz#181f22d28ebe1b3857fa575f5c290b1aaf659b56"
   integrity sha512-XtIfWmeNY3i4t7t4D2t02q50HvqHybPqW2ki1kosnvWCwuCMeo81Jf0gwr85jy/neUdg5XDdeFE/80DXiO+njw==
 
+"@babel/helper-string-parser@^7.19.4":
+  version "7.19.4"
+  resolved "https://registry.yarnpkg.com/@babel/helper-string-parser/-/helper-string-parser-7.19.4.tgz#38d3acb654b4701a9b77fb0615a96f775c3a9e63"
+  integrity sha512-nHtDoQcuqFmwYNYPz3Rah5ph2p8PFeFCsZk9A/48dPc/rGocJ5J3hAAZ7pb76VWX3fZKu+uEr/FhH5jLx7umrw==
+
 "@babel/helper-validator-identifier@^7.16.7":
   version "7.16.7"
   resolved "https://registry.yarnpkg.com/@babel/helper-validator-identifier/-/helper-validator-identifier-7.16.7.tgz#e8c602438c4a8195751243da9031d1607d247cad"
@@ -1510,6 +1520,17 @@
     "@babel/compat-data" "^7.18.8"
     "@babel/helper-compilation-targets" "^7.18.9"
     "@babel/helper-plugin-utils" "^7.18.9"
+    "@babel/plugin-syntax-object-rest-spread" "^7.8.3"
+    "@babel/plugin-transform-parameters" "^7.18.8"
+
+"@babel/plugin-proposal-object-rest-spread@7.19.4", "@babel/plugin-proposal-object-rest-spread@^7.19.4":
+  version "7.19.4"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-object-rest-spread/-/plugin-proposal-object-rest-spread-7.19.4.tgz#a8fc86e8180ff57290c91a75d83fe658189b642d"
+  integrity sha512-wHmj6LDxVDnL+3WhXteUBaoM1aVILZODAUjg11kHqG4cOlfgMQGxw6aCgvrXrmaJR3Bn14oZhImyCPZzRpC93Q==
+  dependencies:
+    "@babel/compat-data" "^7.19.4"
+    "@babel/helper-compilation-targets" "^7.19.3"
+    "@babel/helper-plugin-utils" "^7.19.0"
     "@babel/plugin-syntax-object-rest-spread" "^7.8.3"
     "@babel/plugin-transform-parameters" "^7.18.8"
 
@@ -1706,6 +1727,13 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.18.9"
 
+"@babel/plugin-transform-block-scoping@^7.19.4":
+  version "7.19.4"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-block-scoping/-/plugin-transform-block-scoping-7.19.4.tgz#315d70f68ce64426db379a3d830e7ac30be02e9b"
+  integrity sha512-934S2VLLlt2hRJwPf4MczaOr4hYF0z+VKPwqTNxyKX7NthTiPfhuKFWQZHXRM0vh/wo/VyXB3s4bZUNA08l+tQ==
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.19.0"
+
 "@babel/plugin-transform-classes@^7.19.0":
   version "7.19.0"
   resolved "https://registry.yarnpkg.com/@babel/plugin-transform-classes/-/plugin-transform-classes-7.19.0.tgz#0e61ec257fba409c41372175e7c1e606dc79bb20"
@@ -1734,6 +1762,13 @@
   integrity sha512-TodpQ29XekIsex2A+YJPj5ax2plkGa8YYY6mFjCohk/IG9IY42Rtuj1FuDeemfg2ipxIFLzPeA83SIBnlhSIow==
   dependencies:
     "@babel/helper-plugin-utils" "^7.18.9"
+
+"@babel/plugin-transform-destructuring@^7.19.4":
+  version "7.19.4"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-destructuring/-/plugin-transform-destructuring-7.19.4.tgz#46890722687b9b89e1369ad0bd8dc6c5a3b4319d"
+  integrity sha512-t0j0Hgidqf0aM86dF8U+vXYReUgJnlv4bZLsyoPnwZNrGY+7/38o8YjaELrvHeVfTZao15kjR0PVv0nju2iduA==
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.19.0"
 
 "@babel/plugin-transform-dotall-regex@^7.18.6":
   version "7.18.6"
@@ -2063,6 +2098,87 @@
     core-js-compat "^3.25.1"
     semver "^6.3.0"
 
+"@babel/preset-env@7.19.4":
+  version "7.19.4"
+  resolved "https://registry.yarnpkg.com/@babel/preset-env/-/preset-env-7.19.4.tgz#4c91ce2e1f994f717efb4237891c3ad2d808c94b"
+  integrity sha512-5QVOTXUdqTCjQuh2GGtdd7YEhoRXBMVGROAtsBeLGIbIz3obCBIfRMT1I3ZKkMgNzwkyCkftDXSSkHxnfVf4qg==
+  dependencies:
+    "@babel/compat-data" "^7.19.4"
+    "@babel/helper-compilation-targets" "^7.19.3"
+    "@babel/helper-plugin-utils" "^7.19.0"
+    "@babel/helper-validator-option" "^7.18.6"
+    "@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression" "^7.18.6"
+    "@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining" "^7.18.9"
+    "@babel/plugin-proposal-async-generator-functions" "^7.19.1"
+    "@babel/plugin-proposal-class-properties" "^7.18.6"
+    "@babel/plugin-proposal-class-static-block" "^7.18.6"
+    "@babel/plugin-proposal-dynamic-import" "^7.18.6"
+    "@babel/plugin-proposal-export-namespace-from" "^7.18.9"
+    "@babel/plugin-proposal-json-strings" "^7.18.6"
+    "@babel/plugin-proposal-logical-assignment-operators" "^7.18.9"
+    "@babel/plugin-proposal-nullish-coalescing-operator" "^7.18.6"
+    "@babel/plugin-proposal-numeric-separator" "^7.18.6"
+    "@babel/plugin-proposal-object-rest-spread" "^7.19.4"
+    "@babel/plugin-proposal-optional-catch-binding" "^7.18.6"
+    "@babel/plugin-proposal-optional-chaining" "^7.18.9"
+    "@babel/plugin-proposal-private-methods" "^7.18.6"
+    "@babel/plugin-proposal-private-property-in-object" "^7.18.6"
+    "@babel/plugin-proposal-unicode-property-regex" "^7.18.6"
+    "@babel/plugin-syntax-async-generators" "^7.8.4"
+    "@babel/plugin-syntax-class-properties" "^7.12.13"
+    "@babel/plugin-syntax-class-static-block" "^7.14.5"
+    "@babel/plugin-syntax-dynamic-import" "^7.8.3"
+    "@babel/plugin-syntax-export-namespace-from" "^7.8.3"
+    "@babel/plugin-syntax-import-assertions" "^7.18.6"
+    "@babel/plugin-syntax-json-strings" "^7.8.3"
+    "@babel/plugin-syntax-logical-assignment-operators" "^7.10.4"
+    "@babel/plugin-syntax-nullish-coalescing-operator" "^7.8.3"
+    "@babel/plugin-syntax-numeric-separator" "^7.10.4"
+    "@babel/plugin-syntax-object-rest-spread" "^7.8.3"
+    "@babel/plugin-syntax-optional-catch-binding" "^7.8.3"
+    "@babel/plugin-syntax-optional-chaining" "^7.8.3"
+    "@babel/plugin-syntax-private-property-in-object" "^7.14.5"
+    "@babel/plugin-syntax-top-level-await" "^7.14.5"
+    "@babel/plugin-transform-arrow-functions" "^7.18.6"
+    "@babel/plugin-transform-async-to-generator" "^7.18.6"
+    "@babel/plugin-transform-block-scoped-functions" "^7.18.6"
+    "@babel/plugin-transform-block-scoping" "^7.19.4"
+    "@babel/plugin-transform-classes" "^7.19.0"
+    "@babel/plugin-transform-computed-properties" "^7.18.9"
+    "@babel/plugin-transform-destructuring" "^7.19.4"
+    "@babel/plugin-transform-dotall-regex" "^7.18.6"
+    "@babel/plugin-transform-duplicate-keys" "^7.18.9"
+    "@babel/plugin-transform-exponentiation-operator" "^7.18.6"
+    "@babel/plugin-transform-for-of" "^7.18.8"
+    "@babel/plugin-transform-function-name" "^7.18.9"
+    "@babel/plugin-transform-literals" "^7.18.9"
+    "@babel/plugin-transform-member-expression-literals" "^7.18.6"
+    "@babel/plugin-transform-modules-amd" "^7.18.6"
+    "@babel/plugin-transform-modules-commonjs" "^7.18.6"
+    "@babel/plugin-transform-modules-systemjs" "^7.19.0"
+    "@babel/plugin-transform-modules-umd" "^7.18.6"
+    "@babel/plugin-transform-named-capturing-groups-regex" "^7.19.1"
+    "@babel/plugin-transform-new-target" "^7.18.6"
+    "@babel/plugin-transform-object-super" "^7.18.6"
+    "@babel/plugin-transform-parameters" "^7.18.8"
+    "@babel/plugin-transform-property-literals" "^7.18.6"
+    "@babel/plugin-transform-regenerator" "^7.18.6"
+    "@babel/plugin-transform-reserved-words" "^7.18.6"
+    "@babel/plugin-transform-shorthand-properties" "^7.18.6"
+    "@babel/plugin-transform-spread" "^7.19.0"
+    "@babel/plugin-transform-sticky-regex" "^7.18.6"
+    "@babel/plugin-transform-template-literals" "^7.18.9"
+    "@babel/plugin-transform-typeof-symbol" "^7.18.9"
+    "@babel/plugin-transform-unicode-escapes" "^7.18.10"
+    "@babel/plugin-transform-unicode-regex" "^7.18.6"
+    "@babel/preset-modules" "^0.1.5"
+    "@babel/types" "^7.19.4"
+    babel-plugin-polyfill-corejs2 "^0.3.3"
+    babel-plugin-polyfill-corejs3 "^0.6.0"
+    babel-plugin-polyfill-regenerator "^0.4.1"
+    core-js-compat "^3.25.1"
+    semver "^6.3.0"
+
 "@babel/preset-modules@^0.1.5":
   version "0.1.5"
   resolved "https://registry.yarnpkg.com/@babel/preset-modules/-/preset-modules-0.1.5.tgz#ef939d6e7f268827e1841638dc6ff95515e115d9"
@@ -2214,6 +2330,15 @@
   integrity sha512-hGCaQzIY22DJlDh9CH7NOxgKkFjBk0Cw9xDO1Xmh2151ti7wiGfQ3LauXzL4HP1fmFlTX6XjpRETTpUcv7wQLw==
   dependencies:
     "@babel/helper-string-parser" "^7.18.10"
+    "@babel/helper-validator-identifier" "^7.19.1"
+    to-fast-properties "^2.0.0"
+
+"@babel/types@^7.19.4":
+  version "7.19.4"
+  resolved "https://registry.yarnpkg.com/@babel/types/-/types-7.19.4.tgz#0dd5c91c573a202d600490a35b33246fed8a41c7"
+  integrity sha512-M5LK7nAeS6+9j7hAq+b3fQs+pNfUtTGq+yFFfHnauFA8zQtLRfmuipmsKDKKLuyG+wC8ABW43A153YNawNTEtw==
+  dependencies:
+    "@babel/helper-string-parser" "^7.19.4"
     "@babel/helper-validator-identifier" "^7.19.1"
     to-fast-properties "^2.0.0"
 
@@ -2458,6 +2583,11 @@
   resolved "https://registry.yarnpkg.com/@roots/browserslist-config/-/browserslist-config-6.5.0.tgz#065b8c32e9c6111f02de02969c5ebe32696f68f2"
   integrity sha512-35LS3DwZG+rDUNiooFM8izsY9aYWfIYDEDENRI/1GUqrcRmej+9jes8JJ6N4cN9aJGIQi2+tMrSyB2M9patFmg==
 
+"@roots/browserslist-config@6.5.1":
+  version "6.5.1"
+  resolved "https://registry.yarnpkg.com/@roots/browserslist-config/-/browserslist-config-6.5.1.tgz#ca1ccabd9947bbc01d1d467432f9c11634f5a37e"
+  integrity sha512-9hPczR+YU9TPwINzaaPyDNJ1k+ASbkuOHFKMswPENwrSg1ZuFfZl4oSkvVJMcM0q/LF77xs6dU4aHrIJd4MObQ==
+
 "@roots/bud-api@6.5.0":
   version "6.5.0"
   resolved "https://registry.yarnpkg.com/@roots/bud-api/-/bud-api-6.5.0.tgz#99b8d6fbfe81528a1c93e2d2c63cfe694cca7a0c"
@@ -2486,6 +2616,22 @@
     "@babel/preset-env" "7.19.3"
     "@roots/bud-framework" "6.5.0"
     "@roots/bud-support" "6.5.0"
+    babel-loader "8.2.5"
+    tslib "2.4.0"
+
+"@roots/bud-babel@6.5.1":
+  version "6.5.1"
+  resolved "https://registry.yarnpkg.com/@roots/bud-babel/-/bud-babel-6.5.1.tgz#4c6021276b23e8ce54cd94442831319f7ff73c16"
+  integrity sha512-KP8zGiyMG540uu//uH86zAkQy7ChGjuJrbbzZJQX2ntURkfLvwJI9qjCGfHqq7+praXbZTXn+LtfYinMaWC6Dw==
+  dependencies:
+    "@babel/core" "7.19.3"
+    "@babel/plugin-proposal-class-properties" "7.18.6"
+    "@babel/plugin-proposal-object-rest-spread" "7.19.4"
+    "@babel/plugin-syntax-dynamic-import" "7.8.3"
+    "@babel/plugin-transform-runtime" "7.19.1"
+    "@babel/preset-env" "7.19.4"
+    "@roots/bud-framework" "6.5.1"
+    "@roots/bud-support" "6.5.1"
     babel-loader "8.2.5"
     tslib "2.4.0"
 
@@ -2553,13 +2699,13 @@
     webpack-format-messages "3.0.1"
     webpack-messages "2.0.4"
 
-"@roots/bud-entrypoints@6.5.0":
-  version "6.5.0"
-  resolved "https://registry.yarnpkg.com/@roots/bud-entrypoints/-/bud-entrypoints-6.5.0.tgz#5f86623be68db7bfb7f6e1a17d4336576dfb3cc4"
-  integrity sha512-Fqqheoc8Z9gG0sH9Avj7pc6Vd4Ez8YNs3WF6ExHfCw1Msgq6P5pht6WJGcWAZs1EqDUmGb0QHr1Tqnw7vxyoaA==
+"@roots/bud-entrypoints@6.5.1":
+  version "6.5.1"
+  resolved "https://registry.yarnpkg.com/@roots/bud-entrypoints/-/bud-entrypoints-6.5.1.tgz#0bab47e96100ac1fc26e6c4483764b58b292a9a5"
+  integrity sha512-33Upun6vBSV3/r+XsKWkTdjrjYwEuNHqweV5433V9XAbzzCZ7o6jc2YwUN9GNB6x2qRQIzQCkxtZcNZFm79QEw==
   dependencies:
-    "@roots/bud-framework" "6.5.0"
-    "@roots/entrypoints-webpack-plugin" "6.5.0"
+    "@roots/bud-framework" "6.5.1"
+    "@roots/entrypoints-webpack-plugin" "6.5.1"
     tslib "2.4.0"
 
 "@roots/bud-extensions@6.5.0":
@@ -2579,6 +2725,23 @@
   dependencies:
     "@roots/bud-support" "6.5.0"
     "@roots/container" "6.5.0"
+    chalk "5.0.1"
+    figures "5.0.0"
+    globby "13.1.2"
+    import-meta-resolve "2.1.0"
+    js-yaml "4.1.0"
+    json5 "2.2.1"
+    safe-json-stringify "1.2.0"
+    signale "1.4.0"
+    tslib "2.4.0"
+
+"@roots/bud-framework@6.5.1":
+  version "6.5.1"
+  resolved "https://registry.yarnpkg.com/@roots/bud-framework/-/bud-framework-6.5.1.tgz#eb380a8b79a0e499653a4484f10a6f6d8e51bb07"
+  integrity sha512-Q4IT/hNdNVFVHPQxtplZIEmgJt9rh1Gg6fOeFqDW9tac+m4F3+oE9Wzk9ZV3XNsJKW5Uw7gW3vmHX6Yj+A6gYQ==
+  dependencies:
+    "@roots/bud-support" "6.5.1"
+    "@roots/container" "6.5.1"
     chalk "5.0.1"
     figures "5.0.0"
     globby "13.1.2"
@@ -2612,45 +2775,59 @@
     postcss-preset-env "7.8.2"
     tslib "2.4.0"
 
-"@roots/bud-preset-recommend@6.5.0":
-  version "6.5.0"
-  resolved "https://registry.yarnpkg.com/@roots/bud-preset-recommend/-/bud-preset-recommend-6.5.0.tgz#c72b304d1c1f8d4cbe6302b2a5833ef348b26e22"
-  integrity sha512-VRN9cVIbFr7/H7StSQUMheoYnB/nVY1DNm4I/QLA6DXPoejIUzvjS3lDKoF0vsWDBhvyWu24FSGgXTvVq0XrGw==
+"@roots/bud-postcss@6.5.1":
+  version "6.5.1"
+  resolved "https://registry.yarnpkg.com/@roots/bud-postcss/-/bud-postcss-6.5.1.tgz#f6b6025f1199dae227a1b02a8fb6669d343bb65a"
+  integrity sha512-q5xwEzYLOxHZHiRK1z/+laaMbpTKev/e7XfvxQdEAlOPkdq/1HbVZF08YHzegEpnzStxM1IlANMt8/WTjnJN8A==
   dependencies:
-    "@roots/bud-babel" "6.5.0"
-    "@roots/bud-entrypoints" "6.5.0"
-    "@roots/bud-framework" "6.5.0"
-    "@roots/bud-postcss" "6.5.0"
+    "@roots/bud-framework" "6.5.1"
+    "@roots/bud-support" "6.5.1"
+    postcss "8.4.18"
+    postcss-import "14.1.0"
+    postcss-loader "7.0.1"
+    postcss-nested "5.0.6"
+    postcss-preset-env "7.8.2"
     tslib "2.4.0"
 
-"@roots/bud-preset-wordpress@6.5.0":
-  version "6.5.0"
-  resolved "https://registry.yarnpkg.com/@roots/bud-preset-wordpress/-/bud-preset-wordpress-6.5.0.tgz#fa65414b05dcc59ea5aa8afdcd1fb20849c7e409"
-  integrity sha512-UUbqDLX22ew3BkCl95n5lXpxt195rXEr1A1O0RO8YWE+CyuqSGNhhHqqOLUmzs2tnehJFerY1kRsXKc2Rucy2Q==
+"@roots/bud-preset-recommend@6.5.1":
+  version "6.5.1"
+  resolved "https://registry.yarnpkg.com/@roots/bud-preset-recommend/-/bud-preset-recommend-6.5.1.tgz#c4e366ba3b72fdf082744f47ff9075bbf0ea29bb"
+  integrity sha512-VY6iQQSEBzhGqQm5+1nkXDBnfCbZU5nhSjZVl591uh+uXjThPMT58p9M55H/Lhr8IaNNet4y3Fy5JZ4W2GgnbA==
   dependencies:
-    "@roots/browserslist-config" "6.5.0"
-    "@roots/bud-babel" "6.5.0"
-    "@roots/bud-entrypoints" "6.5.0"
-    "@roots/bud-framework" "6.5.0"
-    "@roots/bud-preset-recommend" "6.5.0"
-    "@roots/bud-react" "6.5.0"
-    "@roots/bud-wordpress-dependencies" "6.5.0"
-    "@roots/bud-wordpress-externals" "6.5.0"
-    "@roots/bud-wordpress-manifests" "6.5.0"
+    "@roots/bud-babel" "6.5.1"
+    "@roots/bud-entrypoints" "6.5.1"
+    "@roots/bud-framework" "6.5.1"
+    "@roots/bud-postcss" "6.5.1"
+    tslib "2.4.0"
+
+"@roots/bud-preset-wordpress@6.5.1":
+  version "6.5.1"
+  resolved "https://registry.yarnpkg.com/@roots/bud-preset-wordpress/-/bud-preset-wordpress-6.5.1.tgz#4f88cf10d41f96228621be875767e07be58a83ba"
+  integrity sha512-UNCUqiQ8DCCptaUH3sDHXuwklqtqWLFkgd3nRHgSwCqrTDGKZVayRMSCyjIjggSQG5LY66WNr6rDI7zbtHytNA==
+  dependencies:
+    "@roots/browserslist-config" "6.5.1"
+    "@roots/bud-babel" "6.5.1"
+    "@roots/bud-entrypoints" "6.5.1"
+    "@roots/bud-framework" "6.5.1"
+    "@roots/bud-preset-recommend" "6.5.1"
+    "@roots/bud-react" "6.5.1"
+    "@roots/bud-wordpress-dependencies" "6.5.1"
+    "@roots/bud-wordpress-externals" "6.5.1"
+    "@roots/bud-wordpress-manifests" "6.5.1"
     chalk "5.0.1"
     lodash-es "4.17.21"
     tslib "2.4.0"
 
-"@roots/bud-react@6.5.0":
-  version "6.5.0"
-  resolved "https://registry.yarnpkg.com/@roots/bud-react/-/bud-react-6.5.0.tgz#6737dbb0485034d0c506fd90925a872795e0bcc3"
-  integrity sha512-7rhpzeq5v3BsYZ8A+q/kz9O/KwqA8teIggT4vJhaO3UCH9O2o+8NBBTmLU81NYk1NPVqhRhCU9sEPdxxwgyRsA==
+"@roots/bud-react@6.5.1":
+  version "6.5.1"
+  resolved "https://registry.yarnpkg.com/@roots/bud-react/-/bud-react-6.5.1.tgz#18741d50f576ffc4a7317a693519122f91880940"
+  integrity sha512-uk3BdOKB1KvScERmPDdSvThPi+5hK5sLIbBkGyVpmGSWD6FySWLvE0mI+3rv1swITIRQmM95YhqNECIwBnZQAg==
   dependencies:
     "@babel/preset-react" "^7.17.12"
     "@pmmmwh/react-refresh-webpack-plugin" "^0.5.7"
-    "@roots/bud-babel" "6.5.0"
-    "@roots/bud-framework" "6.5.0"
-    "@roots/bud-support" "6.5.0"
+    "@roots/bud-babel" "6.5.1"
+    "@roots/bud-framework" "6.5.1"
+    "@roots/bud-support" "6.5.1"
     react "17.0.2"
     react-dom "17.0.2"
     react-hot-loader "^4.13.0"
@@ -2679,6 +2856,32 @@
   integrity sha512-fzwaWDkv6+4+AQdvmX1h0uuWE/mmyRyYK0B+s1Kl+DtxiqJjAG3k0CeupP4V6ylTJMewFi7fbSF8rhRsNwCzQQ==
   dependencies:
     "@roots/filesystem" "6.5.0"
+    chalk "5.0.1"
+    clipanion "3.2.0-rc.12"
+    execa "6.1.0"
+    fs-extra "10.1.0"
+    fs-jetpack "5.0.0"
+    globby "13.1.2"
+    helpful-decorators "2.1.0"
+    highlight.js "11.6.0"
+    ink "3.2.0"
+    ink-link "2.0.0"
+    ink-text-input "4.0.3"
+    lodash-es "4.17.21"
+    parse5 "7.1.1"
+    parse5-htmlparser2-tree-adapter "7.0.0"
+    patch-console "1.0.0"
+    pretty-format "29.0.3"
+    react "17.0.2"
+    typanion "3.12.0"
+    type-fest "2.19.0"
+
+"@roots/bud-support@6.5.1":
+  version "6.5.1"
+  resolved "https://registry.yarnpkg.com/@roots/bud-support/-/bud-support-6.5.1.tgz#fe8f470a82e8b115dec24f12e5f2722df5292962"
+  integrity sha512-9rq+mWniJVE7OtxrbpGnshLG/196mpLScUWgxJTDGtp66uKIcdlcNCqSv2h+jq3L3EnAPPCHyhMsLO3j/Jaj2Q==
+  dependencies:
+    "@roots/filesystem" "6.5.1"
     chalk "5.0.1"
     clipanion "3.2.0-rc.12"
     execa "6.1.0"
@@ -2742,30 +2945,30 @@
     tslib "2.4.0"
     typescript "4.8.4"
 
-"@roots/bud-wordpress-dependencies@6.5.0":
-  version "6.5.0"
-  resolved "https://registry.yarnpkg.com/@roots/bud-wordpress-dependencies/-/bud-wordpress-dependencies-6.5.0.tgz#aee8f5ccc1170ed2e635b1544aefb7d3e2ca149f"
-  integrity sha512-EvKUoxRMAY29dlF36DPrWPNi8Y8hnfLbz3dYa1bndP7Dap4P8gnZTl97AabYBpuDH7mLbQUCDru9IiqxRJdSBw==
+"@roots/bud-wordpress-dependencies@6.5.1":
+  version "6.5.1"
+  resolved "https://registry.yarnpkg.com/@roots/bud-wordpress-dependencies/-/bud-wordpress-dependencies-6.5.1.tgz#3ee35c6292d3d37ae3b90b5059c80f67ca51b324"
+  integrity sha512-iR0cXYtNq7UxIUt6/X27WkD0H84iTqR7qMOxMs6byUk3GzDMPg54QWyGqM00U2euJ97IWEAgbxSZo03uZ/zojg==
   dependencies:
-    "@roots/bud-framework" "6.5.0"
-    "@roots/wordpress-dependencies-webpack-plugin" "6.5.0"
+    "@roots/bud-framework" "6.5.1"
+    "@roots/wordpress-dependencies-webpack-plugin" "6.5.1"
     tslib "2.4.0"
 
-"@roots/bud-wordpress-externals@6.5.0":
-  version "6.5.0"
-  resolved "https://registry.yarnpkg.com/@roots/bud-wordpress-externals/-/bud-wordpress-externals-6.5.0.tgz#c50866c22f955fa300cc7ed080b1607e76a7c53a"
-  integrity sha512-qfscgCU6oGgXOb+E8eyDEOVejVjwDkexdqICR58C8+FD4NEqOxAu2OLhS5FgdJbGgMyIy1RRVAUx6ZKo+SNgmQ==
+"@roots/bud-wordpress-externals@6.5.1":
+  version "6.5.1"
+  resolved "https://registry.yarnpkg.com/@roots/bud-wordpress-externals/-/bud-wordpress-externals-6.5.1.tgz#273a677bdbe74e27ea09d559b1f59234cc4c44ea"
+  integrity sha512-Tage9p+qlmhaGpYks/SQvPMiQdqsgh5vu0KbLdncxk+/w+Uqywj3MBhCNXJBRuInwAD6e0+2F704iR/bE0CQWg==
   dependencies:
-    "@roots/bud-framework" "6.5.0"
-    "@roots/wordpress-externals-webpack-plugin" "6.5.0"
+    "@roots/bud-framework" "6.5.1"
+    "@roots/wordpress-externals-webpack-plugin" "6.5.1"
     tslib "2.4.0"
 
-"@roots/bud-wordpress-manifests@6.5.0":
-  version "6.5.0"
-  resolved "https://registry.yarnpkg.com/@roots/bud-wordpress-manifests/-/bud-wordpress-manifests-6.5.0.tgz#ceb9e9abb9f32c530b92d2aea9fe52788fc6b165"
-  integrity sha512-/cGi95pi8S65njCR5kSNJ8Lm8JupYxCHlzc1eV99HjPKiuLN52SvM86zuYaMSqo97mUBCbMul76H+pbs5j5pTQ==
+"@roots/bud-wordpress-manifests@6.5.1":
+  version "6.5.1"
+  resolved "https://registry.yarnpkg.com/@roots/bud-wordpress-manifests/-/bud-wordpress-manifests-6.5.1.tgz#8ced6f2d5618224caab8e054df650135e55e9558"
+  integrity sha512-UjmTsqgPebGTu6hghgtBDTIRumKRiupOZqivSTGZZGuIxEq0soR2vCwRQKxG5nwyL1T2JKJaAofCEv8Tb9H62w==
   dependencies:
-    "@roots/merged-manifest-webpack-plugin" "6.5.0"
+    "@roots/merged-manifest-webpack-plugin" "6.5.1"
     tslib "2.4.0"
 
 "@roots/bud@6.5.0", "@roots/bud@^6.5.0":
@@ -2813,10 +3016,20 @@
     lodash-es "4.17.21"
     tslib "2.4.0"
 
-"@roots/entrypoints-webpack-plugin@6.5.0":
-  version "6.5.0"
-  resolved "https://registry.yarnpkg.com/@roots/entrypoints-webpack-plugin/-/entrypoints-webpack-plugin-6.5.0.tgz#574a3828c577d85ff465f9ca2ba701d545c11dfb"
-  integrity sha512-76dyHKVI5FQSMECRdxWIcleJ/siRE4poo6UuPWJqUgLTfWyLOU0NzWMZlSZdvYiDwncE1yzy9f3+BaLg9LxENw==
+"@roots/container@6.5.1":
+  version "6.5.1"
+  resolved "https://registry.yarnpkg.com/@roots/container/-/container-6.5.1.tgz#ecfe449b399fb780af6cf17a4469a40a2a42d886"
+  integrity sha512-zeBKH3i6dzuD7Q3hBQXxfPrxolRwZ9o4Xo5D7czWDoW8Gh8M52gFO9a/pEIwycULpXR6+K7ggVkP2ttQaKZX/A==
+  dependencies:
+    "@roots/bud-support" "6.5.1"
+    helpful-decorators "2.1.0"
+    lodash-es "4.17.21"
+    tslib "2.4.0"
+
+"@roots/entrypoints-webpack-plugin@6.5.1":
+  version "6.5.1"
+  resolved "https://registry.yarnpkg.com/@roots/entrypoints-webpack-plugin/-/entrypoints-webpack-plugin-6.5.1.tgz#84baca5b57958b204494a9f364fac7e94e221443"
+  integrity sha512-DXYknZ5325Bxw5oSQH6/ratzaFzKK0hSdcWUKAk/QR3E+0dZ59dtUEOguPZsAVg6GhNeUDv0BE5y16nqY5RGfg==
   dependencies:
     helpful-decorators "2.1.0"
     lodash-es "4.17.21"
@@ -2839,39 +3052,57 @@
     safe-json-stringify "1.2.0"
     tslib "2.4.0"
 
-"@roots/merged-manifest-webpack-plugin@6.5.0":
-  version "6.5.0"
-  resolved "https://registry.yarnpkg.com/@roots/merged-manifest-webpack-plugin/-/merged-manifest-webpack-plugin-6.5.0.tgz#3da3253e7c0c7a4ecf68b7b3bba8d2807756cb67"
-  integrity sha512-qd1J764dfLRA5zkry29taBAzer/YRTY6q3CB7HB/CkboHXldAUcCsoMWDi+6N1raJLiFZOulXrCTgofnKpK3Iw==
+"@roots/filesystem@6.5.1":
+  version "6.5.1"
+  resolved "https://registry.yarnpkg.com/@roots/filesystem/-/filesystem-6.5.1.tgz#42f78326294e6028bfb939de7dbbf20177917709"
+  integrity sha512-+M0UkDhS44LECCDtk2X7qltt58uUwxInq/Y6tQokoNW/HPSdWuXUOXD6yo3TIAWl1jaQ4aGChd8ccQGzohyrCQ==
+  dependencies:
+    "@aws-sdk/client-s3" "3.186.0"
+    "@aws-sdk/lib-storage" "3.186.0"
+    "@types/lodash-es" "4.17.6"
+    fs-jetpack "5.0.0"
+    globby "13.1.2"
+    helpful-decorators "2.1.0"
+    js-yaml "4.1.0"
+    json5 "2.2.1"
+    lodash-es "4.17.21"
+    mime-types "2.1.35"
+    safe-json-stringify "1.2.0"
+    tslib "2.4.0"
+
+"@roots/merged-manifest-webpack-plugin@6.5.1":
+  version "6.5.1"
+  resolved "https://registry.yarnpkg.com/@roots/merged-manifest-webpack-plugin/-/merged-manifest-webpack-plugin-6.5.1.tgz#5f31265f83a24e7086360cdb640631552dba123b"
+  integrity sha512-oTkZchRLWbj8ZHz89W8Qk1O7yusHo1HMzXhwIQszPoQ7qdyFMIYBCboNUvasd1hY0yObGnSt701iLZ9lGQ9y1A==
   dependencies:
     fs-extra "10.1.0"
     helpful-decorators "2.1.0"
     tslib "2.4.0"
 
-"@roots/sage@^6.5.0":
-  version "6.5.0"
-  resolved "https://registry.yarnpkg.com/@roots/sage/-/sage-6.5.0.tgz#89f2315d41ffa4a33c52c715758dcd865ec8ef47"
-  integrity sha512-/p1HapqM4FbtxUM7hDKv1sFU32LNrDwqRpdjbR7dj1AG3iIxP/7IQgbx5yCv/aAeZQbjI97nB/g2kabghJEQWw==
+"@roots/sage@^6.5.1":
+  version "6.5.1"
+  resolved "https://registry.yarnpkg.com/@roots/sage/-/sage-6.5.1.tgz#e78d40cfc03900c0ae563ea71c864be64ac845ea"
+  integrity sha512-wJ6C8qthvrvODzYmZ6IHEhz5TN5pcoDLDsmzGMdFDATK+38xpJhWwGYgJjw6g9wKlpfTiE44Vy9N+WCVJ9FSow==
   dependencies:
-    "@roots/bud-framework" "6.5.0"
-    "@roots/bud-preset-wordpress" "6.5.0"
-    "@roots/bud-support" "6.5.0"
-    "@roots/container" "6.5.0"
+    "@roots/bud-framework" "6.5.1"
+    "@roots/bud-preset-wordpress" "6.5.1"
+    "@roots/bud-support" "6.5.1"
+    "@roots/container" "6.5.1"
     tslib "2.4.0"
 
-"@roots/wordpress-dependencies-webpack-plugin@6.5.0":
-  version "6.5.0"
-  resolved "https://registry.yarnpkg.com/@roots/wordpress-dependencies-webpack-plugin/-/wordpress-dependencies-webpack-plugin-6.5.0.tgz#17f0a073e126d48dc2a89d30089a2143a512f9e5"
-  integrity sha512-Iv3LCljhPXQGZ6nl07Wow2E4/VsbP/NzjOYhG/6zMnQVAje0UItBHQedeQ5/nUfLwBIGF+vUHsUcAanCrbl8KQ==
+"@roots/wordpress-dependencies-webpack-plugin@6.5.1":
+  version "6.5.1"
+  resolved "https://registry.yarnpkg.com/@roots/wordpress-dependencies-webpack-plugin/-/wordpress-dependencies-webpack-plugin-6.5.1.tgz#a3c31c918c1cc2b763b130e7d241927e399ec80e"
+  integrity sha512-/9BqFlZ/Kw9xd6vxQesT5/0BFGw8vVP8xOwUv7HG/Kb/mJM1JbBtPdVejcve72BxsqksUi6R4cSEDtMNvgv4Vg==
   dependencies:
     helpful-decorators "2.1.0"
     lodash-es "4.17.21"
     tslib "2.4.0"
 
-"@roots/wordpress-externals-webpack-plugin@6.5.0":
-  version "6.5.0"
-  resolved "https://registry.yarnpkg.com/@roots/wordpress-externals-webpack-plugin/-/wordpress-externals-webpack-plugin-6.5.0.tgz#6f85b9f679589dbef7957798a1d2882b7a6f7189"
-  integrity sha512-TyCowjOKXPe83Pp63Pz1SdrxfvgHEJAnCqq7N6t0d2/+PsEjl2pdSwF7yipdUzpRiTtkxowpa3ta3U/oR3emqg==
+"@roots/wordpress-externals-webpack-plugin@6.5.1":
+  version "6.5.1"
+  resolved "https://registry.yarnpkg.com/@roots/wordpress-externals-webpack-plugin/-/wordpress-externals-webpack-plugin-6.5.1.tgz#a3fc1cf012db6cf954fe164446dd654317d98980"
+  integrity sha512-TaK6YxoyNeLkCj8BRAgAzZW9StRKQFUQ6NhFixQndWQCHwLEQ5smLTfnGvrirxIWxCR1CiKgzo9cBSo6VcDyHw==
   dependencies:
     lodash-es "4.17.21"
     tslib "2.4.0"
