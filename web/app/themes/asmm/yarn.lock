@@ -1512,17 +1512,6 @@
     "@babel/helper-plugin-utils" "^7.18.6"
     "@babel/plugin-syntax-numeric-separator" "^7.10.4"
 
-"@babel/plugin-proposal-object-rest-spread@7.18.9", "@babel/plugin-proposal-object-rest-spread@^7.18.9":
-  version "7.18.9"
-  resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-object-rest-spread/-/plugin-proposal-object-rest-spread-7.18.9.tgz#f9434f6beb2c8cae9dfcf97d2a5941bbbf9ad4e7"
-  integrity sha512-kDDHQ5rflIeY5xl69CEqGEZ0KY369ehsCIEbTGb4siHG5BE9sga/T0r0OUwyZNLMmZE79E1kbsqAjwFCW4ds6Q==
-  dependencies:
-    "@babel/compat-data" "^7.18.8"
-    "@babel/helper-compilation-targets" "^7.18.9"
-    "@babel/helper-plugin-utils" "^7.18.9"
-    "@babel/plugin-syntax-object-rest-spread" "^7.8.3"
-    "@babel/plugin-transform-parameters" "^7.18.8"
-
 "@babel/plugin-proposal-object-rest-spread@7.19.4", "@babel/plugin-proposal-object-rest-spread@^7.19.4":
   version "7.19.4"
   resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-object-rest-spread/-/plugin-proposal-object-rest-spread-7.19.4.tgz#a8fc86e8180ff57290c91a75d83fe658189b642d"
@@ -1720,13 +1709,6 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.18.6"
 
-"@babel/plugin-transform-block-scoping@^7.18.9":
-  version "7.18.9"
-  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-block-scoping/-/plugin-transform-block-scoping-7.18.9.tgz#f9b7e018ac3f373c81452d6ada8bd5a18928926d"
-  integrity sha512-5sDIJRV1KtQVEbt/EIBwGy4T01uYIo4KRB3VUqzkhrAIOGx7AoctL9+Ux88btY0zXdDyPJ9mW+bg+v+XEkGmtw==
-  dependencies:
-    "@babel/helper-plugin-utils" "^7.18.9"
-
 "@babel/plugin-transform-block-scoping@^7.19.4":
   version "7.19.4"
   resolved "https://registry.yarnpkg.com/@babel/plugin-transform-block-scoping/-/plugin-transform-block-scoping-7.19.4.tgz#315d70f68ce64426db379a3d830e7ac30be02e9b"
@@ -1753,13 +1735,6 @@
   version "7.18.9"
   resolved "https://registry.yarnpkg.com/@babel/plugin-transform-computed-properties/-/plugin-transform-computed-properties-7.18.9.tgz#2357a8224d402dad623caf6259b611e56aec746e"
   integrity sha512-+i0ZU1bCDymKakLxn5srGHrsAPRELC2WIbzwjLhHW9SIE1cPYkLCL0NlnXMZaM1vhfgA2+M7hySk42VBvrkBRw==
-  dependencies:
-    "@babel/helper-plugin-utils" "^7.18.9"
-
-"@babel/plugin-transform-destructuring@^7.18.13":
-  version "7.18.13"
-  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-destructuring/-/plugin-transform-destructuring-7.18.13.tgz#9e03bc4a94475d62b7f4114938e6c5c33372cbf5"
-  integrity sha512-TodpQ29XekIsex2A+YJPj5ax2plkGa8YYY6mFjCohk/IG9IY42Rtuj1FuDeemfg2ipxIFLzPeA83SIBnlhSIow==
   dependencies:
     "@babel/helper-plugin-utils" "^7.18.9"
 
@@ -2016,87 +1991,6 @@
   dependencies:
     "@babel/helper-create-regexp-features-plugin" "^7.18.6"
     "@babel/helper-plugin-utils" "^7.18.6"
-
-"@babel/preset-env@7.19.3":
-  version "7.19.3"
-  resolved "https://registry.yarnpkg.com/@babel/preset-env/-/preset-env-7.19.3.tgz#52cd19abaecb3f176a4ff9cc5e15b7bf06bec754"
-  integrity sha512-ziye1OTc9dGFOAXSWKUqQblYHNlBOaDl8wzqf2iKXJAltYiR3hKHUKmkt+S9PppW7RQpq4fFCrwwpIDj/f5P4w==
-  dependencies:
-    "@babel/compat-data" "^7.19.3"
-    "@babel/helper-compilation-targets" "^7.19.3"
-    "@babel/helper-plugin-utils" "^7.19.0"
-    "@babel/helper-validator-option" "^7.18.6"
-    "@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression" "^7.18.6"
-    "@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining" "^7.18.9"
-    "@babel/plugin-proposal-async-generator-functions" "^7.19.1"
-    "@babel/plugin-proposal-class-properties" "^7.18.6"
-    "@babel/plugin-proposal-class-static-block" "^7.18.6"
-    "@babel/plugin-proposal-dynamic-import" "^7.18.6"
-    "@babel/plugin-proposal-export-namespace-from" "^7.18.9"
-    "@babel/plugin-proposal-json-strings" "^7.18.6"
-    "@babel/plugin-proposal-logical-assignment-operators" "^7.18.9"
-    "@babel/plugin-proposal-nullish-coalescing-operator" "^7.18.6"
-    "@babel/plugin-proposal-numeric-separator" "^7.18.6"
-    "@babel/plugin-proposal-object-rest-spread" "^7.18.9"
-    "@babel/plugin-proposal-optional-catch-binding" "^7.18.6"
-    "@babel/plugin-proposal-optional-chaining" "^7.18.9"
-    "@babel/plugin-proposal-private-methods" "^7.18.6"
-    "@babel/plugin-proposal-private-property-in-object" "^7.18.6"
-    "@babel/plugin-proposal-unicode-property-regex" "^7.18.6"
-    "@babel/plugin-syntax-async-generators" "^7.8.4"
-    "@babel/plugin-syntax-class-properties" "^7.12.13"
-    "@babel/plugin-syntax-class-static-block" "^7.14.5"
-    "@babel/plugin-syntax-dynamic-import" "^7.8.3"
-    "@babel/plugin-syntax-export-namespace-from" "^7.8.3"
-    "@babel/plugin-syntax-import-assertions" "^7.18.6"
-    "@babel/plugin-syntax-json-strings" "^7.8.3"
-    "@babel/plugin-syntax-logical-assignment-operators" "^7.10.4"
-    "@babel/plugin-syntax-nullish-coalescing-operator" "^7.8.3"
-    "@babel/plugin-syntax-numeric-separator" "^7.10.4"
-    "@babel/plugin-syntax-object-rest-spread" "^7.8.3"
-    "@babel/plugin-syntax-optional-catch-binding" "^7.8.3"
-    "@babel/plugin-syntax-optional-chaining" "^7.8.3"
-    "@babel/plugin-syntax-private-property-in-object" "^7.14.5"
-    "@babel/plugin-syntax-top-level-await" "^7.14.5"
-    "@babel/plugin-transform-arrow-functions" "^7.18.6"
-    "@babel/plugin-transform-async-to-generator" "^7.18.6"
-    "@babel/plugin-transform-block-scoped-functions" "^7.18.6"
-    "@babel/plugin-transform-block-scoping" "^7.18.9"
-    "@babel/plugin-transform-classes" "^7.19.0"
-    "@babel/plugin-transform-computed-properties" "^7.18.9"
-    "@babel/plugin-transform-destructuring" "^7.18.13"
-    "@babel/plugin-transform-dotall-regex" "^7.18.6"
-    "@babel/plugin-transform-duplicate-keys" "^7.18.9"
-    "@babel/plugin-transform-exponentiation-operator" "^7.18.6"
-    "@babel/plugin-transform-for-of" "^7.18.8"
-    "@babel/plugin-transform-function-name" "^7.18.9"
-    "@babel/plugin-transform-literals" "^7.18.9"
-    "@babel/plugin-transform-member-expression-literals" "^7.18.6"
-    "@babel/plugin-transform-modules-amd" "^7.18.6"
-    "@babel/plugin-transform-modules-commonjs" "^7.18.6"
-    "@babel/plugin-transform-modules-systemjs" "^7.19.0"
-    "@babel/plugin-transform-modules-umd" "^7.18.6"
-    "@babel/plugin-transform-named-capturing-groups-regex" "^7.19.1"
-    "@babel/plugin-transform-new-target" "^7.18.6"
-    "@babel/plugin-transform-object-super" "^7.18.6"
-    "@babel/plugin-transform-parameters" "^7.18.8"
-    "@babel/plugin-transform-property-literals" "^7.18.6"
-    "@babel/plugin-transform-regenerator" "^7.18.6"
-    "@babel/plugin-transform-reserved-words" "^7.18.6"
-    "@babel/plugin-transform-shorthand-properties" "^7.18.6"
-    "@babel/plugin-transform-spread" "^7.19.0"
-    "@babel/plugin-transform-sticky-regex" "^7.18.6"
-    "@babel/plugin-transform-template-literals" "^7.18.9"
-    "@babel/plugin-transform-typeof-symbol" "^7.18.9"
-    "@babel/plugin-transform-unicode-escapes" "^7.18.10"
-    "@babel/plugin-transform-unicode-regex" "^7.18.6"
-    "@babel/preset-modules" "^0.1.5"
-    "@babel/types" "^7.19.3"
-    babel-plugin-polyfill-corejs2 "^0.3.3"
-    babel-plugin-polyfill-corejs3 "^0.6.0"
-    babel-plugin-polyfill-regenerator "^0.4.1"
-    core-js-compat "^3.25.1"
-    semver "^6.3.0"
 
 "@babel/preset-env@7.19.4":
   version "7.19.4"
@@ -2578,30 +2472,10 @@
     schema-utils "^3.0.0"
     source-map "^0.7.3"
 
-"@roots/browserslist-config@6.5.0":
-  version "6.5.0"
-  resolved "https://registry.yarnpkg.com/@roots/browserslist-config/-/browserslist-config-6.5.0.tgz#065b8c32e9c6111f02de02969c5ebe32696f68f2"
-  integrity sha512-35LS3DwZG+rDUNiooFM8izsY9aYWfIYDEDENRI/1GUqrcRmej+9jes8JJ6N4cN9aJGIQi2+tMrSyB2M9patFmg==
-
 "@roots/browserslist-config@6.5.1":
   version "6.5.1"
   resolved "https://registry.yarnpkg.com/@roots/browserslist-config/-/browserslist-config-6.5.1.tgz#ca1ccabd9947bbc01d1d467432f9c11634f5a37e"
   integrity sha512-9hPczR+YU9TPwINzaaPyDNJ1k+ASbkuOHFKMswPENwrSg1ZuFfZl4oSkvVJMcM0q/LF77xs6dU4aHrIJd4MObQ==
-
-"@roots/bud-api@6.5.0":
-  version "6.5.0"
-  resolved "https://registry.yarnpkg.com/@roots/bud-api/-/bud-api-6.5.0.tgz#99b8d6fbfe81528a1c93e2d2c63cfe694cca7a0c"
-  integrity sha512-4PmtORV+gurs9JtIlbGzFBwm1F/7G1u9HUkjVgYAoNXmqu83TBSiNkp45nMDpRU42FgJ7qfSkbUJMq3879m1hw==
-  dependencies:
-    "@roots/bud-framework" "6.5.0"
-    "@roots/bud-support" "6.5.0"
-    "@roots/container" "6.5.0"
-    chalk "5.0.1"
-    copy-webpack-plugin "11.0.0"
-    get-port "6.1.2"
-    html-webpack-plugin "5.5.0"
-    nanoid "4.0.0"
-    tslib "2.4.0"
 
 "@roots/bud-api@6.5.1":
   version "6.5.1"
@@ -2616,22 +2490,6 @@
     get-port "6.1.2"
     html-webpack-plugin "5.5.0"
     nanoid "4.0.0"
-    tslib "2.4.0"
-
-"@roots/bud-babel@6.5.0":
-  version "6.5.0"
-  resolved "https://registry.yarnpkg.com/@roots/bud-babel/-/bud-babel-6.5.0.tgz#4e12414995c90f3b03d14f99fba6b9bc08c058e4"
-  integrity sha512-D4o0x/8LFB/b8PQFrx0CCLrusNijIx9yRvw+Yw99j4MeVKl9jykkJdA/Oz067pgaaJ9V0XvDHuisJZ9FnnPYQw==
-  dependencies:
-    "@babel/core" "7.19.3"
-    "@babel/plugin-proposal-class-properties" "7.18.6"
-    "@babel/plugin-proposal-object-rest-spread" "7.18.9"
-    "@babel/plugin-syntax-dynamic-import" "7.8.3"
-    "@babel/plugin-transform-runtime" "7.19.1"
-    "@babel/preset-env" "7.19.3"
-    "@roots/bud-framework" "6.5.0"
-    "@roots/bud-support" "6.5.0"
-    babel-loader "8.2.5"
     tslib "2.4.0"
 
 "@roots/bud-babel@6.5.1":
@@ -2649,30 +2507,6 @@
     "@roots/bud-support" "6.5.1"
     babel-loader "8.2.5"
     tslib "2.4.0"
-
-"@roots/bud-build@6.5.0":
-  version "6.5.0"
-  resolved "https://registry.yarnpkg.com/@roots/bud-build/-/bud-build-6.5.0.tgz#69fd90541b816c307b85ba103e800ca1285eec8e"
-  integrity sha512-Ai68zEJeagcKJV6DHH2utXa1nY0+5wymQvdv/Vyhu60T4yf9CRnEQrRoWfe43AGaaEs5XfK6JFCoy8Z92NYtDw==
-  dependencies:
-    "@roots/bud-framework" "6.5.0"
-    "@roots/bud-support" "6.5.0"
-    css-loader "^6.5.1"
-    csv-loader "^3.0.3"
-    file-loader "^6.2.0"
-    fs-extra "10.1.0"
-    helpful-decorators "2.1.0"
-    html-loader "^4.1.0"
-    json5 "2.2.1"
-    mini-css-extract-plugin "^2.4.5"
-    remark "14.0.2"
-    remark-html "15.0.1"
-    remark-loader "5.0.0"
-    style-loader "3.3.1"
-    toml "3.0.0"
-    tslib "2.4.0"
-    xml-loader "1.2.1"
-    yml-loader "2.1.0"
 
 "@roots/bud-build@6.5.1":
   version "6.5.1"
@@ -2698,16 +2532,6 @@
     xml-loader "1.2.1"
     yml-loader "2.1.0"
 
-"@roots/bud-cache@6.5.0":
-  version "6.5.0"
-  resolved "https://registry.yarnpkg.com/@roots/bud-cache/-/bud-cache-6.5.0.tgz#b6bbd153a2bdeeb114ac14af32448b4f8df1dd0c"
-  integrity sha512-WKJsdkSIlASCBLoNpBaI4733MlDCxR1ayQpwGUSKRl2UrFM34ksUYBoaVl8cxoKP669zrMdw8qMXA9o05yv+8A==
-  dependencies:
-    "@roots/bud-framework" "6.5.0"
-    "@roots/bud-support" "6.5.0"
-    strip-ansi "7.0.1"
-    tslib "2.4.0"
-
 "@roots/bud-cache@6.5.1":
   version "6.5.1"
   resolved "https://registry.yarnpkg.com/@roots/bud-cache/-/bud-cache-6.5.1.tgz#fbfb1e80ec26ee01a24c49bfdfff897b4cb9ff41"
@@ -2715,14 +2539,6 @@
   dependencies:
     "@roots/bud-framework" "6.5.1"
     "@roots/bud-support" "6.5.1"
-    strip-ansi "7.0.1"
-    tslib "2.4.0"
-
-"@roots/bud-client@6.5.0":
-  version "6.5.0"
-  resolved "https://registry.yarnpkg.com/@roots/bud-client/-/bud-client-6.5.0.tgz#ea91f4dbdae8106f07f04be24f7d37dceff50b29"
-  integrity sha512-VO+0RCOCR3NiHs64vLUkbdyoz+NnYKR69SeWcBfIJKvusmgfhPsw0KxMoZGxZhsrxtlLGRwViGbQiARirneKaw==
-  dependencies:
     strip-ansi "7.0.1"
     tslib "2.4.0"
 
@@ -2734,15 +2550,6 @@
     strip-ansi "7.0.1"
     tslib "2.4.0"
 
-"@roots/bud-compiler@6.5.0":
-  version "6.5.0"
-  resolved "https://registry.yarnpkg.com/@roots/bud-compiler/-/bud-compiler-6.5.0.tgz#117ce7a5add2286ebe19e7fecbac8c2096418143"
-  integrity sha512-b8VYUYApSGtbNLzIq+R7264xb/dIqBKseJc0TdfFOIhqdsEgQePy478ebYUXuReXNGI20FG2HS6EsS+Qj0d20g==
-  dependencies:
-    "@roots/bud-framework" "6.5.0"
-    "@roots/bud-support" "6.5.0"
-    tslib "2.4.0"
-
 "@roots/bud-compiler@6.5.1":
   version "6.5.1"
   resolved "https://registry.yarnpkg.com/@roots/bud-compiler/-/bud-compiler-6.5.1.tgz#24b376003516d731719a13defd272f7271eecddc"
@@ -2751,19 +2558,6 @@
     "@roots/bud-framework" "6.5.1"
     "@roots/bud-support" "6.5.1"
     tslib "2.4.0"
-
-"@roots/bud-dashboard@6.5.0":
-  version "6.5.0"
-  resolved "https://registry.yarnpkg.com/@roots/bud-dashboard/-/bud-dashboard-6.5.0.tgz#a77c19b393991edb744af67823814ea99af2502c"
-  integrity sha512-bl3hyxR9eTKixgWQobMBXKY7yxiOQT9KYrH2YRkANFkiMnsjvXs85Gd6JVbz+YDjY96b74QLmQSKUkNexKZMxg==
-  dependencies:
-    "@roots/bud-framework" "6.5.0"
-    "@roots/bud-support" "6.5.0"
-    chalk "5.0.1"
-    figures "5.0.0"
-    human-readable "0.2.1"
-    webpack-format-messages "3.0.1"
-    webpack-messages "2.0.4"
 
 "@roots/bud-dashboard@6.5.1":
   version "6.5.1"
@@ -2787,16 +2581,6 @@
     "@roots/entrypoints-webpack-plugin" "6.5.1"
     tslib "2.4.0"
 
-"@roots/bud-extensions@6.5.0":
-  version "6.5.0"
-  resolved "https://registry.yarnpkg.com/@roots/bud-extensions/-/bud-extensions-6.5.0.tgz#af3fbabb4be1f2b0b7fac21a71c202ca34aad330"
-  integrity sha512-M1RY9uYGkd3yBUJY5aWtsxNlCkAvTlIDFkaa6tuBSIvgwbGp4bhV/KtVBsbLk5xEFnGY31ERZIiUS91t6vESLA==
-  dependencies:
-    "@roots/bud-framework" "6.5.0"
-    "@roots/bud-support" "6.5.0"
-    chalk "5.0.1"
-    tslib "2.4.0"
-
 "@roots/bud-extensions@6.5.1":
   version "6.5.1"
   resolved "https://registry.yarnpkg.com/@roots/bud-extensions/-/bud-extensions-6.5.1.tgz#d89d9e6e57783fd2c3ad568e6c92b7b6224389c7"
@@ -2805,23 +2589,6 @@
     "@roots/bud-framework" "6.5.1"
     "@roots/bud-support" "6.5.1"
     chalk "5.0.1"
-    tslib "2.4.0"
-
-"@roots/bud-framework@6.5.0":
-  version "6.5.0"
-  resolved "https://registry.yarnpkg.com/@roots/bud-framework/-/bud-framework-6.5.0.tgz#1d6ae901edfb7ef7500ccfa05de607faaf728042"
-  integrity sha512-+dxpjSqT8EA/HeeGl0aUm8+tvO4IYxdP4GqEcj0Ru/IP4OlHje3lekRssSf74fJ7wWVtX4DsriJM30SId9jkXQ==
-  dependencies:
-    "@roots/bud-support" "6.5.0"
-    "@roots/container" "6.5.0"
-    chalk "5.0.1"
-    figures "5.0.0"
-    globby "13.1.2"
-    import-meta-resolve "2.1.0"
-    js-yaml "4.1.0"
-    json5 "2.2.1"
-    safe-json-stringify "1.2.0"
-    signale "1.4.0"
     tslib "2.4.0"
 
 "@roots/bud-framework@6.5.1":
@@ -2839,15 +2606,6 @@
     json5 "2.2.1"
     safe-json-stringify "1.2.0"
     signale "1.4.0"
-    tslib "2.4.0"
-
-"@roots/bud-hooks@6.5.0":
-  version "6.5.0"
-  resolved "https://registry.yarnpkg.com/@roots/bud-hooks/-/bud-hooks-6.5.0.tgz#753ef35d9f6839398d0abb2d5ec06ad9afe36e07"
-  integrity sha512-CsR8K01TegYGeHZ8m+5ydENqZdJJuY7K4/1FCRX46XXc7QXGehBq0O7YbWxDLhrI70aXnW5KjdoELtNe0nNGsA==
-  dependencies:
-    "@roots/bud-framework" "6.5.0"
-    "@roots/bud-support" "6.5.0"
     tslib "2.4.0"
 
 "@roots/bud-hooks@6.5.1":
@@ -2918,22 +2676,6 @@
     react-refresh "^0.14.0"
     tslib "2.4.0"
 
-"@roots/bud-server@6.5.0":
-  version "6.5.0"
-  resolved "https://registry.yarnpkg.com/@roots/bud-server/-/bud-server-6.5.0.tgz#941cd2edf8d41c2e3a70ef7da00e3695c6556db5"
-  integrity sha512-QjOocBTC18YX/WRQyftO5ZO7/QYQ3CjVnV0C5F/D4+KDw4ua6JTfTeQ0QVwu3eS71Alvlwla+3HUSOH/l0Y+tQ==
-  dependencies:
-    "@roots/bud-client" "6.5.0"
-    "@roots/bud-framework" "6.5.0"
-    "@roots/bud-support" "6.5.0"
-    ansi-html-community "0.0.8"
-    chokidar "3.5.3"
-    cookie-parser "1.4.6"
-    express "4.18.2"
-    http-proxy-middleware "2.0.6"
-    tslib "2.4.0"
-    webpack-dev-middleware "5.3.3"
-
 "@roots/bud-server@6.5.1":
   version "6.5.1"
   resolved "https://registry.yarnpkg.com/@roots/bud-server/-/bud-server-6.5.1.tgz#234b51020fff0e0865529182e9e46a43e82df00a"
@@ -2949,32 +2691,6 @@
     http-proxy-middleware "2.0.6"
     tslib "2.4.0"
     webpack-dev-middleware "5.3.3"
-
-"@roots/bud-support@6.5.0":
-  version "6.5.0"
-  resolved "https://registry.yarnpkg.com/@roots/bud-support/-/bud-support-6.5.0.tgz#7bac6022ec66013e0a7171eb6dce710c69c126fc"
-  integrity sha512-fzwaWDkv6+4+AQdvmX1h0uuWE/mmyRyYK0B+s1Kl+DtxiqJjAG3k0CeupP4V6ylTJMewFi7fbSF8rhRsNwCzQQ==
-  dependencies:
-    "@roots/filesystem" "6.5.0"
-    chalk "5.0.1"
-    clipanion "3.2.0-rc.12"
-    execa "6.1.0"
-    fs-extra "10.1.0"
-    fs-jetpack "5.0.0"
-    globby "13.1.2"
-    helpful-decorators "2.1.0"
-    highlight.js "11.6.0"
-    ink "3.2.0"
-    ink-link "2.0.0"
-    ink-text-input "4.0.3"
-    lodash-es "4.17.21"
-    parse5 "7.1.1"
-    parse5-htmlparser2-tree-adapter "7.0.0"
-    patch-console "1.0.0"
-    pretty-format "29.0.3"
-    react "17.0.2"
-    typanion "3.12.0"
-    type-fest "2.19.0"
 
 "@roots/bud-support@6.5.1":
   version "6.5.1"
@@ -3017,16 +2733,6 @@
     tslib "2.4.0"
     webpack-virtual-modules "0.4.5"
 
-"@roots/bud-terser@6.5.0":
-  version "6.5.0"
-  resolved "https://registry.yarnpkg.com/@roots/bud-terser/-/bud-terser-6.5.0.tgz#4c95db5b55fd77ecc15e8eff3a5394f5d78c75f9"
-  integrity sha512-2oGGwhnA6qEldjJbDGV6mAdK43dgJKbnj/UMJn97brPp3tlK793+PLzGpNC5ZYCNsO81qODoL2iZLc18uPEo/w==
-  dependencies:
-    "@roots/bud-framework" "6.5.0"
-    css-minimizer-webpack-plugin "4.0.0"
-    terser-webpack-plugin "^5.3.3"
-    tslib "2.4.0"
-
 "@roots/bud-terser@6.5.1":
   version "6.5.1"
   resolved "https://registry.yarnpkg.com/@roots/bud-terser/-/bud-terser-6.5.1.tgz#a892f8d2d5df0a86c324b5d33eac96cf8368de5c"
@@ -3037,15 +2743,15 @@
     terser-webpack-plugin "^5.3.3"
     tslib "2.4.0"
 
-"@roots/bud-typescript@^6.5.0":
-  version "6.5.0"
-  resolved "https://registry.yarnpkg.com/@roots/bud-typescript/-/bud-typescript-6.5.0.tgz#be5b648d1e616599169dee9fabb260da4a749ca4"
-  integrity sha512-rq0LHr+tQcsAriDL5X7hA6uX8ftKsO0o97TzVGNSSH/xIfzDZ77N+xnvl11bGy3d0exVAE5Z3/yPxs+fkxS+gg==
+"@roots/bud-typescript@^6.5.1":
+  version "6.5.1"
+  resolved "https://registry.yarnpkg.com/@roots/bud-typescript/-/bud-typescript-6.5.1.tgz#ad047a7040718575c8c377b1bebdbd9c3df2f245"
+  integrity sha512-7S0emayESG0OJfXcHhCn2nJldqrnMxU8Vyd14V0/cJrzv+EYsDk42supXOKrAxBwU5e5hy0E8MAS33sB6NUTBA==
   dependencies:
-    "@roots/bud" "6.5.0"
-    "@roots/bud-babel" "6.5.0"
-    "@roots/bud-framework" "6.5.0"
-    "@roots/bud-support" "6.5.0"
+    "@roots/bud" "6.5.1"
+    "@roots/bud-babel" "6.5.1"
+    "@roots/bud-framework" "6.5.1"
+    "@roots/bud-support" "6.5.1"
     "@types/webpack-env" "1.18.0"
     chalk "5.0.1"
     fork-ts-checker-webpack-plugin "^7.2.6"
@@ -3081,42 +2787,7 @@
     "@roots/merged-manifest-webpack-plugin" "6.5.1"
     tslib "2.4.0"
 
-"@roots/bud@6.5.0":
-  version "6.5.0"
-  resolved "https://registry.yarnpkg.com/@roots/bud/-/bud-6.5.0.tgz#99690ebe601152e77efef9c370e819f50c000fbd"
-  integrity sha512-JUBUOT9AVtSfk6gVnjxz8/9s0AvUC3DfjnfVhmPqnXDNOudP5pHha0aji8hF5v57uZ3eyRXc9wJblMq6lAmLOw==
-  dependencies:
-    "@roots/browserslist-config" "6.5.0"
-    "@roots/bud-api" "6.5.0"
-    "@roots/bud-build" "6.5.0"
-    "@roots/bud-cache" "6.5.0"
-    "@roots/bud-compiler" "6.5.0"
-    "@roots/bud-dashboard" "6.5.0"
-    "@roots/bud-extensions" "6.5.0"
-    "@roots/bud-framework" "6.5.0"
-    "@roots/bud-hooks" "6.5.0"
-    "@roots/bud-server" "6.5.0"
-    "@roots/bud-support" "6.5.0"
-    "@roots/bud-terser" "6.5.0"
-    "@roots/container" "6.5.0"
-    browserslist latest
-    caniuse-lite latest
-    clean-webpack-plugin "^4.0.0"
-    conf "10.2.0"
-    copy-webpack-plugin "11.0.0"
-    dotenv "16.0.3"
-    dotenv-expand "9.0.0"
-    import-meta-resolve "2.1.0"
-    mini-css-extract-plugin "^2.4.5"
-    node-notifier "10.0.1"
-    open "8.4.0"
-    open-editor "4.0.0"
-    tslib "2.4.0"
-    webpack "5.74.0"
-    webpack-cli "^4.9.2"
-    webpack-manifest-plugin "^5.0.0"
-
-"@roots/bud@^6.5.1":
+"@roots/bud@6.5.1", "@roots/bud@^6.5.1":
   version "6.5.1"
   resolved "https://registry.yarnpkg.com/@roots/bud/-/bud-6.5.1.tgz#6f1c3ed4326398396c3ce64328d0fad361cc6378"
   integrity sha512-X3W7PQpkGhI2PBmBA7soDXNDR5AnM7o5Memx4CRkzsBLyjHAzvhWSaI5T8C492T/obnuagxZyFnB7FGUufuTPA==
@@ -3151,16 +2822,6 @@
     webpack-cli "^4.9.2"
     webpack-manifest-plugin "^5.0.0"
 
-"@roots/container@6.5.0":
-  version "6.5.0"
-  resolved "https://registry.yarnpkg.com/@roots/container/-/container-6.5.0.tgz#161f6df8225bdd1d279bca9605312bce423aed59"
-  integrity sha512-unpQELr2czvuSVHXHuDxg6qh+Uph7OsLoTlT16nVKoNxvYtamnL9h+2nApZ+fxeUIeETM91AoESsZAEG9co2dQ==
-  dependencies:
-    "@roots/bud-support" "6.5.0"
-    helpful-decorators "2.1.0"
-    lodash-es "4.17.21"
-    tslib "2.4.0"
-
 "@roots/container@6.5.1":
   version "6.5.1"
   resolved "https://registry.yarnpkg.com/@roots/container/-/container-6.5.1.tgz#ecfe449b399fb780af6cf17a4469a40a2a42d886"
@@ -3178,24 +2839,6 @@
   dependencies:
     helpful-decorators "2.1.0"
     lodash-es "4.17.21"
-
-"@roots/filesystem@6.5.0":
-  version "6.5.0"
-  resolved "https://registry.yarnpkg.com/@roots/filesystem/-/filesystem-6.5.0.tgz#b77d0e33c7155f78b76f3d5dc85d5aecad9e54a5"
-  integrity sha512-jP35cn3b8oH7W4gmWv9J164wrFa3Qn6SZIV0cKGDSQG62PyFvVEfBYl1PA0siDHWyTC6q/y+OkNC8b/XjiN2YQ==
-  dependencies:
-    "@aws-sdk/client-s3" "3.186.0"
-    "@aws-sdk/lib-storage" "3.186.0"
-    "@types/lodash-es" "4.17.6"
-    fs-jetpack "5.0.0"
-    globby "13.1.2"
-    helpful-decorators "2.1.0"
-    js-yaml "4.1.0"
-    json5 "2.2.1"
-    lodash-es "4.17.21"
-    mime-types "2.1.35"
-    safe-json-stringify "1.2.0"
-    tslib "2.4.0"
 
 "@roots/filesystem@6.5.1":
   version "6.5.1"
