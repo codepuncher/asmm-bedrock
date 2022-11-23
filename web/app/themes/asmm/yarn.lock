@@ -2571,21 +2571,6 @@
     chalk "5.1.2"
     get-port "6.1.2"
 
-"@roots/bud-babel@6.6.1":
-  version "6.6.1"
-  resolved "https://registry.yarnpkg.com/@roots/bud-babel/-/bud-babel-6.6.1.tgz#26b87003671daaddac969de4333ab17befd71817"
-  integrity sha512-wSGND3LPztx48+xdfnxVV+rY4d9p9yDJMInL9ppP2555zj02MByZyxq7VTlspEkzj7ItU7IMDqMECHEuYKDdAQ==
-  dependencies:
-    "@babel/core" "7.20.2"
-    "@babel/plugin-proposal-class-properties" "7.18.6"
-    "@babel/plugin-proposal-object-rest-spread" "7.20.2"
-    "@babel/plugin-syntax-dynamic-import" "7.8.3"
-    "@babel/plugin-transform-runtime" "7.19.6"
-    "@babel/preset-env" "7.20.2"
-    "@roots/bud-framework" "6.6.1"
-    "@roots/bud-support" "6.6.1"
-    babel-loader "9.1.0"
-
 "@roots/bud-babel@6.6.2":
   version "6.6.2"
   resolved "https://registry.yarnpkg.com/@roots/bud-babel/-/bud-babel-6.6.2.tgz#3d4b31560f9a50eececdb7196b18f21823c735f3"
@@ -2680,15 +2665,6 @@
     mini-css-extract-plugin "2.6.1"
     webpack-manifest-plugin "5.0.0"
 
-"@roots/bud-framework@6.6.1":
-  version "6.6.1"
-  resolved "https://registry.yarnpkg.com/@roots/bud-framework/-/bud-framework-6.6.1.tgz#f234ff9912631816842ad535455f5636ad4cc289"
-  integrity sha512-PGrCd8lNBOsAa3uOrVnunJILT5xVD22UlOyuz6OnYqr255yCGd2FAW6Ii2Eo02QlYrVrNCyZnEU8Y4TOU+e1Kg==
-  dependencies:
-    "@roots/bud-support" "6.6.1"
-    "@roots/container" "6.6.1"
-    tslib "2.4.1"
-
 "@roots/bud-framework@6.6.2":
   version "6.6.2"
   resolved "https://registry.yarnpkg.com/@roots/bud-framework/-/bud-framework-6.6.2.tgz#e0cea7df0d1422da9344bc8edda5cd8858059ff0"
@@ -2772,40 +2748,6 @@
     http-proxy-middleware "2.0.6"
     webpack-dev-middleware "5.3.3"
 
-"@roots/bud-support@6.6.1":
-  version "6.6.1"
-  resolved "https://registry.yarnpkg.com/@roots/bud-support/-/bud-support-6.6.1.tgz#2adb48e60eccfbbab41a1087a268d5254bc50bd7"
-  integrity sha512-G3YH1AeNhWCx8iZIA7xDmbyQFt8HIaEMtG/cJgOdIqQSKbiqYIfaJfOe7nKxS3/Ge7l1S1lCIzZ5nAl+xMyQSw==
-  dependencies:
-    "@roots/filesystem" "6.6.1"
-    chalk "5.1.2"
-    clean-stack "5.0.1"
-    clipanion "3.2.0-rc.13"
-    common-path "1.0.1"
-    execa "6.1.0"
-    figures "5.0.0"
-    fs-extra "10.1.0"
-    fs-jetpack "5.1.0"
-    globby "13.1.2"
-    helpful-decorators "2.1.0"
-    highlight.js "11.6.0"
-    import-meta-resolve "2.1.0"
-    ink "3.2.0"
-    ink-link "2.0.0"
-    ink-text-input "4.0.3"
-    lodash-es "4.17.21"
-    parse5 "7.1.1"
-    parse5-htmlparser2-tree-adapter "7.0.0"
-    patch-console "1.0.0"
-    pretty-format "29.3.1"
-    react "17.0.2"
-    signale "1.4.0"
-    typanion "3.12.1"
-    type-fest "3.2.0"
-    webpack "5.75.0"
-    zod "3.19.1"
-    zod-validation-error "0.2.1"
-
 "@roots/bud-support@6.6.2":
   version "6.6.2"
   resolved "https://registry.yarnpkg.com/@roots/bud-support/-/bud-support-6.6.2.tgz#4bd64c2e6252dad2c82dd13523a0e9e2102025a9"
@@ -2864,14 +2806,14 @@
     css-minimizer-webpack-plugin "4.2.2"
     terser-webpack-plugin "^5.3.6"
 
-"@roots/bud-typescript@^6.6.1":
-  version "6.6.1"
-  resolved "https://registry.yarnpkg.com/@roots/bud-typescript/-/bud-typescript-6.6.1.tgz#e5dd0ab29f6402ddbfdf81aa4465be6dec20cbf4"
-  integrity sha512-CdLqD6aSjER4gNnrKxa0XiMuTY3X23IKU2+MqgbKdByq9WJVkaQ7ghOuxpn1aUtop94KncO1F8XNJXUN0CC8xA==
+"@roots/bud-typescript@^6.6.2":
+  version "6.6.2"
+  resolved "https://registry.yarnpkg.com/@roots/bud-typescript/-/bud-typescript-6.6.2.tgz#e62b2f76730c57d9133643ca9a62245789932cff"
+  integrity sha512-1BIsHQhCkFgSr/gh9gywJw3KmzJC/R2iZy2GeEetIQXcs9udRitsaCZZYlIArCxrhGtiDBl6UTVmVxjRgnXIvA==
   dependencies:
-    "@roots/bud-babel" "6.6.1"
-    "@roots/bud-framework" "6.6.1"
-    "@roots/bud-support" "6.6.1"
+    "@roots/bud-babel" "6.6.2"
+    "@roots/bud-framework" "6.6.2"
+    "@roots/bud-support" "6.6.2"
     "@types/webpack-env" "1.18.0"
     chalk "5.1.2"
     fork-ts-checker-webpack-plugin "^7.2.13"
@@ -2930,15 +2872,6 @@
     open "8.4.0"
     open-editor "4.0.0"
 
-"@roots/container@6.6.1":
-  version "6.6.1"
-  resolved "https://registry.yarnpkg.com/@roots/container/-/container-6.6.1.tgz#d8bafd9cd1a890bfb594e766f36078be3d7a0f51"
-  integrity sha512-sEEwQNxOPJGGDt+bpgaMhwQuXu3DWjKk0v4h1hN96KXW5eQZAg4ltHU78LIW9bXmWB+kULni9jh1Dkw1iKE/pg==
-  dependencies:
-    "@roots/bud-support" "6.6.1"
-    helpful-decorators "2.1.0"
-    lodash-es "4.17.21"
-
 "@roots/container@6.6.2":
   version "6.6.2"
   resolved "https://registry.yarnpkg.com/@roots/container/-/container-6.6.2.tgz#a73ce12cf78650912b37e16c7f27dc4117e5f152"
@@ -2963,24 +2896,6 @@
     helpful-decorators "2.1.0"
     lodash-es "4.17.21"
     tslib "2.4.1"
-
-"@roots/filesystem@6.6.1":
-  version "6.6.1"
-  resolved "https://registry.yarnpkg.com/@roots/filesystem/-/filesystem-6.6.1.tgz#c5324d76a5635093031d0182480cd258bcf28ca4"
-  integrity sha512-KSUsjgVfgfXllrveyBkXO40gRzuJBIl1pvtKbcu1SquBir3TSpTOy0mHZEjE9s6vwLGuMmHT0tvpboFZ/jFVRQ==
-  dependencies:
-    "@aws-sdk/abort-controller" "3.208.0"
-    "@aws-sdk/client-s3" "3.209.0"
-    "@aws-sdk/lib-storage" "3.209.0"
-    "@types/lodash-es" "4.17.6"
-    fs-jetpack "5.1.0"
-    globby "13.1.2"
-    helpful-decorators "2.1.0"
-    js-yaml "4.1.0"
-    json5 "2.2.1"
-    lodash-es "4.17.21"
-    mime-types "2.1.35"
-    safe-json-stringify "1.2.0"
 
 "@roots/filesystem@6.6.2":
   version "6.6.2"
