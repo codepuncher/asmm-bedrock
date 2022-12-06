@@ -24,7 +24,7 @@
     "@roots/bud-typescript": "^6.6.4",
     "@roots/sage": "^6.6.4",
     "@tailwindcss/typography": "^0.5.8",
-    "@typescript-eslint/eslint-plugin": "^5.45.0",
+    "@typescript-eslint/eslint-plugin": "^5.45.1",
     "@typescript-eslint/parser": "^5.45.0"
   },
   "peerDependencies": {
