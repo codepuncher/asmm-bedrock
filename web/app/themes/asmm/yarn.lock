@@ -2612,22 +2612,6 @@
     chalk "5.1.2"
     get-port "6.1.2"
 
-"@roots/bud-babel@6.6.5":
-  version "6.6.5"
-  resolved "https://registry.yarnpkg.com/@roots/bud-babel/-/bud-babel-6.6.5.tgz#235120935e79ac6c4cddf8954c34c3b9c15f4b3a"
-  integrity sha512-sDo4L71l51Xu5Suzs2SEAZD0QdVoF7ybcrDDhMJko0Ww6y+wKcRjq9SRStKYfSmAz45pGWR0A8BZY/NOlNhHBg==
-  dependencies:
-    "@babel/core" "7.20.5"
-    "@babel/plugin-proposal-class-properties" "7.18.6"
-    "@babel/plugin-proposal-object-rest-spread" "7.20.2"
-    "@babel/plugin-syntax-dynamic-import" "7.8.3"
-    "@babel/plugin-transform-runtime" "7.19.6"
-    "@babel/preset-env" "7.20.2"
-    "@roots/bud-framework" "6.6.5"
-    "@roots/bud-support" "6.6.5"
-    babel-loader "9.1.0"
-    webpack "5.75.0"
-
 "@roots/bud-babel@6.6.6":
   version "6.6.6"
   resolved "https://registry.yarnpkg.com/@roots/bud-babel/-/bud-babel-6.6.6.tgz#17f5c7f504751cd0a01208767b1b36da37e2f985"
@@ -2724,15 +2708,6 @@
     webpack "5.75.0"
     webpack-manifest-plugin "5.0.0"
 
-"@roots/bud-framework@6.6.5":
-  version "6.6.5"
-  resolved "https://registry.yarnpkg.com/@roots/bud-framework/-/bud-framework-6.6.5.tgz#0d88313d7af0b86c6053a845a0dfc84595958c70"
-  integrity sha512-gz+Qioky2eo7/nQi0tcY/AiOfiF3KVgLqpXGNwIyBS6tlscI4uYOPZVtpEf7qlKvaI2LBCtUYgxqsa6x5cTWPg==
-  dependencies:
-    "@roots/bud-support" "6.6.5"
-    "@roots/container" "6.6.5"
-    tslib "2.4.1"
-
 "@roots/bud-framework@6.6.6":
   version "6.6.6"
   resolved "https://registry.yarnpkg.com/@roots/bud-framework/-/bud-framework-6.6.6.tgz#78e8d6a0c67c01f70fd2e276cd5d3ba9d4014879"
@@ -2819,40 +2794,6 @@
     http-proxy-middleware "3.0.0-beta.0"
     webpack-dev-middleware "6.0.1"
 
-"@roots/bud-support@6.6.5":
-  version "6.6.5"
-  resolved "https://registry.yarnpkg.com/@roots/bud-support/-/bud-support-6.6.5.tgz#53abfaff86449af3cec110267de5ce3cad9646be"
-  integrity sha512-30w7XcqwJgYOiX7QHwr+JNcP3xwClhoO+Hof6slYJauJfsXBIYgIiqBaKIbYmt/KfiscpjXHCvBAUKNuJZWB1A==
-  dependencies:
-    "@roots/filesystem" "6.6.5"
-    chalk "5.1.2"
-    clean-stack "5.0.1"
-    clipanion "3.2.0-rc.14"
-    common-path "1.0.1"
-    execa "6.1.0"
-    figures "5.0.0"
-    fs-extra "10.1.0"
-    fs-jetpack "5.1.0"
-    globby "13.1.2"
-    helpful-decorators "2.1.0"
-    highlight.js "11.7.0"
-    import-meta-resolve "2.2.0"
-    ink "3.2.0"
-    ink-link "2.0.0"
-    ink-text-input "4.0.3"
-    lodash-es "4.17.21"
-    parse5 "7.1.2"
-    parse5-htmlparser2-tree-adapter "7.0.0"
-    patch-console "1.0.0"
-    pretty-format "29.3.1"
-    react "17.0.2"
-    signale "1.4.0"
-    typanion "3.12.1"
-    type-fest "3.3.0"
-    webpack "5.75.0"
-    zod "3.19.1"
-    zod-validation-error "0.2.1"
-
 "@roots/bud-support@6.6.6":
   version "6.6.6"
   resolved "https://registry.yarnpkg.com/@roots/bud-support/-/bud-support-6.6.6.tgz#042dabc203988ec52b7909ab0debbb60366722a0"
@@ -2909,14 +2850,14 @@
     terser-webpack-plugin "^5.3.6"
     webpack "5.75.0"
 
-"@roots/bud-typescript@^6.6.5":
-  version "6.6.5"
-  resolved "https://registry.yarnpkg.com/@roots/bud-typescript/-/bud-typescript-6.6.5.tgz#a28927015b5ab3774450d8a094d9e55fb6a1d967"
-  integrity sha512-Lj0DEagrf8e/UVCELjsaPkv+Rmlab9D3QBo4jmid9TWxmZUo5MYSGACFIDf0i03SwfYIStrlmHp1cZfj7tKJpw==
+"@roots/bud-typescript@^6.6.6":
+  version "6.6.6"
+  resolved "https://registry.yarnpkg.com/@roots/bud-typescript/-/bud-typescript-6.6.6.tgz#8bb4a5552f675c22c14c4bea61f37e94ea170ec5"
+  integrity sha512-NL8mx7TPkHiH+HWthoTAPOXEtQjLCjlQlDvB7Oil6E69DW7VwZFM978W64NNkbjtDd1Zu9VMTe9t45DsZ1gkCw==
   dependencies:
-    "@roots/bud-babel" "6.6.5"
-    "@roots/bud-framework" "6.6.5"
-    "@roots/bud-support" "6.6.5"
+    "@roots/bud-babel" "6.6.6"
+    "@roots/bud-framework" "6.6.6"
+    "@roots/bud-support" "6.6.6"
     "@types/webpack-env" "1.18.0"
     chalk "5.1.2"
     fork-ts-checker-webpack-plugin "^7.2.13"
@@ -2979,15 +2920,6 @@
     update-browserslist-db "1.0.10"
     webpack "5.75.0"
 
-"@roots/container@6.6.5":
-  version "6.6.5"
-  resolved "https://registry.yarnpkg.com/@roots/container/-/container-6.6.5.tgz#834ddfd5cdb1f060ba4c57774bdaad34dee6cd56"
-  integrity sha512-bL27s3E2pgW3X9v6QRdFZ9NWBg3+b2wKAYV83aJSRFgiAfOkui8Ywj7GRrWfBQij32AGP+7VrKocD8rCTB0wbw==
-  dependencies:
-    "@roots/bud-support" "6.6.5"
-    helpful-decorators "2.1.0"
-    lodash-es "4.17.21"
-
 "@roots/container@6.6.6":
   version "6.6.6"
   resolved "https://registry.yarnpkg.com/@roots/container/-/container-6.6.6.tgz#82bb9f10ae705cddbd1acfecbd6932929fbb226f"
@@ -3012,24 +2944,6 @@
     helpful-decorators "2.1.0"
     lodash-es "4.17.21"
     tslib "2.4.1"
-
-"@roots/filesystem@6.6.5":
-  version "6.6.5"
-  resolved "https://registry.yarnpkg.com/@roots/filesystem/-/filesystem-6.6.5.tgz#f7592fa89728badbde1580dec17a2c9cf1428640"
-  integrity sha512-E6MXurdTt/7Uob8GQMdDdRHOMf3HFPDbHn+6CPM0M6k4D/tQbLlXuoSgVZjtKJEeiQRnTW73Tmwt2izVkpF1DQ==
-  dependencies:
-    "@aws-sdk/abort-controller" "3.224.0"
-    "@aws-sdk/client-s3" "3.224.0"
-    "@aws-sdk/lib-storage" "3.224.0"
-    "@types/lodash-es" "4.17.6"
-    fs-jetpack "5.1.0"
-    globby "13.1.2"
-    helpful-decorators "2.1.0"
-    js-yaml "4.1.0"
-    json5 "2.2.1"
-    lodash-es "4.17.21"
-    mime-types "2.1.35"
-    safe-json-stringify "1.2.0"
 
 "@roots/filesystem@6.6.6":
   version "6.6.6"
@@ -3087,13 +3001,6 @@
   version "0.24.20"
   resolved "https://registry.yarnpkg.com/@sinclair/typebox/-/typebox-0.24.20.tgz#11a657875de6008622d53f56e063a6347c51a6dd"
   integrity sha512-kVaO5aEFZb33nPMTZBxiPEkY+slxiPtqC7QX8f9B3eGOMBvEfuMfxp9DSTTCsRJPumPKjrge4yagyssO4q6qzQ==
-
-"@swc/helpers@^0.4.11":
-  version "0.4.13"
-  resolved "https://registry.yarnpkg.com/@swc/helpers/-/helpers-0.4.13.tgz#321376f6ee5f63f69828656ab93dfeb826e1f95a"
-  integrity sha512-WOoZMSqpmUgL72xOeaWcU9IG7C6t5Wh1e8NGpSyBvmN5BSCXleK4/PLS6Oko1i/Lvn/yGYOv62bxlfsDvmRurg==
-  dependencies:
-    tslib "^2.4.0"
 
 "@tailwindcss/typography@^0.5.8":
   version "0.5.8"
@@ -8025,7 +7932,7 @@ ts-node@10.9.1:
     v8-compile-cache-lib "^3.0.1"
     yn "3.1.1"
 
-tslib@2.4.1, tslib@^2.0.3, tslib@^2.3.1, tslib@^2.4.0:
+tslib@2.4.1, tslib@^2.0.3, tslib@^2.3.1:
   version "2.4.1"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.4.1.tgz#0d0bfbaac2880b91e22df0768e55be9753a5b17e"
   integrity sha512-tGyy4dAjRIEwI7BzsB0lynWgOpfqjUdq91XXAlIWD2OwKBH7oCl/GZG/HT4BOHrTlPMOASlMQ7veyTqpmRcrNA==
@@ -8468,13 +8375,6 @@ yoga-layout-prebuilt@^1.9.6:
   integrity sha512-YnOmtSbv4MTf7RGJMK0FvZ+KD8OEe/J5BNnR0GHhD8J/XcG/Qvxgszm0Un6FTHWW4uHlTgP0IztiXQnGyIR45g==
   dependencies:
     "@types/yoga-layout" "1.9.2"
-
-zod-validation-error@0.2.1:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/zod-validation-error/-/zod-validation-error-0.2.1.tgz#d855c8bba835f43692756670d407453424a7ba5b"
-  integrity sha512-zGg6P5EHi5V0dvyEeC8HBZd2pzp7QDKTngkSWgWunljrY+0SHkHyjI519D+u8/37BHkGHAFseWgnZ2Uq8LNFKg==
-  dependencies:
-    "@swc/helpers" "^0.4.11"
 
 zod@3.19.1:
   version "3.19.1"
