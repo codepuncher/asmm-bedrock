@@ -2717,6 +2717,16 @@
     "@roots/container" "6.6.5"
     tslib "2.4.1"
 
+"@roots/bud-framework@6.6.6":
+  version "6.6.6"
+  resolved "https://registry.yarnpkg.com/@roots/bud-framework/-/bud-framework-6.6.6.tgz#78e8d6a0c67c01f70fd2e276cd5d3ba9d4014879"
+  integrity sha512-2OqKJG92x/GqQr9bBam+vEHdI+yzGZ1wSOJmYDnE9h75sPW1vJ2ux7mtvlbdqRm7MBmaMyhpCbnEnrkDHPIj5Q==
+  dependencies:
+    "@roots/bud-support" "6.6.6"
+    "@roots/container" "6.6.6"
+    "@roots/filesystem" "6.6.6"
+    tslib "2.4.1"
+
 "@roots/bud-hooks@6.6.5":
   version "6.6.5"
   resolved "https://registry.yarnpkg.com/@roots/bud-hooks/-/bud-hooks-6.6.5.tgz#e93e57e1c7f0c43a4094cc6f46451c30551cde43"
@@ -2732,6 +2742,19 @@
   dependencies:
     "@roots/bud-framework" "6.6.5"
     "@roots/bud-support" "6.6.5"
+    postcss "8.4.19"
+    postcss-import "15.0.1"
+    postcss-loader "7.0.2"
+    postcss-nested "6.0.0"
+    postcss-preset-env "7.8.3"
+
+"@roots/bud-postcss@6.6.6":
+  version "6.6.6"
+  resolved "https://registry.yarnpkg.com/@roots/bud-postcss/-/bud-postcss-6.6.6.tgz#d3555c2942146996a85d3576c579038630e168f5"
+  integrity sha512-6oJR+PckdzYdagw4R6EFmQnReCOJkzSj0Ptp3yd24NdLgsSOOp6zg8W0alLaYr1DJ/2NM2EcTSSbanHn7BluSA==
+  dependencies:
+    "@roots/bud-framework" "6.6.6"
+    "@roots/bud-support" "6.6.6"
     postcss "8.4.19"
     postcss-import "15.0.1"
     postcss-loader "7.0.2"
@@ -2826,14 +2849,47 @@
     zod "3.19.1"
     zod-validation-error "0.2.1"
 
-"@roots/bud-tailwindcss@^6.6.5":
-  version "6.6.5"
-  resolved "https://registry.yarnpkg.com/@roots/bud-tailwindcss/-/bud-tailwindcss-6.6.5.tgz#2fb9ee600eefaa68693c8f5e0ba166f54419f4f4"
-  integrity sha512-bIVUFuKSaOasTCXALgjTN8sZZtCKXOB2fyxMVGyn9/qZq6eK5sZQrcBzOGlwvc7uU7uS7VcGrGqV7Z6Af/m/wg==
+"@roots/bud-support@6.6.6":
+  version "6.6.6"
+  resolved "https://registry.yarnpkg.com/@roots/bud-support/-/bud-support-6.6.6.tgz#042dabc203988ec52b7909ab0debbb60366722a0"
+  integrity sha512-Wg0DL1kwEkDICjvsDYxk5rcCqkOPoIwmaedd4eXfsggOQs48PsKf1AmX1khqZsyt+ttZi12LSYMRm27BKjckLA==
   dependencies:
-    "@roots/bud-framework" "6.6.5"
-    "@roots/bud-postcss" "6.6.5"
-    "@roots/bud-support" "6.6.5"
+    "@roots/filesystem" "6.6.6"
+    chalk "5.1.2"
+    clean-stack "5.0.1"
+    clipanion "3.2.0-rc.14"
+    common-path "1.0.1"
+    execa "6.1.0"
+    figures "5.0.0"
+    fs-extra "10.1.0"
+    fs-jetpack "5.1.0"
+    globby "13.1.2"
+    helpful-decorators "2.1.0"
+    highlight.js "11.7.0"
+    import-meta-resolve "2.2.0"
+    ink "3.2.0"
+    ink-link "2.0.0"
+    ink-text-input "4.0.3"
+    lodash-es "4.17.21"
+    parse5 "7.1.2"
+    parse5-htmlparser2-tree-adapter "7.0.0"
+    patch-console "1.0.0"
+    pretty-format "29.3.1"
+    react "17.0.2"
+    signale "1.4.0"
+    typanion "3.12.1"
+    type-fest "3.3.0"
+    webpack "5.75.0"
+    zod "3.19.1"
+
+"@roots/bud-tailwindcss@^6.6.6":
+  version "6.6.6"
+  resolved "https://registry.yarnpkg.com/@roots/bud-tailwindcss/-/bud-tailwindcss-6.6.6.tgz#e97c6d1a33b3210656fc63cae56ad5d57be79075"
+  integrity sha512-9lotFwEHiq5itUCV/3lq89rYFfAyBPF/y7XZ4oHR7i7Jcj0o1wtuvAiERrW6vEFCe0wlNfGpBI4jxwgx2Ycy7w==
+  dependencies:
+    "@roots/bud-framework" "6.6.6"
+    "@roots/bud-postcss" "6.6.6"
+    "@roots/bud-support" "6.6.6"
     tailwindcss "3.2.4"
     webpack "5.75.0"
     webpack-virtual-modules "0.4.6"
@@ -2926,6 +2982,15 @@
     helpful-decorators "2.1.0"
     lodash-es "4.17.21"
 
+"@roots/container@6.6.6":
+  version "6.6.6"
+  resolved "https://registry.yarnpkg.com/@roots/container/-/container-6.6.6.tgz#82bb9f10ae705cddbd1acfecbd6932929fbb226f"
+  integrity sha512-5L9ChaYnztSKaf4DZEdRNzpf0fpJ/p8wDRoJyc1gEZEZuOPYzagIiCO4wKHk2jVdV/wdJSgQzaZDnVC129LFug==
+  dependencies:
+    "@roots/bud-support" "6.6.6"
+    helpful-decorators "2.1.0"
+    lodash-es "4.17.21"
+
 "@roots/dependencies@6.6.5":
   version "6.6.5"
   resolved "https://registry.yarnpkg.com/@roots/dependencies/-/dependencies-6.6.5.tgz#25c2527e624c62d96992ae7673d03b48ec8baccb"
@@ -2946,6 +3011,24 @@
   version "6.6.5"
   resolved "https://registry.yarnpkg.com/@roots/filesystem/-/filesystem-6.6.5.tgz#f7592fa89728badbde1580dec17a2c9cf1428640"
   integrity sha512-E6MXurdTt/7Uob8GQMdDdRHOMf3HFPDbHn+6CPM0M6k4D/tQbLlXuoSgVZjtKJEeiQRnTW73Tmwt2izVkpF1DQ==
+  dependencies:
+    "@aws-sdk/abort-controller" "3.224.0"
+    "@aws-sdk/client-s3" "3.224.0"
+    "@aws-sdk/lib-storage" "3.224.0"
+    "@types/lodash-es" "4.17.6"
+    fs-jetpack "5.1.0"
+    globby "13.1.2"
+    helpful-decorators "2.1.0"
+    js-yaml "4.1.0"
+    json5 "2.2.1"
+    lodash-es "4.17.21"
+    mime-types "2.1.35"
+    safe-json-stringify "1.2.0"
+
+"@roots/filesystem@6.6.6":
+  version "6.6.6"
+  resolved "https://registry.yarnpkg.com/@roots/filesystem/-/filesystem-6.6.6.tgz#85f8a141eb15b2e508647f4a0ee1d0eb43f21b6f"
+  integrity sha512-49BTLJ5a64rgPZftRPReKdoMphXpz9agcx92wcLIa7h3iORptiNPM0vhswkSuarg6bzNrXb7BJ6ERQ8VLxSL3g==
   dependencies:
     "@aws-sdk/abort-controller" "3.224.0"
     "@aws-sdk/client-s3" "3.224.0"
