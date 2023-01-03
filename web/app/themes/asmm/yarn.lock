@@ -3106,19 +3106,6 @@
     "@roots/bud-framework" "6.6.9"
     "@roots/bud-support" "6.6.9"
 
-"@roots/bud-postcss@6.6.8":
-  version "6.6.8"
-  resolved "https://registry.yarnpkg.com/@roots/bud-postcss/-/bud-postcss-6.6.8.tgz#a25d07e822d544bf41028f307372cdb718574e99"
-  integrity sha512-JpgZwflTWOeZjy6BOkFeveQP6VMmTYzoA2tW3IjfFESkihVdtW+upK4/xh9m01iSeL3qry2qBZjJgTsFUPqS9Q==
-  dependencies:
-    "@roots/bud-framework" "6.6.8"
-    "@roots/bud-support" "6.6.8"
-    postcss "8.4.19"
-    postcss-import "15.0.1"
-    postcss-loader "7.0.2"
-    postcss-nested "6.0.0"
-    postcss-preset-env "7.8.3"
-
 "@roots/bud-postcss@6.6.9":
   version "6.6.9"
   resolved "https://registry.yarnpkg.com/@roots/bud-postcss/-/bud-postcss-6.6.9.tgz#5d953e672a9c71c6583c1869529309d0cca5cb6a"
@@ -3303,17 +3290,17 @@
     yml-loader "2.1.0"
     zod "3.20.2"
 
-"@roots/bud-tailwindcss@^6.6.8":
-  version "6.6.8"
-  resolved "https://registry.yarnpkg.com/@roots/bud-tailwindcss/-/bud-tailwindcss-6.6.8.tgz#30f027040427ab6ae36bf803bd1128ce095b8391"
-  integrity sha512-wy4t9SLREUBzxYZkpeMDquCW69RuStih3ONy9bM+Czy+dG5CRow3cs3JP4SQJ4AUn2VdP1MkRjz/foxIEqV+Ow==
+"@roots/bud-tailwindcss@^6.6.9":
+  version "6.6.9"
+  resolved "https://registry.yarnpkg.com/@roots/bud-tailwindcss/-/bud-tailwindcss-6.6.9.tgz#e43dfef3ba690296b1799ceb7189fb4f1dadea2a"
+  integrity sha512-JHUeU29CD44BN3CBpqF/6dO3lujC8PyzvBkOnPM3QeJ4AYLceogwz+vTf+Jxe0rsWbZ4lq8tJZjbeOqZMS7P9A==
   dependencies:
-    "@roots/bud-framework" "6.6.8"
-    "@roots/bud-postcss" "6.6.8"
-    "@roots/bud-support" "6.6.8"
+    "@roots/bud-framework" "6.6.9"
+    "@roots/bud-postcss" "6.6.9"
+    "@roots/bud-support" "6.6.9"
     tailwindcss "3.2.4"
     webpack "5.75.0"
-    webpack-virtual-modules "0.4.6"
+    webpack-virtual-modules "0.5.0"
 
 "@roots/bud-terser@6.6.9":
   version "6.6.9"
@@ -7270,15 +7257,6 @@ postcss-image-set-function@^4.0.7:
   dependencies:
     postcss-value-parser "^4.2.0"
 
-postcss-import@15.0.1:
-  version "15.0.1"
-  resolved "https://registry.yarnpkg.com/postcss-import/-/postcss-import-15.0.1.tgz#5887da24440ef259324d65e08343437a43ff92b1"
-  integrity sha512-UGlvk8EgT7Gm/Ndf9xZHnzr8xm8P54N8CBWLtcY5alP+YxlEge/Rv78etQyevZs3qWTE9If13+Bo6zATBrPOpA==
-  dependencies:
-    postcss-value-parser "^4.0.0"
-    read-cache "^1.0.0"
-    resolve "^1.1.7"
-
 postcss-import@15.1.0:
   version "15.1.0"
   resolved "https://registry.yarnpkg.com/postcss-import/-/postcss-import-15.1.0.tgz#41c64ed8cc0e23735a9698b3249ffdbf704adc70"
@@ -7649,19 +7627,19 @@ postcss-value-parser@^4.0.0, postcss-value-parser@^4.1.0, postcss-value-parser@^
   resolved "https://registry.yarnpkg.com/postcss-value-parser/-/postcss-value-parser-4.2.0.tgz#723c09920836ba6d3e5af019f92bc0971c02e514"
   integrity sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==
 
-postcss@8.4.19, postcss@^8.4.17, postcss@^8.4.18:
-  version "8.4.19"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.19.tgz#61178e2add236b17351897c8bcc0b4c8ecab56fc"
-  integrity sha512-h+pbPsyhlYj6N2ozBmHhHrs9DzGmbaarbLvWipMRO7RLS+v4onj26MPFXA5OBYFxyqYhUJK456SwDcY9H2/zsA==
+postcss@8.4.20, postcss@^8.4.19:
+  version "8.4.20"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.20.tgz#64c52f509644cecad8567e949f4081d98349dc56"
+  integrity sha512-6Q04AXR1212bXr5fh03u8aAwbLxAQNGQ/Q1LNa0VfOI06ZAlhPHtQvE4OIdpj4kLThXilalPnmDSOD65DcHt+g==
   dependencies:
     nanoid "^3.3.4"
     picocolors "^1.0.0"
     source-map-js "^1.0.2"
 
-postcss@8.4.20, postcss@^8.4.19:
-  version "8.4.20"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.20.tgz#64c52f509644cecad8567e949f4081d98349dc56"
-  integrity sha512-6Q04AXR1212bXr5fh03u8aAwbLxAQNGQ/Q1LNa0VfOI06ZAlhPHtQvE4OIdpj4kLThXilalPnmDSOD65DcHt+g==
+postcss@^8.4.17, postcss@^8.4.18:
+  version "8.4.19"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.19.tgz#61178e2add236b17351897c8bcc0b4c8ecab56fc"
+  integrity sha512-h+pbPsyhlYj6N2ozBmHhHrs9DzGmbaarbLvWipMRO7RLS+v4onj26MPFXA5OBYFxyqYhUJK456SwDcY9H2/zsA==
   dependencies:
     nanoid "^3.3.4"
     picocolors "^1.0.0"
@@ -8904,10 +8882,10 @@ webpack-sources@^3.2.3:
   resolved "https://registry.yarnpkg.com/webpack-sources/-/webpack-sources-3.2.3.tgz#2d4daab8451fd4b240cc27055ff6a0c2ccea0cde"
   integrity sha512-/DyMEOrDgLKKIG0fmvtz+4dUX/3Ghozwgm6iPp8KRhvn+eQf9+Q7GWxVNMk3+uCPWfdXYC4ExGBckIXdFEfH1w==
 
-webpack-virtual-modules@0.4.6:
-  version "0.4.6"
-  resolved "https://registry.yarnpkg.com/webpack-virtual-modules/-/webpack-virtual-modules-0.4.6.tgz#3e4008230731f1db078d9cb6f68baf8571182b45"
-  integrity sha512-5tyDlKLqPfMqjT3Q9TAqf2YqjwmnUleZwzJi1A5qXnlBCdj2AtOJ6wAWdglTIDOPgOiOrXeBeFcsQ8+aGQ6QbA==
+webpack-virtual-modules@0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/webpack-virtual-modules/-/webpack-virtual-modules-0.5.0.tgz#362f14738a56dae107937ab98ea7062e8bdd3b6c"
+  integrity sha512-kyDivFZ7ZM0BVOUteVbDFhlRt7Ah/CSPwJdi8hBpkK7QLumUqdLtVfm/PX/hkcnrvr0i77fO5+TjZ94Pe+C9iw==
 
 webpack@5.75.0:
   version "5.75.0"
