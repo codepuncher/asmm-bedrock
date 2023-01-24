@@ -2987,14 +2987,14 @@
     "@roots/bud-framework" "6.7.1"
     "@roots/bud-support" "6.7.1"
 
-"@roots/bud-typescript@^6.6.10":
-  version "6.6.10"
-  resolved "https://registry.yarnpkg.com/@roots/bud-typescript/-/bud-typescript-6.6.10.tgz#7089ca612450986e06cefa90c1d181607b2b9a6f"
-  integrity sha512-ZdYXUIsRTHP+iISsSfEOfYznRYypBD5lfW9CD1IPTfkuGVZ7PVGahZ2PfP0wJlcYbK5KrGypATEWKIg2sEtjBQ==
+"@roots/bud-typescript@^6.7.1":
+  version "6.7.1"
+  resolved "https://registry.yarnpkg.com/@roots/bud-typescript/-/bud-typescript-6.7.1.tgz#905f79c7a31018c0e4115429462edf24ab64366c"
+  integrity sha512-eAlqQwm7ptq/lbleNRleDdIxeZt83BJarak5CdG36Kx5FrKEVw4WXctCC3z0atJ8IMXtz58sEKvzCTIu3coT0w==
   dependencies:
-    "@roots/bud-framework" "6.6.10"
-    "@roots/bud-support" "6.6.10"
-    fork-ts-checker-webpack-plugin "^7.2.14"
+    "@roots/bud-framework" "6.7.1"
+    "@roots/bud-support" "6.7.1"
+    fork-ts-checker-webpack-plugin "^7.3.0"
     react-refresh-typescript "2.0.7"
     ts-loader "^9.4.2"
     ts-node "10.9.1"
@@ -5045,10 +5045,10 @@ follow-redirects@^1.15.0:
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.15.2.tgz#b460864144ba63f2681096f274c4e57026da2c13"
   integrity sha512-VQLG33o04KaQ8uYi2tVNbdrWp1QWxNNea+nmIB4EVM28v0hmP17z7aG1+wAkNzVq4KeXTq3221ye5qTJP91JwA==
 
-fork-ts-checker-webpack-plugin@^7.2.14:
-  version "7.2.14"
-  resolved "https://registry.yarnpkg.com/fork-ts-checker-webpack-plugin/-/fork-ts-checker-webpack-plugin-7.2.14.tgz#746eb15b4d643aafccd3c729995f9c9281eabd22"
-  integrity sha512-Tg2feh/n8k486KX0EbXVUfJj3j0xnnbKYTJw0fnIb2QdV0+lblOYZSal5ed9hARoWVwKeOC7sYE2EakSRLo5ZA==
+fork-ts-checker-webpack-plugin@^7.3.0:
+  version "7.3.0"
+  resolved "https://registry.yarnpkg.com/fork-ts-checker-webpack-plugin/-/fork-ts-checker-webpack-plugin-7.3.0.tgz#a9c984a018493962360d7c7e77a67b44a2d5f3aa"
+  integrity sha512-IN+XTzusCjR5VgntYFgxbxVx3WraPRnKehBFrf00cMSrtUuW9MsG9dhL6MWpY6MkjC3wVwoujfCDgZZCQwbswA==
   dependencies:
     "@babel/code-frame" "^7.16.7"
     chalk "^4.1.2"
