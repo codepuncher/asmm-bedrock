@@ -3071,13 +3071,13 @@
     "@roots/bud-framework" "6.9.0"
     "@roots/bud-support" "6.9.0"
 
-"@roots/bud-typescript@^6.8.0":
-  version "6.8.0"
-  resolved "https://registry.yarnpkg.com/@roots/bud-typescript/-/bud-typescript-6.8.0.tgz#4cd21d4cf603767269a4b76dbd812d7a4b3aef69"
-  integrity sha512-4NMPe9OCeRtzMCR5inEcNPRNvT5moKAIATsGTKnKMUZ0fP9Z3LdBDgOKifAce1lQmB9nZ3w8xA5YQhTUlfxCmg==
+"@roots/bud-typescript@^6.9.0":
+  version "6.9.0"
+  resolved "https://registry.yarnpkg.com/@roots/bud-typescript/-/bud-typescript-6.9.0.tgz#7b48a65d63ad296747c549a768f3410c5c1b2e48"
+  integrity sha512-9HwZskFHA3zNa9GYBWcDG5Km5LKtpZKtFMz5k/1pw2E7LSxbIuW8BT6W1xPrgL+ZMDbEEMzopT0/2+bOQfOI+g==
   dependencies:
-    "@roots/bud-framework" "6.8.0"
-    "@roots/bud-support" "6.8.0"
+    "@roots/bud-framework" "6.9.0"
+    "@roots/bud-support" "6.9.0"
     fork-ts-checker-webpack-plugin "^7.3.0"
     react-refresh-typescript "2.0.7"
     ts-loader "^9.4.2"
