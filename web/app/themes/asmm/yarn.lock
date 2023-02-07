@@ -2810,16 +2810,6 @@
     "@roots/bud-terser" "6.9.0"
     "@roots/container" "6.9.0"
 
-"@roots/bud-framework@6.8.0":
-  version "6.8.0"
-  resolved "https://registry.yarnpkg.com/@roots/bud-framework/-/bud-framework-6.8.0.tgz#6566f8f2721258198d793ec59cc3cffac64f3d97"
-  integrity sha512-+LUIh5mh3XxkOGklw8zYupFyaycChQ7Sffg5Qw0l11SRyfPRkSw1zwbhlJA/XcWJyEKCZ84JCViny1P74Jrdpg==
-  dependencies:
-    "@roots/bud-support" "6.8.0"
-    "@roots/container" "6.8.0"
-    "@roots/filesystem" "6.8.0"
-    tslib "2.4.1"
-
 "@roots/bud-framework@6.9.0":
   version "6.9.0"
   resolved "https://registry.yarnpkg.com/@roots/bud-framework/-/bud-framework-6.9.0.tgz#521637f679b1e66bbc315e2736757e6f838b371e"
@@ -2837,19 +2827,6 @@
   dependencies:
     "@roots/bud-framework" "6.9.0"
     "@roots/bud-support" "6.9.0"
-
-"@roots/bud-postcss@6.8.0":
-  version "6.8.0"
-  resolved "https://registry.yarnpkg.com/@roots/bud-postcss/-/bud-postcss-6.8.0.tgz#e11471c68e257897731011845dd409da70345fa3"
-  integrity sha512-Blx0zXbZ3bFnfFrmDCg2nuVTUe46n5ZEF2TFx0H5BRufHXW7LIGbITWBWc/JA+BWzOJIRfXSUOX0kymiyDnnTg==
-  dependencies:
-    "@roots/bud-framework" "6.8.0"
-    "@roots/bud-support" "6.8.0"
-    postcss "8.4.21"
-    postcss-import "15.1.0"
-    postcss-loader "7.0.2"
-    postcss-nested "6.0.0"
-    postcss-preset-env "8.0.0"
 
 "@roots/bud-postcss@6.9.0":
   version "6.9.0"
@@ -2908,73 +2885,6 @@
     "@roots/bud-client" "6.9.0"
     "@roots/bud-framework" "6.9.0"
     "@roots/bud-support" "6.9.0"
-
-"@roots/bud-support@6.8.0":
-  version "6.8.0"
-  resolved "https://registry.yarnpkg.com/@roots/bud-support/-/bud-support-6.8.0.tgz#b01641fb13ab724e8a413fddcff62a02acc8359a"
-  integrity sha512-Ub0IHxbXmYRBR/dSyKFj2mBo53zRNtkadMELHEAwSgVb2vzRtNp7xJhrATFCuDm3RKeAW2VY5PH02D9kNfMxYg==
-  dependencies:
-    "@roots/filesystem" "6.8.0"
-    axios "1.2.4"
-    chalk "5.2.0"
-    chokidar "3.5.3"
-    clean-stack "5.1.0"
-    clean-webpack-plugin "4.0.0"
-    clipanion "3.2.0-rc.14"
-    common-path "1.0.1"
-    connect "3.7.0"
-    cookie-parser "1.4.6"
-    copy-webpack-plugin "11.0.0"
-    css-loader "^6.7.3"
-    css-minimizer-webpack-plugin "4.2.2"
-    csv-loader "^3.0.5"
-    dotenv "16.0.3"
-    dotenv-expand "10.0.0"
-    execa "6.1.0"
-    express "4.18.2"
-    figures "5.0.0"
-    file-loader "^6.2.0"
-    fs-extra "11.1.0"
-    fs-jetpack "5.1.0"
-    get-port "6.1.2"
-    globby "13.1.3"
-    helpful-decorators "2.1.0"
-    highlight.js "11.7.0"
-    html-loader "^4.2.0"
-    html-webpack-plugin "5.5.0"
-    http-proxy-middleware "3.0.0-beta.0"
-    import-meta-resolve "2.2.1"
-    ink "3.2.0"
-    ink-link "2.0.1"
-    ink-text-input "4.0.3"
-    json5 "2.2.3"
-    lodash "4.17.21"
-    mini-css-extract-plugin "2.7.2"
-    mini-svg-data-uri "1.4.4"
-    node-notifier "10.0.1"
-    open "8.4.0"
-    open-editor "4.0.0"
-    parse-semver "1.1.1"
-    parse5 "7.1.2"
-    parse5-htmlparser2-tree-adapter "7.0.0"
-    patch-console "2.0.0"
-    pretty-format "29.4.1"
-    react "17.0.2"
-    remark "14.0.2"
-    remark-html "15.0.1"
-    remark-loader "5.0.0"
-    signale "1.4.0"
-    style-loader "3.3.1"
-    terser-webpack-plugin "5.3.6"
-    toml "3.0.0"
-    typanion "3.12.1"
-    type-fest "3.5.0"
-    webpack "5.75.0"
-    webpack-dev-middleware "6.0.1"
-    webpack-manifest-plugin "5.0.0"
-    xml-loader "1.2.1"
-    yml-loader "2.1.0"
-    zod "3.20.2"
 
 "@roots/bud-support@6.9.0":
   version "6.9.0"
@@ -3052,14 +2962,14 @@
     "@roots/bud-support" "6.9.0"
     "@roots/bud-wordpress-theme-json" "6.9.0"
 
-"@roots/bud-tailwindcss@^6.8.0":
-  version "6.8.0"
-  resolved "https://registry.yarnpkg.com/@roots/bud-tailwindcss/-/bud-tailwindcss-6.8.0.tgz#224a3ba6bdeb88f70345c256277a51d1752e5ac6"
-  integrity sha512-k52D6eGoR10shkMhVpVNjIP9ZyqVDafcx1i0y0x8G98OkQQiaEoUmSmCV2URITo9cOBhInX10GjN+5PQAK/xOg==
+"@roots/bud-tailwindcss@^6.9.0":
+  version "6.9.0"
+  resolved "https://registry.yarnpkg.com/@roots/bud-tailwindcss/-/bud-tailwindcss-6.9.0.tgz#dbe4f9883525fd6a1e8d8e2ae0befd374e5d08c9"
+  integrity sha512-+assYNA5V5HMj1JgIxSYnGy7UCPgT7A8xkXkQwnxc4ttVoFGqDVxErbgCfCqRng/yVL5npukA6hzj/nDxtKWCQ==
   dependencies:
-    "@roots/bud-framework" "6.8.0"
-    "@roots/bud-postcss" "6.8.0"
-    "@roots/bud-support" "6.8.0"
+    "@roots/bud-framework" "6.9.0"
+    "@roots/bud-postcss" "6.9.0"
+    "@roots/bud-support" "6.9.0"
     tailwindcss "3.2.4"
     webpack-virtual-modules "0.5.0"
 
@@ -3144,14 +3054,6 @@
     tslib "2.4.1"
     update-browserslist-db "1.0.10"
 
-"@roots/container@6.8.0":
-  version "6.8.0"
-  resolved "https://registry.yarnpkg.com/@roots/container/-/container-6.8.0.tgz#7dd96b44ecdd74d240d27dc771dd589d2becf764"
-  integrity sha512-2tN8yMjlZ78PkltBUm/NG3smWlkFrGjTcPlR3cJkc/afEcfM45x1aDLT3+QaS33RgUO8NnwT0ACpwYHHP/LoNQ==
-  dependencies:
-    helpful-decorators "2.1.0"
-    lodash "4.17.21"
-
 "@roots/container@6.9.0":
   version "6.9.0"
   resolved "https://registry.yarnpkg.com/@roots/container/-/container-6.9.0.tgz#dbbd724860db63029c541f550e0a8de74ea10cd8"
@@ -3168,24 +3070,6 @@
     helpful-decorators "2.1.0"
     lodash "4.17.21"
     tslib "2.4.1"
-
-"@roots/filesystem@6.8.0":
-  version "6.8.0"
-  resolved "https://registry.yarnpkg.com/@roots/filesystem/-/filesystem-6.8.0.tgz#9e7ab68f4d8d282231a639dbe7a7b48b7ca30759"
-  integrity sha512-L409/C/HnpJ/xdmzpXws8e5rkbRjeqJ5Kt4VR5ijwDX4HtBLYdxoEqzpVZzx8lTzzcbUpVmTNYVsZNQIxgLUjw==
-  dependencies:
-    "@aws-sdk/abort-controller" "3.226.0"
-    "@aws-sdk/client-s3" "3.241.0"
-    "@aws-sdk/lib-storage" "3.252.0"
-    "@types/lodash-es" "4.17.6"
-    fs-jetpack "5.1.0"
-    globby "13.1.3"
-    helpful-decorators "2.1.0"
-    js-yaml "4.1.0"
-    json5 "2.2.3"
-    lodash "4.17.21"
-    mime-types "2.1.35"
-    safe-json-stringify "1.2.0"
 
 "@roots/filesystem@6.9.0":
   version "6.9.0"
