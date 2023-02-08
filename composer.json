@@ -50,7 +50,7 @@
     "roots/wp-password-bcrypt": "^1.1",
     "wpackagist-plugin/crop-thumbnails": "^1.4",
     "wpackagist-plugin/duplicate-post": "^4.5",
-    "wpackagist-plugin/kirki": "^4.0",
+    "wpackagist-plugin/kirki": "^4.1",
     "wpackagist-plugin/redirection": "^5.3",
     "wpackagist-plugin/stream": "^3.9",
     "wpackagist-plugin/wordpress-seo": "^20.1",
