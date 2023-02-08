@@ -2859,6 +2859,19 @@
     postcss-nested "6.0.0"
     postcss-preset-env "8.0.0"
 
+"@roots/bud-postcss@6.9.1":
+  version "6.9.1"
+  resolved "https://registry.yarnpkg.com/@roots/bud-postcss/-/bud-postcss-6.9.1.tgz#ef911bbf92e2107f434ecf8bbc70fd1472e78a4a"
+  integrity sha512-ybcm9Hug/+i2J+2wNxjc152rU3keGRvtcutCPpSn6kjhXQJK8ux5IXobod79m7esoKgw5LuFDnNkJ5azGDV1Rw==
+  dependencies:
+    "@roots/bud-framework" "6.9.1"
+    "@roots/bud-support" "6.9.1"
+    postcss "8.4.21"
+    postcss-import "15.1.0"
+    postcss-loader "7.0.2"
+    postcss-nested "6.0.0"
+    postcss-preset-env "8.0.0"
+
 "@roots/bud-preset-recommend@6.9.0":
   version "6.9.0"
   resolved "https://registry.yarnpkg.com/@roots/bud-preset-recommend/-/bud-preset-recommend-6.9.0.tgz#4583cfe3feb26e555bcd6961c6742d14707cd263"
@@ -3047,14 +3060,14 @@
     "@roots/bud-support" "6.9.0"
     "@roots/bud-wordpress-theme-json" "6.9.0"
 
-"@roots/bud-tailwindcss@^6.9.0":
-  version "6.9.0"
-  resolved "https://registry.yarnpkg.com/@roots/bud-tailwindcss/-/bud-tailwindcss-6.9.0.tgz#dbe4f9883525fd6a1e8d8e2ae0befd374e5d08c9"
-  integrity sha512-+assYNA5V5HMj1JgIxSYnGy7UCPgT7A8xkXkQwnxc4ttVoFGqDVxErbgCfCqRng/yVL5npukA6hzj/nDxtKWCQ==
+"@roots/bud-tailwindcss@^6.9.1":
+  version "6.9.1"
+  resolved "https://registry.yarnpkg.com/@roots/bud-tailwindcss/-/bud-tailwindcss-6.9.1.tgz#1b86fad707692ceab1a38fd213e15540cf65cc86"
+  integrity sha512-2QQgQbEHg2i5f346Iclpo6xZkqvj9xzQy/XIMZI7NxF/i/Dw1YPUVPP/n317Dk9kF1rVQhqupO9wI/HvVzFTJg==
   dependencies:
-    "@roots/bud-framework" "6.9.0"
-    "@roots/bud-postcss" "6.9.0"
-    "@roots/bud-support" "6.9.0"
+    "@roots/bud-framework" "6.9.1"
+    "@roots/bud-postcss" "6.9.1"
+    "@roots/bud-support" "6.9.1"
     tailwindcss "3.2.4"
     webpack-virtual-modules "0.5.0"
 
