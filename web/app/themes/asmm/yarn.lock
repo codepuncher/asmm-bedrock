@@ -4273,18 +4273,19 @@
     tslib "2.5.0"
     webpack "5.76.3"
 
-"@roots/bud-typescript@^6.11.0":
-  version "6.11.0"
-  resolved "https://registry.yarnpkg.com/@roots/bud-typescript/-/bud-typescript-6.11.0.tgz#900600eefafeabe712e80d87f1602d520b4d79dc"
-  integrity sha512-Qe2sGMBWRamrFmN/upYCKGBvm2sznfHZKcGyntWI9aG0nHkLZUvtrM817yIERhRTZ5WigY4RNU/gUe5rTlDTPQ==
+"@roots/bud-typescript@^6.12.0":
+  version "6.12.0"
+  resolved "https://registry.yarnpkg.com/@roots/bud-typescript/-/bud-typescript-6.12.0.tgz#91e118ee3e567be76b676262dd2190071678cf68"
+  integrity sha512-5SNtxhN9Yqka8ZKQsrghD+641CLoXFti/g+fpaiFGaMyRbg/W9mGosce4u2ryyfMB56PwfXNh1NVICY24MX4lg==
   dependencies:
-    "@roots/bud-framework" "6.11.0"
-    "@roots/bud-support" "6.11.0"
+    "@roots/bud-framework" "6.12.0"
+    "@roots/bud-support" "6.12.0"
     fork-ts-checker-webpack-plugin "^7.3.0"
-    react-refresh-typescript "2.0.7"
+    react-refresh-typescript "2.0.8"
     ts-loader "^9.4.2"
     ts-node "10.9.1"
-    typescript "4.9.4"
+    tslib "2.5.0"
+    typescript "4.9.5"
 
 "@roots/bud-wordpress-dependencies@6.11.0":
   version "6.11.0"
@@ -9334,10 +9335,10 @@ react-reconciler@^0.29.0:
     loose-envify "^1.1.0"
     scheduler "^0.23.0"
 
-react-refresh-typescript@2.0.7:
-  version "2.0.7"
-  resolved "https://registry.yarnpkg.com/react-refresh-typescript/-/react-refresh-typescript-2.0.7.tgz#ba91be2da4f1e86bba8629f1df0d4b9ff87b9970"
-  integrity sha512-KbuW57FauO11e6a9gU836sCm3M3z0b2+J2qPhUudg0QplOfz0eAF3gMeshcUC/ChfNLJCK1SZxvYmUtRxiZE5A==
+react-refresh-typescript@2.0.8:
+  version "2.0.8"
+  resolved "https://registry.yarnpkg.com/react-refresh-typescript/-/react-refresh-typescript-2.0.8.tgz#84d086f9da742d7de87ad15824301763bf8135ba"
+  integrity sha512-7zsaM8jIpUZ2hxMdTo9GNZRauTI11AD5YNNaNXVGb8mtYVwdSbc6IQV8YaHevSWYbx+ZpZispezdCfaJuTrh3w==
 
 react-refresh@^0.14.0:
   version "0.14.0"
@@ -10325,10 +10326,10 @@ type-is@~1.6.18:
     media-typer "0.3.0"
     mime-types "~2.1.24"
 
-typescript@4.9.4:
-  version "4.9.4"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.9.4.tgz#a2a3d2756c079abda241d75f149df9d561091e78"
-  integrity sha512-Uz+dTXYzxXXbsFpM86Wh3dKCxrQqUcVMxwU54orwlJjOpO3ao8L7j5lH+dWfTwgCwIuM9GQ2kvVotzYJMXTBZg==
+typescript@4.9.5:
+  version "4.9.5"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.9.5.tgz#095979f9bcc0d09da324d58d03ce8f8374cbe65a"
+  integrity sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==
 
 unicode-canonical-property-names-ecmascript@^2.0.0:
   version "2.0.0"
