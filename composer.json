@@ -54,7 +54,7 @@
     "wpackagist-plugin/redirection": "^5.3",
     "wpackagist-plugin/stream": "^3.9",
     "wpackagist-plugin/wordpress-seo": "^20.5",
-    "wpackagist-plugin/autoptimize": "3.1.6",
+    "wpackagist-plugin/autoptimize": "3.1.7",
     "wpackagist-plugin/w3-total-cache": "^2.3",
     "roots/wordpress-no-content": "^6.0",
     "wpackagist-theme/twentytwentytwo": "^1.4",
