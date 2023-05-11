@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "@roots/bud": "^6.12.2",
-    "@roots/bud-tailwindcss": "^6.12.2",
+    "@roots/bud-tailwindcss": "^6.12.3",
     "@roots/bud-typescript": "^6.12.3",
     "@roots/sage": "^2023.5.10",
     "@tailwindcss/typography": "^0.5.9",
