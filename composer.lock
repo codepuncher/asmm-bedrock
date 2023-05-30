@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "79eaa67a19eae5f3d745d09a85f0e216",
+    "content-hash": "6ad005029060d0587720eea12cccffdd",
     "packages": [
         {
             "name": "brick/math",
@@ -4823,15 +4823,15 @@
         },
         {
             "name": "wpackagist-plugin/crop-thumbnails",
-            "version": "1.6.0",
+            "version": "1.7.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/crop-thumbnails/",
-                "reference": "tags/1.6.0"
+                "reference": "tags/1.7.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/crop-thumbnails.1.6.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/crop-thumbnails.1.7.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
