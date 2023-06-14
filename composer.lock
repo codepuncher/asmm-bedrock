@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9294987403d7c30c7dc3279123eb001e",
+    "content-hash": "0dff490ce5f2b85702a75b58ea969f6f",
     "packages": [
         {
             "name": "brick/math",
@@ -4877,15 +4877,15 @@
         },
         {
             "name": "wpackagist-plugin/kirki",
-            "version": "4.1.1",
+            "version": "4.2.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/kirki/",
-                "reference": "trunk"
+                "reference": "tags/4.2.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/kirki.zip?timestamp=1675871409"
+                "url": "https://downloads.wordpress.org/plugin/kirki.4.2.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
