@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4a5f58b6bbf2d4b78bd036f1dd067dee",
+    "content-hash": "1fb9d1d78aa5694fc5a1ca749d75c5f5",
     "packages": [
         {
             "name": "brick/math",
@@ -4931,15 +4931,15 @@
         },
         {
             "name": "wpackagist-plugin/w3-total-cache",
-            "version": "2.3.3",
+            "version": "2.4.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/w3-total-cache/",
-                "reference": "tags/2.3.3"
+                "reference": "tags/2.4.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/w3-total-cache.2.3.3.zip"
+                "url": "https://downloads.wordpress.org/plugin/w3-total-cache.2.4.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
