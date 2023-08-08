@@ -11,6 +11,9 @@
   "scripts": {
     "dev": "bud dev",
     "build": "bud build",
+    "lint": "yarn lint:js && yarn lint:css",
+    "lint:js": "eslint resources/scripts",
+    "lint:css": "stylelint \"resources/**/*.{css,scss,vue}\"",
     "translate": "yarn translate:pot && yarn translate:update",
     "translate:pot": "wp i18n make-pot . ./resources/lang/sage.pot --include=\"app,resources\"",
     "translate:update": "wp i18n update-po ./resources/lang/sage.pot ./resources/lang/*.po",
@@ -20,12 +23,12 @@
   },
   "devDependencies": {
     "@roots/bud": "6.12.2",
+    "@roots/bud-eslint": "6.12.2",
     "@roots/bud-tailwindcss": "6.12.2",
     "@roots/bud-typescript": "6.12.2",
+    "@roots/eslint-config": "6.12.2",
     "@roots/sage": "6.12.2",
-    "@tailwindcss/typography": "^0.5.9",
-    "@typescript-eslint/eslint-plugin": "^5.61.0",
-    "@typescript-eslint/parser": "^5.61.0"
+    "@tailwindcss/typography": "^0.5.9"
   },
   "peerDependencies": {
     "jquery": "^3.5.1"
