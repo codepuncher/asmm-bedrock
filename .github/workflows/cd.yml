@@ -1,0 +1,51 @@
+name: cd
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+  schedule:
+    - cron: "0 10 * * 1,2,3,4,5"
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    concurrency:
+      group: "${{ github.workflow }}-${{ github.ref_name }}"
+      cancel-in-progress: false
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          path: bedrock
+
+      - uses: actions/setup-node@v3
+        with:
+          node-version: "16"
+          cache: yarn
+          cache-dependency-path: bedrock/web/app/themes/asmm/yarn.lock
+
+      - uses: actions/checkout@v3
+        with:
+          repository: codepuncher/asmm-trellis
+          path: trellis
+          token: ${{ secrets.REPO_PAT }}
+
+      - uses: shimataro/ssh-key-action@v2
+        with:
+          key: ${{ secrets.TRELLIS_DEPLOY_SSH_PRIVATE_KEY }}
+          known_hosts: ${{ secrets.TRELLIS_DEPLOY_SSH_KNOWN_HOSTS }}
+
+      - uses: webfactory/ssh-agent@v0.8.0
+        with:
+          ssh-private-key: ${{ secrets.TRELLIS_DEPLOY_SSH_PRIVATE_KEY }}
+
+      - uses: roots/setup-trellis-cli@v1
+        with:
+          ansible-vault-password: ${{ secrets.ANSIBLE_VAULT_PASSWORD }}
+
+      - name: Deploy
+        working-directory: trellis
+        run: trellis deploy --verbose production
