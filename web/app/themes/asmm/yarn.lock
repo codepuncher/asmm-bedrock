@@ -3229,19 +3229,22 @@
     tslib "2.5.0"
     webpack "5.76.3"
 
-"@roots/bud-typescript@6.12.2":
-  version "6.12.2"
-  resolved "https://registry.yarnpkg.com/@roots/bud-typescript/-/bud-typescript-6.12.2.tgz#8ac6525c4c0cd9e925f5fa1df8296b5366cc9441"
-  integrity sha512-iSsgFtOo8Ir6JED1iFUyfBzRU70/h8je2fH4bkluly7mm62Zz/efzEnUe5iP/iQhF+Zx1wTFC9HZZMLdkAxjiw==
+"@roots/bud-typescript@6.15.0":
+  version "6.15.0"
+  resolved "https://registry.yarnpkg.com/@roots/bud-typescript/-/bud-typescript-6.15.0.tgz#6136b8febfee147da0aaaf0a0c046f0c66635c98"
+  integrity sha512-u5tlIhi37iqGlAPy1Jukk8ogFDp593Gl3aRjCiJzrbr57F4JuUCSgf0CYPshjTCZzEDeHdXNphGCof3aZQz9dw==
   dependencies:
-    "@roots/bud-framework" "6.12.2"
-    "@roots/bud-support" "6.12.2"
+    "@roots/bud" "6.15.0"
+    "@roots/bud-build" "6.15.0"
+    "@roots/bud-framework" "6.15.0"
+    "@roots/bud-support" "6.15.0"
     fork-ts-checker-webpack-plugin "7.3.0"
-    react-refresh-typescript "2.0.8"
-    ts-loader "9.4.2"
+    react-refresh "0.14.0"
+    react-refresh-typescript "2.0.9"
+    ts-loader "9.4.4"
     ts-node "10.9.1"
-    tslib "2.5.0"
-    typescript "4.9.5"
+    tslib "2.6.0"
+    typescript "5.1.6"
 
 "@roots/bud-wordpress-dependencies@6.15.0":
   version "6.15.0"
@@ -9352,10 +9355,10 @@ react-reconciler@^0.29.0:
     loose-envify "^1.1.0"
     scheduler "^0.23.0"
 
-react-refresh-typescript@2.0.8:
-  version "2.0.8"
-  resolved "https://registry.yarnpkg.com/react-refresh-typescript/-/react-refresh-typescript-2.0.8.tgz#84d086f9da742d7de87ad15824301763bf8135ba"
-  integrity sha512-7zsaM8jIpUZ2hxMdTo9GNZRauTI11AD5YNNaNXVGb8mtYVwdSbc6IQV8YaHevSWYbx+ZpZispezdCfaJuTrh3w==
+react-refresh-typescript@2.0.9:
+  version "2.0.9"
+  resolved "https://registry.yarnpkg.com/react-refresh-typescript/-/react-refresh-typescript-2.0.9.tgz#f8a86efcb34f8d717100230564b9b57477d74b10"
+  integrity sha512-chAnOO4vpxm/3WkgOVmti+eN8yUtkJzeGkOigV6UA9eDFz12W34e/SsYe2H5+RwYJ3+sfSZkVbiXcG1chEBxlg==
 
 react-refresh@0.14.0:
   version "0.14.0"
@@ -10378,10 +10381,10 @@ ts-interface-checker@^0.1.9:
   resolved "https://registry.yarnpkg.com/ts-interface-checker/-/ts-interface-checker-0.1.13.tgz#784fd3d679722bc103b1b4b8030bcddb5db2a699"
   integrity sha512-Y/arvbn+rrz3JCKl9C4kVNfTfSm2/mEp5FSz5EsZSANGPSlQrpRI5M4PKF+mJnE52jOO90PnPSc3Ur3bTQw0gA==
 
-ts-loader@9.4.2:
-  version "9.4.2"
-  resolved "https://registry.yarnpkg.com/ts-loader/-/ts-loader-9.4.2.tgz#80a45eee92dd5170b900b3d00abcfa14949aeb78"
-  integrity sha512-OmlC4WVmFv5I0PpaxYb+qGeGOdm5giHU7HwDDUjw59emP2UYMHy9fFSDcYgSNoH8sXcj4hGCSEhlDZ9ULeDraA==
+ts-loader@9.4.4:
+  version "9.4.4"
+  resolved "https://registry.yarnpkg.com/ts-loader/-/ts-loader-9.4.4.tgz#6ceaf4d58dcc6979f84125335904920884b7cee4"
+  integrity sha512-MLukxDHBl8OJ5Dk3y69IsKVFRA/6MwzEqBgh+OXMPB/OD01KQuWPFd1WAQP8a5PeSCAxfnkhiuWqfmFJzJQt9w==
   dependencies:
     chalk "^4.1.0"
     enhanced-resolve "^5.0.0"
@@ -10531,10 +10534,10 @@ typed-array-length@^1.0.4:
     for-each "^0.3.3"
     is-typed-array "^1.1.9"
 
-typescript@4.9.5:
-  version "4.9.5"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.9.5.tgz#095979f9bcc0d09da324d58d03ce8f8374cbe65a"
-  integrity sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==
+typescript@5.1.6:
+  version "5.1.6"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.1.6.tgz#02f8ac202b6dad2c0dd5e0913745b47a37998274"
+  integrity sha512-zaWCozRZ6DLEWAWFrVDz1H6FVXzUSfTy5FUMWsQlU8Ym5JP9eO4xkTIROFCQvhQf61z6O/G6ugw3SgAnvvm+HA==
 
 unbox-primitive@^1.0.2:
   version "1.0.2"
