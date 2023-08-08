@@ -2,30 +2,33 @@
   "name": "sage",
   "private": true,
   "browserslist": [
-    "extends @roots/browserslist-config/current"
+    "extends @roots/browserslist-config"
   ],
   "engines": {
     "node": ">=16.0.0"
   },
   "type": "module",
   "scripts": {
-    "dev": "ts-bud dev",
-    "build": "ts-bud build",
+    "dev": "bud dev",
+    "build": "bud build",
+    "lint": "yarn lint:js && yarn lint:css",
+    "lint:js": "eslint resources/scripts",
+    "lint:css": "stylelint \"resources/**/*.{css,scss,vue}\"",
     "translate": "yarn translate:pot && yarn translate:update",
     "translate:pot": "wp i18n make-pot . ./resources/lang/sage.pot --include=\"app,resources\"",
-    "translate:update": "for filename in ./resources/lang/*.po; do msgmerge -U $filename ./resources/lang/sage.pot; done; rm -f ./resources/lang/*.po~",
+    "translate:update": "wp i18n update-po ./resources/lang/sage.pot ./resources/lang/*.po",
     "translate:compile": "yarn translate:mo && yarn translate:js",
     "translate:js": "wp i18n make-json ./resources/lang --pretty-print",
     "translate:mo": "wp i18n make-mo ./resources/lang ./resources/lang"
   },
   "devDependencies": {
-    "@roots/bud": "^6.14.2",
-    "@roots/bud-tailwindcss": "^6.14.3",
-    "@roots/bud-typescript": "^6.14.3",
-    "@roots/sage": "^2023.6.12",
-    "@tailwindcss/typography": "^0.5.9",
-    "@typescript-eslint/eslint-plugin": "^5.61.0",
-    "@typescript-eslint/parser": "^5.61.0"
+    "@roots/bud": "6.12.2",
+    "@roots/bud-eslint": "6.12.2",
+    "@roots/bud-tailwindcss": "6.12.2",
+    "@roots/bud-typescript": "6.12.2",
+    "@roots/eslint-config": "6.12.2",
+    "@roots/sage": "6.12.2",
+    "@tailwindcss/typography": "^0.5.9"
   },
   "peerDependencies": {
     "jquery": "^3.5.1"
