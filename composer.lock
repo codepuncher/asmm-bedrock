@@ -4931,15 +4931,15 @@
         },
         {
             "name": "wpackagist-plugin/w3-total-cache",
-            "version": "2.4.0",
+            "version": "2.4.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/w3-total-cache/",
-                "reference": "tags/2.4.0"
+                "reference": "tags/2.4.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/w3-total-cache.2.4.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/w3-total-cache.2.4.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
