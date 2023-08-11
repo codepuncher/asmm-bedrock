@@ -56,6 +56,12 @@ export default async (app: Bud) => {
     .set('settings.spacing.padding', true)
     .set('settings.spacing.units', ['px', '%', 'em', 'rem', 'vw', 'vh'])
     .set('settings.typography.customFontSize', false)
+    .enable();
+
+  /**
+   * Use Tailwind config in `theme.json`
+   */
+  app.wpjson
     .useTailwindColors()
     .useTailwindFontFamily()
     .useTailwindFontSize()
