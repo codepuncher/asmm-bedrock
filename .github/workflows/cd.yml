@@ -45,6 +45,7 @@ jobs:
       - uses: roots/setup-trellis-cli@v1
         with:
           ansible-vault-password: ${{ secrets.ANSIBLE_VAULT_PASSWORD }}
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Deploy
         working-directory: trellis
