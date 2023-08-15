@@ -2113,21 +2113,21 @@
     tslib "2.6.1"
     webpack-virtual-modules "0.5.0"
 
-"@roots/bud-typescript@6.15.0":
-  version "6.15.0"
-  resolved "https://registry.yarnpkg.com/@roots/bud-typescript/-/bud-typescript-6.15.0.tgz#6136b8febfee147da0aaaf0a0c046f0c66635c98"
-  integrity sha512-u5tlIhi37iqGlAPy1Jukk8ogFDp593Gl3aRjCiJzrbr57F4JuUCSgf0CYPshjTCZzEDeHdXNphGCof3aZQz9dw==
+"@roots/bud-typescript@6.15.1":
+  version "6.15.1"
+  resolved "https://registry.yarnpkg.com/@roots/bud-typescript/-/bud-typescript-6.15.1.tgz#d0cc98868133157a1f64b5cc5d7bc4b82a95c7c7"
+  integrity sha512-o/k+mXKijZuckAzpbQYqDkDmNkGSRiOLjabIEXeQnCBK2G6iyv8EEjelQreuLN6LX4hy/Jj1HvBJ2CdPcFY0MA==
   dependencies:
-    "@roots/bud" "6.15.0"
-    "@roots/bud-build" "6.15.0"
-    "@roots/bud-framework" "6.15.0"
-    "@roots/bud-support" "6.15.0"
+    "@roots/bud" "6.15.1"
+    "@roots/bud-build" "6.15.1"
+    "@roots/bud-framework" "6.15.1"
+    "@roots/bud-support" "6.15.1"
     fork-ts-checker-webpack-plugin "7.3.0"
     react-refresh "0.14.0"
     react-refresh-typescript "2.0.9"
     ts-loader "9.4.4"
     ts-node "10.9.1"
-    tslib "2.6.0"
+    tslib "2.6.1"
     typescript "5.1.6"
 
 "@roots/bud-wordpress-dependencies@6.15.1":
