@@ -1878,22 +1878,6 @@
     tslib "2.6.1"
     webpack "5.88.2"
 
-"@roots/bud-postcss@6.15.1":
-  version "6.15.1"
-  resolved "https://registry.yarnpkg.com/@roots/bud-postcss/-/bud-postcss-6.15.1.tgz#a0348a3ad55e2d05df561d01a6fda719b759cd6b"
-  integrity sha512-y2Jo/h82/+Nd4SEFJc5ELMhrcjJrwGPfFPggPLbInkSZrZqHXEQDuQ0OFW9y6c4QlYzTBVIYRlye1ScU9kGcTg==
-  dependencies:
-    "@roots/bud-build" "6.15.1"
-    "@roots/bud-framework" "6.15.1"
-    "@roots/bud-support" "6.15.1"
-    postcss "8.4.27"
-    postcss-import "15.1.0"
-    postcss-loader "7.3.3"
-    postcss-nested "6.0.1"
-    postcss-preset-env "9.1.1"
-    tslib "2.6.1"
-    webpack "5.88.2"
-
 "@roots/bud-postcss@6.15.2":
   version "6.15.2"
   resolved "https://registry.yarnpkg.com/@roots/bud-postcss/-/bud-postcss-6.15.2.tgz#97a96c7df1483be1cee85182e8e81ba081b13f89"
@@ -2114,15 +2098,15 @@
     "@roots/wordpress-theme-json-webpack-plugin" "6.15.2"
     tslib "2.6.1"
 
-"@roots/bud-tailwindcss@6.15.1":
-  version "6.15.1"
-  resolved "https://registry.yarnpkg.com/@roots/bud-tailwindcss/-/bud-tailwindcss-6.15.1.tgz#335dfe93827fa40c71a3a34d1c4e3138dc6bc87f"
-  integrity sha512-SI6OLXkwNfM7LAxQPn2nyDrbzjjUnX8SVphgtOgSA93BkqAgUdCg/lFoY7c3uO+Ci2tBqjBhjupZSO4L5gPy4A==
+"@roots/bud-tailwindcss@6.15.2":
+  version "6.15.2"
+  resolved "https://registry.yarnpkg.com/@roots/bud-tailwindcss/-/bud-tailwindcss-6.15.2.tgz#27a76fd7c0788bf5cdea73b9d37c5129b6a142d7"
+  integrity sha512-TIsBmEIv74/ldkrs8f30uT31b4OG2ew5A5KfFDGuHXc7HZx3go4WpMQpkEqBDPzZTBW7NYX9PceVD9hlyKzi4Q==
   dependencies:
-    "@roots/bud" "6.15.1"
-    "@roots/bud-framework" "6.15.1"
-    "@roots/bud-postcss" "6.15.1"
-    "@roots/bud-support" "6.15.1"
+    "@roots/bud" "6.15.2"
+    "@roots/bud-framework" "6.15.2"
+    "@roots/bud-postcss" "6.15.2"
+    "@roots/bud-support" "6.15.2"
     postcss "8.4.27"
     sucrase "3.34.0"
     tailwindcss "3.3.3"
