@@ -55,7 +55,7 @@
     "wpackagist-plugin/stream": "^3.10",
     "wpackagist-plugin/wordpress-seo": "^21.5",
     "wpackagist-plugin/autoptimize": "3.1.9",
-    "wpackagist-plugin/w3-total-cache": "^2.5",
+    "wpackagist-plugin/w3-total-cache": "^2.6",
     "roots/wordpress-no-content": "^6.0",
     "wpackagist-theme/twentytwentytwo": "^1.4",
     "roots/acorn": "^2.1",
