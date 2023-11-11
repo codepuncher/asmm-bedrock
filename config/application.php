@@ -116,6 +116,12 @@ Config::define('SCRIPT_DEBUG', false);
 ini_set('display_errors', '0');
 
 /**
+ * Contact Form 7
+ */
+Config::define('WPCF7_UPLOADS_TMP_DIR', 'wpcf7_uploads');
+Config::define('UPLOADS', '../app/uploads');
+
+/**
  * Allow WordPress to detect HTTPS when used behind a reverse proxy or a load balancer
  * See https://codex.wordpress.org/Function_Reference/is_ssl#Notes
  */
