@@ -18,18 +18,16 @@ const colors = theme.settings.color.palette.reduce((acc, item) => {
 }, {});
 
 module.exports = {
-  content: [
-    './index.php',
-    './app/**/*.php',
-    './resources/**/*.{php,vue,js}',
-  ],
+  content: ['./index.php', './app/**/*.php', './resources/**/*.{php,vue,js}'],
   safelist: [
     {
       pattern: /^([a-z]{2})-(\d)$/,
     },
     {
       pattern: /^text-(\d)([a-z]{2})$/,
-    }
+    },
+    'h-6',
+    'w-6',
   ],
   theme: {
     extend: {
@@ -54,10 +52,7 @@ module.exports = {
   },
   variants: {
     extend: {
-      display: [
-        'hover',
-        'group-hover',
-      ],
+      display: ['hover', 'group-hover'],
     },
   },
   plugins: [require('@tailwindcss/typography')],
