@@ -1,7 +1,7 @@
 <ul class="mb-0 flex list-none justify-between">
   @foreach ($items as $item)
     @empty($item->children)
-      <li class="mb-0 {{ $loop->first ? '' : 'ml-3' }}">
+      <li class="{{ $loop->first ? '' : 'ml-3' }} mb-0">
         <a
           class="{{ $item->classes }}"
           href="{{ $item->url }}"
@@ -17,7 +17,7 @@
         >{!! esc_html($item->label) !!}</a>
 
         <div class="dropdown-menu absolute hidden h-auto w-48 pt-3 shadow group-hover:block">
-          <ul class="list-none">
+          <ul class="mb-0 list-none pl-0">
             @foreach ($item->children as $child)
               <li class="mb-0">
                 <a
