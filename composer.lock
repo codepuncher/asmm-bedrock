@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "81c4938baf19f2e3b89356fc2d1f917f",
+    "content-hash": "d4d26b51dee659630f6063f50621f1eb",
     "packages": [
         {
             "name": "brick/math",
@@ -4956,15 +4956,15 @@
         },
         {
             "name": "wpackagist-plugin/post-smtp",
-            "version": "2.7.3",
+            "version": "2.8.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/post-smtp/",
-                "reference": "tags/2.7.3"
+                "reference": "tags/2.8.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/post-smtp.2.7.3.zip"
+                "url": "https://downloads.wordpress.org/plugin/post-smtp.2.8.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
