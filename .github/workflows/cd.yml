@@ -16,6 +16,7 @@ jobs:
       group: "${{ github.workflow }}-${{ github.ref_name }}"
       cancel-in-progress: false
 
+    if: ${{ github.sha != vars.LAST_DEPLOY }}
     steps:
       - uses: actions/checkout@v3
         with:
@@ -50,3 +51,8 @@ jobs:
       - name: Deploy
         working-directory: trellis
         run: trellis deploy --verbose production
+
+      - name: Set deployed commit hash variable
+        run: gh variable set LAST_DEPLOY --body='${{ github.sha }}'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
