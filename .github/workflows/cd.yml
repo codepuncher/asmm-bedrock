@@ -52,8 +52,8 @@ jobs:
         working-directory: trellis
         run: trellis deploy --verbose production
 
-      - name: Set deployed commit hash variable
+      - name: Cache deployed commit hash
         run: gh variable set LAST_DEPLOY --body='${{ github.sha }}'
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         working-directory: bedrock
+        env:
+          GITHUB_TOKEN: ${{ secrets.REPO_PAT }}
