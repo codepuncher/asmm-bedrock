@@ -2498,19 +2498,19 @@
     tslib "2.6.2"
     webpack-virtual-modules "0.5.0"
 
-"@roots/bud-typescript@6.17.0":
-  version "6.17.0"
-  resolved "https://registry.yarnpkg.com/@roots/bud-typescript/-/bud-typescript-6.17.0.tgz#d75908940c4b28bfe53cc654463d71cf14e7901e"
-  integrity sha512-CbgeiPZ/yYcgZMQdgFQaHgw/vA4RI88JvxTxQdwTDRD++rOJsF/jhn8tW7ENQioUmV9uBWxdblkoiq2UjUrEeA==
+"@roots/bud-typescript@6.18.0":
+  version "6.18.0"
+  resolved "https://registry.yarnpkg.com/@roots/bud-typescript/-/bud-typescript-6.18.0.tgz#7f63961a2e150e863545b274f8d566c6a6b86372"
+  integrity sha512-JOZj93SnQcjMeS1jtUTzT6ODNkgDWRMo6qIyKIEYE0w4Ut01kXoFm5XhtMGwubWrAeaPvsp8bfVOwRTBGlMuZg==
   dependencies:
-    "@roots/bud" "6.17.0"
-    "@roots/bud-build" "6.17.0"
-    "@roots/bud-framework" "6.17.0"
-    "@roots/bud-support" "6.17.0"
+    "@roots/bud" "6.18.0"
+    "@roots/bud-build" "6.18.0"
+    "@roots/bud-framework" "6.18.0"
+    "@roots/bud-support" "6.18.0"
     fork-ts-checker-webpack-plugin "7.3.0"
     react-refresh "0.14.0"
     react-refresh-typescript "2.0.9"
-    ts-loader "9.4.4"
+    ts-loader "9.5.1"
     ts-node "10.9.1"
     tslib "2.6.2"
     typescript "5.2.2"
@@ -8945,7 +8945,7 @@ source-map@^0.6.0, source-map@^0.6.1:
   resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.6.1.tgz#74722af32e9614e9c287a8d0bbde48b5e2f1a263"
   integrity sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==
 
-source-map@^0.7.3:
+source-map@^0.7.3, source-map@^0.7.4:
   version "0.7.4"
   resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.7.4.tgz#a9bbe705c9d8846f4e08ff6765acf0f1b0898656"
   integrity sha512-l3BikUxvPOcn5E74dZiq5BGsTb5yEwhaTSzccU6t4sDOH8NWJCstKO5QT2CvtFoK6F0saL7p9xHAqHOlCPJygA==
@@ -9311,15 +9311,16 @@ ts-interface-checker@^0.1.9:
   resolved "https://registry.yarnpkg.com/ts-interface-checker/-/ts-interface-checker-0.1.13.tgz#784fd3d679722bc103b1b4b8030bcddb5db2a699"
   integrity sha512-Y/arvbn+rrz3JCKl9C4kVNfTfSm2/mEp5FSz5EsZSANGPSlQrpRI5M4PKF+mJnE52jOO90PnPSc3Ur3bTQw0gA==
 
-ts-loader@9.4.4:
-  version "9.4.4"
-  resolved "https://registry.yarnpkg.com/ts-loader/-/ts-loader-9.4.4.tgz#6ceaf4d58dcc6979f84125335904920884b7cee4"
-  integrity sha512-MLukxDHBl8OJ5Dk3y69IsKVFRA/6MwzEqBgh+OXMPB/OD01KQuWPFd1WAQP8a5PeSCAxfnkhiuWqfmFJzJQt9w==
+ts-loader@9.5.1:
+  version "9.5.1"
+  resolved "https://registry.yarnpkg.com/ts-loader/-/ts-loader-9.5.1.tgz#63d5912a86312f1fbe32cef0859fb8b2193d9b89"
+  integrity sha512-rNH3sK9kGZcH9dYzC7CewQm4NtxJTjSEVRJ2DyBZR7f8/wcta+iV44UPCXc5+nzDzivKtlzV6c9P4e+oFhDLYg==
   dependencies:
     chalk "^4.1.0"
     enhanced-resolve "^5.0.0"
     micromatch "^4.0.0"
     semver "^7.3.4"
+    source-map "^0.7.4"
 
 ts-node@10.9.1:
   version "10.9.1"
