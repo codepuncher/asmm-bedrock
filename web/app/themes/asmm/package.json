@@ -23,7 +23,7 @@
   },
   "devDependencies": {
     "@roots/bud": "6.18.0",
-    "@roots/bud-eslint": "6.18.0",
+    "@roots/bud-eslint": "6.19.0",
     "@roots/bud-tailwindcss": "6.18.0",
     "@roots/bud-typescript": "6.18.0",
     "@roots/eslint-config": "6.18.0",
