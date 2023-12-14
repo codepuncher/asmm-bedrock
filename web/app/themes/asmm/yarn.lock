@@ -2092,22 +2092,6 @@
     tslib "2.6.2"
     webpack "5.89.0"
 
-"@roots/bud-postcss@6.18.0":
-  version "6.18.0"
-  resolved "https://registry.yarnpkg.com/@roots/bud-postcss/-/bud-postcss-6.18.0.tgz#f7e942738d43752c04d2162354a8e5799b3dc260"
-  integrity sha512-GoGqIH92WSq7MRAXC9MNYV5Dsjou3f111wdMFZj+nf2CK8L68hANVUBZqCfwundNAmJw0DgepW47SPMZUSvfBA==
-  dependencies:
-    "@roots/bud-build" "6.18.0"
-    "@roots/bud-framework" "6.18.0"
-    "@roots/bud-support" "6.18.0"
-    postcss "8.4.31"
-    postcss-import "15.1.0"
-    postcss-loader "7.3.3"
-    postcss-nested "6.0.1"
-    postcss-preset-env "9.3.0"
-    tslib "2.6.2"
-    webpack "5.89.0"
-
 "@roots/bud-postcss@6.19.0":
   version "6.19.0"
   resolved "https://registry.yarnpkg.com/@roots/bud-postcss/-/bud-postcss-6.19.0.tgz#cc8ea1511e09c0b9df3f3ea6f39261138c34ae13"
@@ -2340,20 +2324,20 @@
     "@roots/wordpress-theme-json-webpack-plugin" "6.19.0"
     tslib "2.6.2"
 
-"@roots/bud-tailwindcss@6.18.0":
-  version "6.18.0"
-  resolved "https://registry.yarnpkg.com/@roots/bud-tailwindcss/-/bud-tailwindcss-6.18.0.tgz#8f26ead1618799247d654e95df672ee0d7e1aa56"
-  integrity sha512-PDR/YsKApOieziaJ7SQDjdDQSStl5pv3MWNWru34++mFDOiENyfPa7K6H6SYfJr4idF6xWStgRJ8iFhY3VGuZQ==
+"@roots/bud-tailwindcss@6.19.0":
+  version "6.19.0"
+  resolved "https://registry.yarnpkg.com/@roots/bud-tailwindcss/-/bud-tailwindcss-6.19.0.tgz#f994e2eb63d0e45b2d26a0ddf528dc01eee81120"
+  integrity sha512-EMfFQ1tPYAclDgBd5VGiUn3PMIFZ36XcOplTXvL1B19uMijw2Udb8zUeb5Z++hUyb0GPpLVENymMuhQ/qjbszQ==
   dependencies:
-    "@roots/bud" "6.18.0"
-    "@roots/bud-framework" "6.18.0"
-    "@roots/bud-postcss" "6.18.0"
-    "@roots/bud-support" "6.18.0"
-    postcss "8.4.31"
+    "@roots/bud" "6.19.0"
+    "@roots/bud-framework" "6.19.0"
+    "@roots/bud-postcss" "6.19.0"
+    "@roots/bud-support" "6.19.0"
+    postcss "8.4.32"
     sucrase "3.34.0"
-    tailwindcss "3.3.5"
+    tailwindcss "3.3.6"
     tslib "2.6.2"
-    webpack-virtual-modules "0.6.0"
+    webpack-virtual-modules "0.6.1"
 
 "@roots/bud-typescript@6.19.0":
   version "6.19.0"
@@ -6945,11 +6929,6 @@ mz@^2.7.0:
     object-assign "^4.0.1"
     thenify-all "^1.0.0"
 
-nanoid@^3.3.6:
-  version "3.3.6"
-  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.3.6.tgz#443380c856d6e9f9824267d960b4236ad583ea4c"
-  integrity sha512-BGcqMMJuToF7i1rt+2PWSNVnWIkGCU78jBG3RxO/bZlnZPK2Cmi2QaffxGO/2RvWi9sL+FAiRiXMgsyxQ1DIDA==
-
 nanoid@^3.3.7:
   version "3.3.7"
   resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.3.7.tgz#d0c301a691bc8d54efa0a2226ccf3fe2fd656bd8"
@@ -7953,16 +7932,7 @@ postcss-value-parser@^4.0.0, postcss-value-parser@^4.1.0, postcss-value-parser@^
   resolved "https://registry.yarnpkg.com/postcss-value-parser/-/postcss-value-parser-4.2.0.tgz#723c09920836ba6d3e5af019f92bc0971c02e514"
   integrity sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==
 
-postcss@8.4.31, postcss@^8.4.21, postcss@^8.4.23, postcss@^8.4.24:
-  version "8.4.31"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.31.tgz#92b451050a9f914da6755af352bdc0192508656d"
-  integrity sha512-PS08Iboia9mts/2ygV3eLpY5ghnUcfLV/EXTOW1E2qYxJKGGBUtNjN76FYHnMs36RmARn41bC0AZmn+rR0OVpQ==
-  dependencies:
-    nanoid "^3.3.6"
-    picocolors "^1.0.0"
-    source-map-js "^1.0.2"
-
-postcss@8.4.32:
+postcss@8.4.32, postcss@^8.4.21, postcss@^8.4.23, postcss@^8.4.24:
   version "8.4.32"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.32.tgz#1dac6ac51ab19adb21b8b34fd2d93a86440ef6c9"
   integrity sha512-D/kj5JNu6oo2EIy+XL/26JEDTlIbB8hw85G8StOE6L74RQAVVP5rej6wxCNqyMbR4RkPfqvezVbPw81Ngd6Kcw==
@@ -8828,10 +8798,10 @@ synckit@^0.8.5:
     "@pkgr/utils" "^2.3.1"
     tslib "^2.5.0"
 
-tailwindcss@3.3.5:
-  version "3.3.5"
-  resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-3.3.5.tgz#22a59e2fbe0ecb6660809d9cc5f3976b077be3b8"
-  integrity sha512-5SEZU4J7pxZgSkv7FP1zY8i2TIAOooNZ1e/OGtxIEv6GltpoiXUqWvLy89+a10qYTB1N5Ifkuw9lqQkN9sscvA==
+tailwindcss@3.3.6:
+  version "3.3.6"
+  resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-3.3.6.tgz#4dd7986bf4902ad385d90d45fd4b2fa5fab26d5f"
+  integrity sha512-AKjF7qbbLvLaPieoKeTjG1+FyNZT6KaJMJPFeQyLfIp7l82ggH1fbHJSsYIvnbTFQOlkh+gBYpyby5GT1LIdLw==
   dependencies:
     "@alloc/quick-lru" "^5.2.0"
     arg "^5.0.2"
@@ -9380,10 +9350,10 @@ webpack-sources@^3.2.3:
   resolved "https://registry.yarnpkg.com/webpack-sources/-/webpack-sources-3.2.3.tgz#2d4daab8451fd4b240cc27055ff6a0c2ccea0cde"
   integrity sha512-/DyMEOrDgLKKIG0fmvtz+4dUX/3Ghozwgm6iPp8KRhvn+eQf9+Q7GWxVNMk3+uCPWfdXYC4ExGBckIXdFEfH1w==
 
-webpack-virtual-modules@0.6.0:
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/webpack-virtual-modules/-/webpack-virtual-modules-0.6.0.tgz#95eb2cb160a8cb84a73bdc2b5c806693f690ad35"
-  integrity sha512-KnaMTE6EItz/f2q4Gwg5/rmeKVi79OR58NoYnwDJqCk9ywMtTGbBnBcfoBtN4QbYu0lWXvyMoH2Owxuhe4qI6Q==
+webpack-virtual-modules@0.6.1:
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/webpack-virtual-modules/-/webpack-virtual-modules-0.6.1.tgz#ac6fdb9c5adb8caecd82ec241c9631b7a3681b6f"
+  integrity sha512-poXpCylU7ExuvZK8z+On3kX+S8o/2dQ/SVYueKA0D4WEMXROXgY8Ez50/bQEUmvoSMMrWcrJqCHuhAbsiwg7Dg==
 
 webpack@5.89.0:
   version "5.89.0"
