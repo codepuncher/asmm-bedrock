@@ -34,6 +34,6 @@
     "jquery": "^3.5.1"
   },
   "dependencies": {
-    "caniuse-lite": "^1.0.30001571"
+    "caniuse-lite": "^1.0.30001572"
   }
 }
