@@ -51,7 +51,7 @@
     "wpackagist-plugin/crop-thumbnails": "^1.8",
     "wpackagist-plugin/duplicate-post": "^4.5",
     "wpackagist-plugin/kirki": "^5.0",
-    "wpackagist-plugin/redirection": "^5.3",
+    "wpackagist-plugin/redirection": "^5.5",
     "wpackagist-plugin/stream": "^3.10",
     "wpackagist-plugin/wordpress-seo": "^21.7",
     "wpackagist-plugin/autoptimize": "3.1.10",
