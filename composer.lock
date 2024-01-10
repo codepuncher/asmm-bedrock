@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c4cd3469811ab35fbc20837533355926",
+    "content-hash": "22adcd8f1ab08502368c8ad8cb846601",
     "packages": [
         {
             "name": "brick/math",
@@ -4992,15 +4992,15 @@
         },
         {
             "name": "wpackagist-plugin/stream",
-            "version": "3.10.0",
+            "version": "4.0.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/stream/",
-                "reference": "tags/3.10.0"
+                "reference": "tags/4.0.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/stream.3.10.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/stream.4.0.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
