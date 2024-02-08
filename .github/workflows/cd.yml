@@ -18,17 +18,17 @@ jobs:
 
     if: ${{ github.sha != vars.LAST_DEPLOY }}
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           path: bedrock
 
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-node@v4
         with:
           node-version: 18
           cache: yarn
           cache-dependency-path: bedrock/web/app/themes/asmm/yarn.lock
 
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           repository: codepuncher/asmm-trellis
           path: trellis
