@@ -61,7 +61,7 @@
     "wpackagist-plugin/contact-form-7": "^5.8",
     "wpackagist-theme/twentytwentyfour": "^1.0",
     "wpackagist-plugin/post-smtp": "^2.8",
-    "wpackagist-plugin/tracking-code-manager": "^2.0"
+    "wpackagist-plugin/tracking-code-manager": "^2.1"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.9.0",
