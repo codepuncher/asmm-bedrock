@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "239fefb6c10cc91cd0e794a02d9271e1",
+    "content-hash": "11282fb47b7b9af8f81d6ea07edec4d7",
     "packages": [
         {
             "name": "brick/math",
@@ -4884,15 +4884,15 @@
         },
         {
             "name": "wpackagist-plugin/contact-form-7",
-            "version": "5.8.7",
+            "version": "5.9",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/contact-form-7/",
-                "reference": "tags/5.8.7"
+                "reference": "tags/5.9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/contact-form-7.5.8.7.zip"
+                "url": "https://downloads.wordpress.org/plugin/contact-form-7.5.9.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
