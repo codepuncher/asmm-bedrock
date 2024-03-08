@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0e8ccf12d7d7307af461f2137cc1819c",
+    "content-hash": "0c81213b04e2f29335a880f0a74761e6",
     "packages": [
         {
             "name": "brick/math",
@@ -5010,15 +5010,15 @@
         },
         {
             "name": "wpackagist-plugin/tracking-code-manager",
-            "version": "2.1.0",
+            "version": "2.2.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/tracking-code-manager/",
-                "reference": "tags/2.1.0"
+                "reference": "tags/2.2.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/tracking-code-manager.2.1.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/tracking-code-manager.2.2.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
