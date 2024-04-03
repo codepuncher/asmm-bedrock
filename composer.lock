@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "807719f709b713ea613e4b5ca0c1e3e1",
+    "content-hash": "ead4447ca554e54fab43af7925f86031",
     "packages": [
         {
             "name": "brick/math",
@@ -5064,15 +5064,15 @@
         },
         {
             "name": "wpackagist-theme/twentytwentyfour",
-            "version": "1.0",
+            "version": "1.1",
             "source": {
                 "type": "svn",
                 "url": "https://themes.svn.wordpress.org/twentytwentyfour/",
-                "reference": "1.0"
+                "reference": "1.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/twentytwentyfour.1.0.zip"
+                "url": "https://downloads.wordpress.org/theme/twentytwentyfour.1.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
