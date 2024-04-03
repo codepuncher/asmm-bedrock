@@ -53,7 +53,7 @@
     "wpackagist-plugin/kirki": "^5.1",
     "wpackagist-plugin/redirection": "^5.5",
     "wpackagist-plugin/stream": "^4.0",
-    "wpackagist-plugin/wordpress-seo": "^22.3",
+    "wpackagist-plugin/wordpress-seo": "^22.4",
     "wpackagist-plugin/autoptimize": "3.1.11",
     "wpackagist-plugin/w3-total-cache": "^2.7",
     "roots/wordpress-no-content": "^6.0",
