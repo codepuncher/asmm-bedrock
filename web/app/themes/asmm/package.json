@@ -24,7 +24,7 @@
   "devDependencies": {
     "@roots/bud": "6.20.0",
     "@roots/bud-eslint": "6.21.0",
-    "@roots/bud-tailwindcss": "6.20.0",
+    "@roots/bud-tailwindcss": "6.21.0",
     "@roots/bud-typescript": "6.20.0",
     "@roots/eslint-config": "6.20.0",
     "@roots/sage": "6.20.0",
