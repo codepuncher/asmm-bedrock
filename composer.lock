@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "32c4e5898f2ff2bdf838e29266efd603",
+    "content-hash": "ba711580624337948beb0b2eec4a5a70",
     "packages": [
         {
             "name": "brick/math",
@@ -5009,6 +5009,24 @@
             "homepage": "https://wordpress.org/plugins/stream/"
         },
         {
+            "name": "wpackagist-plugin/the-events-calendar",
+            "version": "6.5.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/the-events-calendar/",
+                "reference": "tags/6.5.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/the-events-calendar.6.5.0.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/the-events-calendar/"
+        },
+        {
             "name": "wpackagist-plugin/tracking-code-manager",
             "version": "2.2.0",
             "source": {
@@ -5629,5 +5647,5 @@
         "php": ">=7.4"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.3.0"
 }
