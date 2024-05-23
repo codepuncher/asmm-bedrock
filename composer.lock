@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "84e1b1cb53ddedf4817b73f847556d72",
+    "content-hash": "4460f1283c87d743605406a4106054f8",
     "packages": [
         {
             "name": "brick/math",
@@ -5058,24 +5058,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/stream/"
-        },
-        {
-            "name": "wpackagist-plugin/sugar-calendar-lite",
-            "version": "2.2.4",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/sugar-calendar-lite/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/sugar-calendar-lite.zip?timestamp=1630437120"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/sugar-calendar-lite/"
         },
         {
             "name": "wpackagist-plugin/tracking-code-manager",
