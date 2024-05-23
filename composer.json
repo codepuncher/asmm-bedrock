@@ -65,7 +65,7 @@
     "wpackagist-plugin/the-events-calendar": "^6.5"
   },
   "require-dev": {
-    "squizlabs/php_codesniffer": "^3.10.0",
+    "squizlabs/php_codesniffer": "^3.10.1",
     "roave/security-advisories": "dev-master"
   },
   "config": {
