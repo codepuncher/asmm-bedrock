@@ -18,7 +18,7 @@ add_filter('excerpt_more', static function () {
 });
 
 add_filter('body_class', static function (array $classes): array {
-    $classes[] = 'bg-blue-dark';
+    $classes[] = 'bg-slate-800';
     $classes[] = 'text-white';
 
     return $classes;

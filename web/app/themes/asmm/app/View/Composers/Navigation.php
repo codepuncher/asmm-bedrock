@@ -56,13 +56,13 @@ class Navigation extends Composer
 
         $parent->children = array_map(static function (object $item): object {
             $baseClasses = [
-                'bg-blue-dark',
+                'bg-slate-800',
                 'text-yellow-500',
                 'text-sm',
                 'block',
                 'p-3',
                 'hover:bg-yellow-500',
-                'hover:text-blue-dark',
+                'hover:text-slate-800',
                 'transition-colors',
             ];
             $baseClasses = implode(' ', $baseClasses);
