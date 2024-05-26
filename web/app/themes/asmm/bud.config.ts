@@ -1,7 +1,6 @@
 import { Bud } from '@roots/bud';
 import '@roots/bud-framework';
 import '@roots/bud-typescript';
-import '@roots/bud-wordpress-theme-json';
 
 export default async (app: Bud) => {
   /**
