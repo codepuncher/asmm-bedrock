@@ -54,8 +54,7 @@ class Navigation extends Composer
             return $parent;
         }
 
-        $parentChildrenCount = count($parent->children);
-        $parent->children = array_map(static function (object $item, int $index) use ($parentChildrenCount): object {
+        $parent->children = array_map(static function (object $item): object {
             $baseClasses = [
                 'bg-blue-dark',
                 'text-yellow-500',
@@ -70,7 +69,7 @@ class Navigation extends Composer
             $item->classes .= " {$baseClasses}";
 
             return $item;
-        }, array_values($parent->children), array_keys($parent->children));
+        }, array_values($parent->children));
 
         return $parent;
     }
