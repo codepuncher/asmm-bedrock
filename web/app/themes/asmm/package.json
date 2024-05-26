@@ -22,12 +22,14 @@
     "translate:mo": "wp i18n make-mo ./resources/lang ./resources/lang"
   },
   "devDependencies": {
-    "@roots/bud": "6.21.0",
-    "@roots/bud-eslint": "6.21.0",
-    "@roots/bud-tailwindcss": "6.21.0",
-    "@roots/bud-typescript": "6.21.0",
-    "@roots/eslint-config": "6.21.0",
-    "@roots/sage": "6.21.0",
+    "@roots/bud": "^6.21.0",
+    "@roots/bud-eslint": "^6.21.0",
+    "@roots/bud-prettier": "^6.21.0",
+    "@roots/bud-stylelint": "^6.21.0",
+    "@roots/bud-tailwindcss": "^6.21.0",
+    "@roots/bud-typescript": "^6.21.0",
+    "@roots/eslint-config": "^6.21.0",
+    "@roots/sage": "^6.21.0",
     "@tailwindcss/typography": "^0.5.13"
   },
   "peerDependencies": {
