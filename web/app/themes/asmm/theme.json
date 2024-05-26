@@ -3,10 +3,13 @@
   "$schema": "https://schemas.wp.org/trunk/theme.json",
   "version": 2,
   "settings": {
+    "background": {
+      "backgroundImage": true
+    },
     "color": {
       "custom": false,
-      "customGradient": false,
       "customDuotone": false,
+      "customGradient": false,
       "defaultDuotone": false,
       "defaultGradients": false,
       "defaultPalette": false,
@@ -28,12 +31,12 @@
           "slug": "transparent"
         },
         {
-          "color": "#000000",
+          "color": "#000",
           "name": "Black",
           "slug": "black"
         },
         {
-          "color": "#ffffff",
+          "color": "#fff",
           "name": "White",
           "slug": "white"
         },
@@ -313,9 +316,59 @@
           "slug": "stone-950"
         },
         {
-          "color": "#ef4767",
-          "name": "Red",
-          "slug": "red"
+          "color": "#fef2f2",
+          "name": "Red 50",
+          "slug": "red-50"
+        },
+        {
+          "color": "#fee2e2",
+          "name": "Red 100",
+          "slug": "red-100"
+        },
+        {
+          "color": "#fecaca",
+          "name": "Red 200",
+          "slug": "red-200"
+        },
+        {
+          "color": "#fca5a5",
+          "name": "Red 300",
+          "slug": "red-300"
+        },
+        {
+          "color": "#f87171",
+          "name": "Red 400",
+          "slug": "red-400"
+        },
+        {
+          "color": "#ef4444",
+          "name": "Red 500",
+          "slug": "red-500"
+        },
+        {
+          "color": "#dc2626",
+          "name": "Red 600",
+          "slug": "red-600"
+        },
+        {
+          "color": "#b91c1c",
+          "name": "Red 700",
+          "slug": "red-700"
+        },
+        {
+          "color": "#991b1b",
+          "name": "Red 800",
+          "slug": "red-800"
+        },
+        {
+          "color": "#7f1d1d",
+          "name": "Red 900",
+          "slug": "red-900"
+        },
+        {
+          "color": "#450a0a",
+          "name": "Red 950",
+          "slug": "red-950"
         },
         {
           "color": "#fff7ed",
@@ -428,9 +481,59 @@
           "slug": "amber-950"
         },
         {
-          "color": "#ffd166",
-          "name": "Yellow",
-          "slug": "yellow"
+          "color": "#fefce8",
+          "name": "Yellow 50",
+          "slug": "yellow-50"
+        },
+        {
+          "color": "#fef9c3",
+          "name": "Yellow 100",
+          "slug": "yellow-100"
+        },
+        {
+          "color": "#fef08a",
+          "name": "Yellow 200",
+          "slug": "yellow-200"
+        },
+        {
+          "color": "#fde047",
+          "name": "Yellow 300",
+          "slug": "yellow-300"
+        },
+        {
+          "color": "#facc15",
+          "name": "Yellow 400",
+          "slug": "yellow-400"
+        },
+        {
+          "color": "#eab308",
+          "name": "Yellow 500",
+          "slug": "yellow-500"
+        },
+        {
+          "color": "#ca8a04",
+          "name": "Yellow 600",
+          "slug": "yellow-600"
+        },
+        {
+          "color": "#a16207",
+          "name": "Yellow 700",
+          "slug": "yellow-700"
+        },
+        {
+          "color": "#854d0e",
+          "name": "Yellow 800",
+          "slug": "yellow-800"
+        },
+        {
+          "color": "#713f12",
+          "name": "Yellow 900",
+          "slug": "yellow-900"
+        },
+        {
+          "color": "#422006",
+          "name": "Yellow 950",
+          "slug": "yellow-950"
         },
         {
           "color": "#f7fee7",
@@ -488,9 +591,59 @@
           "slug": "lime-950"
         },
         {
-          "color": "#06d6a0",
-          "name": "Green",
-          "slug": "green"
+          "color": "#f0fdf4",
+          "name": "Green 50",
+          "slug": "green-50"
+        },
+        {
+          "color": "#dcfce7",
+          "name": "Green 100",
+          "slug": "green-100"
+        },
+        {
+          "color": "#bbf7d0",
+          "name": "Green 200",
+          "slug": "green-200"
+        },
+        {
+          "color": "#86efac",
+          "name": "Green 300",
+          "slug": "green-300"
+        },
+        {
+          "color": "#4ade80",
+          "name": "Green 400",
+          "slug": "green-400"
+        },
+        {
+          "color": "#22c55e",
+          "name": "Green 500",
+          "slug": "green-500"
+        },
+        {
+          "color": "#16a34a",
+          "name": "Green 600",
+          "slug": "green-600"
+        },
+        {
+          "color": "#15803d",
+          "name": "Green 700",
+          "slug": "green-700"
+        },
+        {
+          "color": "#166534",
+          "name": "Green 800",
+          "slug": "green-800"
+        },
+        {
+          "color": "#14532d",
+          "name": "Green 900",
+          "slug": "green-900"
+        },
+        {
+          "color": "#052e16",
+          "name": "Green 950",
+          "slug": "green-950"
         },
         {
           "color": "#ecfdf5",
@@ -766,16 +919,6 @@
           "color": "#172554",
           "name": "Blue 950",
           "slug": "blue-950"
-        },
-        {
-          "color": "#118ab2",
-          "name": "Blue Light",
-          "slug": "blue-light"
-        },
-        {
-          "color": "#073b4c",
-          "name": "Blue Dark",
-          "slug": "blue-dark"
         },
         {
           "color": "#eef2ff",
@@ -1129,7 +1272,6 @@
     },
     "typography": {
       "customFontSize": false,
-      "dropCap": false,
       "fontFamilies": [
         {
           "fontFamily": "Oswald,sans-serif",

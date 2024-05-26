@@ -1,7 +1,7 @@
 @include('sections.header')
 
 @if(function_exists('yoast_breadcrumb') && ! is_front_page())
-  <div class="breadcrumbs w-full flex justify-center border-b border-yellow">
+  <div class="breadcrumbs w-full flex justify-center border-b border-yellow-500">
     <div class="w-full max-w-screen-xl py-8 px-2 sm:px-6 lg:px-8">
       {!! yoast_breadcrumb() !!}
     </div>

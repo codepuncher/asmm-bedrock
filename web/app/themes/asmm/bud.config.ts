@@ -1,14 +1,11 @@
 import { Bud } from '@roots/bud';
-import '@roots/bud-framework';
-import '@roots/bud-typescript';
-import '@roots/bud-wordpress-theme-json';
 
 export default async (app: Bud) => {
   /**
    * Application assets & entrypoints
    *
-   * @see {@link https://bud.js.org/docs/bud.entry}
-   * @see {@link https://bud.js.org/docs/bud.assets}
+   * @see {@link https://bud.js.org/reference/bud.entry}
+   * @see {@link https://bud.js.org/reference/bud.assets}
    */
   app
     .entry('app', ['@scripts/app', '@styles/app'])
@@ -18,16 +15,16 @@ export default async (app: Bud) => {
   /**
    * Set public path
    *
-   * @see {@link https://bud.js.org/docs/bud.setPublicPath}
+   * @see {@link https://bud.js.org/reference/bud.setPublicPath}
    */
   app.setPublicPath('/app/themes/sage/public/');
 
   /**
    * Development server settings
    *
-   * @see {@link https://bud.js.org/docs/bud.setUrl}
-   * @see {@link https://bud.js.org/docs/bud.setProxyUrl}
-   * @see {@link https://bud.js.org/docs/bud.watch}
+   * @see {@link https://bud.js.org/reference/bud.setUrl}
+   * @see {@link https://bud.js.org/reference/bud.setProxyUrl}
+   * @see {@link https://bud.js.org/reference/bud.watch}
    */
   app
     .setUrl('http://localhost:3000')
@@ -43,29 +40,37 @@ export default async (app: Bud) => {
    * @see {@link https://developer.wordpress.org/block-editor/how-to-guides/themes/theme-json}
    */
   app.wpjson
-    .set('settings.color.custom', false)
-    .set('settings.color.customDuotone', false)
-    .set('settings.color.customGradient', false)
-    .set('settings.color.defaultDuotone', false)
-    .set('settings.color.defaultGradients', false)
-    .set('settings.color.defaultPalette', false)
-    .set('settings.color.duotone', [])
-    .set('settings.custom.spacing', {})
-    .set('settings.custom.typography.font-size', {})
-    .set('settings.custom.typography.line-height', {})
-    .set('settings.spacing.padding', true)
-    .set('settings.spacing.units', ['px', '%', 'em', 'rem', 'vw', 'vh'])
-    .set('settings.typography.customFontSize', false)
-    .enable();
-
-  /**
-   * Use Tailwind config in `theme.json`
-   */
-  app.wpjson
+    .setSettings({
+      background: {
+        backgroundImage: true,
+      },
+      color: {
+        custom: false,
+        customDuotone: false,
+        customGradient: false,
+        defaultDuotone: false,
+        defaultGradients: false,
+        defaultPalette: false,
+        duotone: [],
+      },
+      custom: {
+        spacing: {},
+        typography: {
+          'font-size': {},
+          'line-height': {},
+        },
+      },
+      spacing: {
+        padding: true,
+        units: ['px', '%', 'em', 'rem', 'vw', 'vh'],
+      },
+      typography: {
+        customFontSize: false,
+      },
+    })
     .useTailwindColors()
     .useTailwindFontFamily()
-    .useTailwindFontSize()
-    .enable();
+    .useTailwindFontSize();
 
   app.typescript.typecheck.enable();
 };
