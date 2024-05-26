@@ -1,6 +1,4 @@
 import { Bud } from '@roots/bud';
-import '@roots/bud-framework';
-import '@roots/bud-typescript';
 
 export default async (app: Bud) => {
   /**
