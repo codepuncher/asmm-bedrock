@@ -1,4 +1,4 @@
-<div id="menu-mobile" class="lg:hidden transform translate-x-0 translate-x-full transition-transform fixed top-0 right-0 h-full w-full bg-yellow-500">
+<div id="menu-mobile" class="lg:hidden transform translate-x-0 translate-x-full transition-transform fixed top-0 right-0 h-full w-full bg-yellow">
   <div class="top-bar text-blue-dark flex items-center justify-between px-2 sm:px-6 border-b border-blue-dark">
     <a class="brand text-2xl font-medium text-blue-dark" href="{{ home_url('/') }}">{{ $siteName }}</a>
 
@@ -11,7 +11,7 @@
           <a
             href="{{ $item->url }}"
             @if($item->active)
-            class="text-yellow-500 block p-2 sm:p-6 text-lg font-medium"
+            class="text-yellow block p-2 sm:p-6 text-lg font-medium"
             @elseif($item->activeParent)
             class="text-white block p-2 sm:p-6 text-lg font-medium"
             @else
@@ -27,7 +27,7 @@
                   <a
                     href="{{ $child->url }}"
                     @if($child->active)
-                    class="text-yellow-500 text-sm"
+                    class="text-yellow text-sm"
                     @elseif($item->active || $item->activeParent)
                     class="text-white text-sm"
                     @else

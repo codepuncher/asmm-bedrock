@@ -1,17 +1,5 @@
 {
-  "bracketSpacing": false,
-  "bracketSameLine": true,
   "semi": true,
   "singleQuote": true,
-  "tabWidth": 2,
-  "trailingComma": "all",
-  "useTabs": false,
-  "overrides": [
-    {
-      "files": "*.css",
-      "options": {
-        "singleQuote": false
-      }
-    }
-  ]
+  "trailingComma": "es5"
 }

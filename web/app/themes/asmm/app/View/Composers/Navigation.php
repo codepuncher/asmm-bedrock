@@ -47,21 +47,22 @@ class Navigation extends Composer
 
     protected function addItemClasses(object $parent): object
     {
-        $baseClasses = 'text-yellow-500 px-3 py-2 text-sm font-medium transition-colors';
+        $baseClasses = 'text-yellow px-3 py-2 text-sm font-medium transition-colors';
         $parent->classes .= " {$baseClasses}";
 
         if (empty($parent->children)) {
             return $parent;
         }
 
-        $parent->children = array_map(static function (object $item): object {
+        $parentChildrenCount = count($parent->children);
+        $parent->children = array_map(static function (object $item, int $index) use ($parentChildrenCount): object {
             $baseClasses = [
                 'bg-blue-dark',
-                'text-yellow-500',
+                'text-yellow',
                 'text-sm',
                 'block',
                 'p-3',
-                'hover:bg-yellow-500',
+                'hover:bg-yellow',
                 'hover:text-blue-dark',
                 'transition-colors',
             ];
@@ -69,7 +70,7 @@ class Navigation extends Composer
             $item->classes .= " {$baseClasses}";
 
             return $item;
-        }, array_values($parent->children));
+        }, array_values($parent->children), array_keys($parent->children));
 
         return $parent;
     }
