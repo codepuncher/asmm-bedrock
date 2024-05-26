@@ -1,7 +1,7 @@
 {
-  "extends": "@roots/bud-typescript/tsconfig/tsconfig.json",
+  "extends": "@roots/bud/config/tsconfig.json",
   "compilerOptions": {
-    "outDir": "public",
+    "allowJs": false,
     "paths": {
       "@scripts/*": [
         "./resources/scripts/*"
@@ -10,7 +10,25 @@
         "./resources/styles/*"
       ]
     },
-    "types": ["@roots/bud", "@roots/bud-typescript"]
+    "types": [
+      "@roots/bud",
+      "@roots/bud-typescript",
+      "@roots/bud-tailwindcss",
+      "@roots/bud-postcss",
+      "@roots/bud-eslint",
+      "@roots/bud-stylelint",
+      "@roots/bud-preset-wordpress",
+      "@types/node",
+      "webpack/module"
+    ]
   },
-  "exclude": ["./public", "./node_modules", "./vendor"]
+  "files": [
+    "./bud.config.ts",
+    "./types.d.ts"
+  ],
+  "exclude": [
+    "./public",
+    "./node_modules",
+    "./vendor"
+  ]
 }
