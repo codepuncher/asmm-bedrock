@@ -4,7 +4,7 @@
 
 @layer base {
   :root {
-    --link-underline-color: theme('colors.yellow');
+    --link-underline-color: theme('colors.yellow.500');
   }
 
   body {
@@ -12,7 +12,7 @@
   }
 
   a {
-    @apply text-yellow relative;
+    @apply text-yellow-500 relative;
   }
 
   p,
@@ -64,12 +64,12 @@
 }
 
 .admin-bar {
-  @media (max-width: 420px) {
+  @media (width <=420px) {
     margin-top: -46px;
   }
 
   #wpadminbar {
-    @media (max-width: 420px) {
+    @media (width <=420px) {
       display: none;
     }
   }
@@ -112,7 +112,7 @@
   .banner {
     h2,
     p {
-      background-color: rgba(0, 0, 0, 0.5);
+      background-color: rgb(0 0 0 / 50%);
     }
 
     p {
