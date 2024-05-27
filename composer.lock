@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "efa332e874c08b5f632b67d10b56b51a",
+    "content-hash": "9dfb112e3d969439666d75a542a55794",
     "packages": [
         {
             "name": "brick/math",
@@ -4989,7 +4989,7 @@
         },
         {
             "name": "wpackagist-plugin/filebird",
-            "version": "5.6.4",
+            "version": "6.2.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/filebird/",
@@ -4997,7 +4997,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/filebird.zip?timestamp=1711684465"
+                "url": "https://downloads.wordpress.org/plugin/filebird.zip?timestamp=1716791729"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
