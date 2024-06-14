@@ -4989,7 +4989,7 @@
         },
         {
             "name": "wpackagist-plugin/filebird",
-            "version": "6.2.3",
+            "version": "6.2.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/filebird/",
@@ -4997,7 +4997,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/filebird.zip?timestamp=1716791729"
+                "url": "https://downloads.wordpress.org/plugin/filebird.zip?timestamp=1718366155"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
