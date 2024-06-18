@@ -57,7 +57,7 @@
     "wpackagist-plugin/autoptimize": "3.1.11",
     "wpackagist-plugin/w3-total-cache": "^2.7",
     "roots/wordpress-no-content": "^6.0",
-    "roots/acorn": "^2.1",
+    "roots/acorn": "^4.3",
     "wpackagist-plugin/contact-form-7": "^5.9",
     "wpackagist-theme/twentytwentyfour": "^1.1",
     "wpackagist-plugin/post-smtp": "^2.9",
