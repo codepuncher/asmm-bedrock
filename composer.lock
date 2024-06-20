@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3b1f7f16852cbb700763219254030f9a",
+    "content-hash": "70642aaba9512484d140aa69319e37b6",
     "packages": [
         {
             "name": "brick/math",
@@ -6531,6 +6531,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/kirki/"
+        },
+        {
+            "name": "wpackagist-plugin/patchstack",
+            "version": "2.2.12",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/patchstack/",
+                "reference": "tags/2.2.12"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/patchstack.2.2.12.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/patchstack/"
         },
         {
             "name": "wpackagist-plugin/post-smtp",
