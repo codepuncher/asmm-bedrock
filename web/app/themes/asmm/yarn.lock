@@ -1663,22 +1663,22 @@
     tslib "2.6.2"
     webpack-virtual-modules "0.6.1"
 
-"@roots/bud-typescript@^6.21.0":
-  version "6.21.0"
-  resolved "https://registry.yarnpkg.com/@roots/bud-typescript/-/bud-typescript-6.21.0.tgz#126cca997fec0b27f345a9a0db2501e374b9a29b"
-  integrity sha512-EMBZdab0njPShCXEYHff0reQZ7V9lqPTnzdtaQPDS8P6Emb9j9ATvlmtKzIium9NxC6+yb8S1mXZA0FakaKh2g==
+"@roots/bud-typescript@^6.23.0":
+  version "6.23.0"
+  resolved "https://registry.yarnpkg.com/@roots/bud-typescript/-/bud-typescript-6.23.0.tgz#8c8af8c0611ec388f1cf27e7a752cdb7e5c51be9"
+  integrity sha512-DYbquXaVcBJ85DM7cIjaovlneRWljs2Gl85JQK1sX4anG/X2dTpaLJV0JWSxysTq24hzt6OoJ3UukjM6cM9bGg==
   dependencies:
-    "@roots/bud" "6.21.0"
-    "@roots/bud-build" "6.21.0"
-    "@roots/bud-framework" "6.21.0"
-    "@roots/bud-support" "6.21.0"
+    "@roots/bud" "6.23.0"
+    "@roots/bud-build" "6.23.0"
+    "@roots/bud-framework" "6.23.0"
+    "@roots/bud-support" "6.23.0"
     fork-ts-checker-webpack-plugin "7.3.0"
-    react-refresh "0.14.0"
+    react-refresh "0.14.2"
     react-refresh-typescript "2.0.9"
     ts-loader "9.5.1"
     ts-node "10.9.2"
     tslib "2.6.2"
-    typescript "5.3.3"
+    typescript "5.4.5"
 
 "@roots/bud-wordpress-dependencies@6.23.0":
   version "6.23.0"
@@ -8476,11 +8476,6 @@ react-refresh-typescript@2.0.9:
   resolved "https://registry.yarnpkg.com/react-refresh-typescript/-/react-refresh-typescript-2.0.9.tgz#f8a86efcb34f8d717100230564b9b57477d74b10"
   integrity sha512-chAnOO4vpxm/3WkgOVmti+eN8yUtkJzeGkOigV6UA9eDFz12W34e/SsYe2H5+RwYJ3+sfSZkVbiXcG1chEBxlg==
 
-react-refresh@0.14.0:
-  version "0.14.0"
-  resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.14.0.tgz#4e02825378a5f227079554d4284889354e5f553e"
-  integrity sha512-wViHqhAd8OHeLS/IRMJjTSDHF3U9eWi62F/MledQGPdJGDhodXJ9PBLNGr6WWL7qlH12Mt3TyTpbS+hGXMjCzQ==
-
 react-refresh@0.14.2:
   version "0.14.2"
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.14.2.tgz#3833da01ce32da470f1f936b9d477da5c7028bf9"
@@ -9863,10 +9858,10 @@ typed-array-length@^1.0.6:
     is-typed-array "^1.1.13"
     possible-typed-array-names "^1.0.0"
 
-typescript@5.3.3:
-  version "5.3.3"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.3.3.tgz#b3ce6ba258e72e6305ba66f5c9b452aaee3ffe37"
-  integrity sha512-pXWcraxM0uxAS+tN0AG/BF2TyqmHO014Z070UsJ+pFvYuRSq8KH8DmWpnbXe0pEPDHXZV3FcAbJkijJ5oNEnWw==
+typescript@5.4.5:
+  version "5.4.5"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.4.5.tgz#42ccef2c571fdbd0f6718b1d1f5e6e5ef006f611"
+  integrity sha512-vcI4UpRgg81oIRUFwR0WSIHKt11nJ7SAVlYNIu+QpqeyXP+gpQJy/Z4+F0aGxSE4MqwjyXvW/TzgkLAx2AGHwQ==
 
 unbox-primitive@^1.0.2:
   version "1.0.2"
