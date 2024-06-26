@@ -27,7 +27,7 @@
     "@roots/bud-prettier": "^6.23.0",
     "@roots/bud-stylelint": "^6.21.0",
     "@roots/bud-tailwindcss": "^6.22.0",
-    "@roots/bud-typescript": "^6.21.0",
+    "@roots/bud-typescript": "^6.23.0",
     "@roots/eslint-config": "^6.23.0",
     "@roots/sage": "^6.23.0",
     "@tailwindcss/typography": "^0.5.13"
