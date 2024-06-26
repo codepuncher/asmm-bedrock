@@ -2601,15 +2601,15 @@
     "@roots/wordpress-hmr" "6.21.0"
     tslib "2.6.2"
 
-"@roots/bud-prettier@^6.21.0":
-  version "6.21.0"
-  resolved "https://registry.yarnpkg.com/@roots/bud-prettier/-/bud-prettier-6.21.0.tgz#bd7fdc631c024e6f4074ed85a6882275e23f0c91"
-  integrity sha512-xcADxiUzAMmmvnPtDapEm5TSjhpxv+tbnRz+IS68/F5HPAxZi/vtoNmYZEOOmHIQ1CeJ4hVO2s/vebK0arF/lA==
+"@roots/bud-prettier@^6.23.0":
+  version "6.23.0"
+  resolved "https://registry.yarnpkg.com/@roots/bud-prettier/-/bud-prettier-6.23.0.tgz#2f46fae75b33a8c53f00e53a63be004954e971d2"
+  integrity sha512-JUf7bcU3xxkbOzkaa7OtxbBVnMNMAHtUibTTkFmtIXMxRHLf7POetnZLecOp+lZDoIPwJ2bXxmSlrQk/uSe0bg==
   dependencies:
-    "@roots/bud" "6.21.0"
-    "@roots/bud-framework" "6.21.0"
-    "@roots/bud-support" "6.21.0"
-    prettier "3.1.1"
+    "@roots/bud" "6.23.0"
+    "@roots/bud-framework" "6.23.0"
+    "@roots/bud-support" "6.23.0"
+    prettier "3.2.5"
     tslib "2.6.2"
 
 "@roots/bud-react@6.21.0":
@@ -9989,10 +9989,10 @@ prettier-linter-helpers@^1.0.0:
   dependencies:
     fast-diff "^1.1.2"
 
-prettier@3.1.1:
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.1.1.tgz#6ba9f23165d690b6cbdaa88cb0807278f7019848"
-  integrity sha512-22UbSzg8luF4UuZtzgiUOfcGM8s4tjBv6dJRT7j275NXsy2jb4aJa4NNveul5x4eqlF1wuhuR2RElK71RvmVaw==
+prettier@3.2.5:
+  version "3.2.5"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.2.5.tgz#e52bc3090586e824964a8813b09aba6233b28368"
+  integrity sha512-3/GWa9aOC0YeD7LUfvOG2NiDyhOWRvt1k+rcKhOuYnMY24iiCphgneUfJDyFXd6rZCAnuLBv6UeAULtrhT/F4A==
 
 pretty-format@29.7.0:
   version "29.7.0"
