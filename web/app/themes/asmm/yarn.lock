@@ -1195,14 +1195,14 @@
     "@roots/wordpress-hmr" "6.23.1"
     tslib "2.6.2"
 
-"@roots/bud-prettier@^6.23.0":
-  version "6.23.0"
-  resolved "https://registry.yarnpkg.com/@roots/bud-prettier/-/bud-prettier-6.23.0.tgz#2f46fae75b33a8c53f00e53a63be004954e971d2"
-  integrity sha512-JUf7bcU3xxkbOzkaa7OtxbBVnMNMAHtUibTTkFmtIXMxRHLf7POetnZLecOp+lZDoIPwJ2bXxmSlrQk/uSe0bg==
+"@roots/bud-prettier@^6.23.1":
+  version "6.23.1"
+  resolved "https://registry.yarnpkg.com/@roots/bud-prettier/-/bud-prettier-6.23.1.tgz#cd6ed89038998183e78a24e62e917db5b174214c"
+  integrity sha512-BLQWnEkGys8ad2MWu954IU9UMAJAF614NaOJAQbFQccqwjcfCJMDteyXpMk6FwVfHQ+69mtmfRMaGUr6REHiYw==
   dependencies:
-    "@roots/bud" "6.23.0"
-    "@roots/bud-framework" "6.23.0"
-    "@roots/bud-support" "6.23.0"
+    "@roots/bud" "6.23.1"
+    "@roots/bud-framework" "6.23.1"
+    "@roots/bud-support" "6.23.1"
     prettier "3.2.5"
     tslib "2.6.2"
 
