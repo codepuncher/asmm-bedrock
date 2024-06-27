@@ -1025,14 +1025,14 @@
     "@roots/entrypoints-webpack-plugin" "6.23.1"
     tslib "2.6.2"
 
-"@roots/bud-eslint@^6.23.0":
-  version "6.23.0"
-  resolved "https://registry.yarnpkg.com/@roots/bud-eslint/-/bud-eslint-6.23.0.tgz#bccea7b7a40dc9dbecc676f09120e4af1682e1d2"
-  integrity sha512-l2Nzs11IKHDqZVFlItoYDUPfJCWpaAnp8ovkeeIkxOudE4+PUEclPxT59xi35VmPkwgsBk5HVL6Xsl6o/4U3xw==
+"@roots/bud-eslint@^6.23.1":
+  version "6.23.1"
+  resolved "https://registry.yarnpkg.com/@roots/bud-eslint/-/bud-eslint-6.23.1.tgz#ed60fe49a9a4ce6850603e3bea7f8db4eb11695c"
+  integrity sha512-H6/NvJ8YuXnnt2ZVRDboBjeP+jCIc6DtMW0plzkgZSnHicF1I9ZzdlTKhoDW9xks1sbvg0pl7pW8MLxFgFbZQg==
   dependencies:
-    "@roots/bud" "6.23.0"
-    "@roots/bud-framework" "6.23.0"
-    "@roots/bud-support" "6.23.0"
+    "@roots/bud" "6.23.1"
+    "@roots/bud-framework" "6.23.1"
+    "@roots/bud-support" "6.23.1"
     eslint "8.57.0"
     eslint-webpack-plugin "4.1.0"
     tslib "2.6.2"
