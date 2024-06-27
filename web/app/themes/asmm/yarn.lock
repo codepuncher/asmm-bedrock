@@ -1241,14 +1241,14 @@
     "@roots/bud-support" "6.23.1"
     tslib "2.6.2"
 
-"@roots/bud-stylelint@^6.23.0":
-  version "6.23.0"
-  resolved "https://registry.yarnpkg.com/@roots/bud-stylelint/-/bud-stylelint-6.23.0.tgz#1a15f0f874ac09aeea9e9dc3f76528a6a4fed71e"
-  integrity sha512-xm52Xog/+oRjpGFpTZEeCG388GxDgdkrpGVs17y89QQfqCpygzNgo0nA9eG5LVUqTvkoAKZ5cTtm56C54zs09Q==
+"@roots/bud-stylelint@^6.23.1":
+  version "6.23.1"
+  resolved "https://registry.yarnpkg.com/@roots/bud-stylelint/-/bud-stylelint-6.23.1.tgz#6301c91ebe8c43343d21110d6745179dc41e9895"
+  integrity sha512-2DGIxNtJ3//Vjy1IfdnFNgGhv1q+1jZMhbpBB9B5qtrrMAQ+gvHtSC4WkKwcm2kMwExWbf256yANZczdPyZgmQ==
   dependencies:
-    "@roots/bud" "6.23.0"
-    "@roots/bud-framework" "6.23.0"
-    "@roots/bud-support" "6.23.0"
+    "@roots/bud" "6.23.1"
+    "@roots/bud-framework" "6.23.1"
+    "@roots/bud-support" "6.23.1"
     stylelint "16.5.0"
     stylelint-config-standard "36.0.0"
     stylelint-webpack-plugin "5.0.0"
