@@ -1533,10 +1533,10 @@
     tslib "2.6.2"
     webpack "5.91.0"
 
-"@roots/eslint-config@^6.23.0":
-  version "6.23.0"
-  resolved "https://registry.yarnpkg.com/@roots/eslint-config/-/eslint-config-6.23.0.tgz#2385c2d30fa05848afa98471053df99380799260"
-  integrity sha512-3NeHVDZyA11updTRFxgHXEDIAHY8MJGe0IXQrbKBE6jq7aU5Yhdmr4qNXgIvO2O37iccU1tzQBMdnzkpeRh3Ug==
+"@roots/eslint-config@^6.23.1":
+  version "6.23.1"
+  resolved "https://registry.yarnpkg.com/@roots/eslint-config/-/eslint-config-6.23.1.tgz#900cb6d6afc9cf5710dd7920005af6cd672ac9d9"
+  integrity sha512-YC9eXQjdjsFDAL+2kU90CjAsreOcw3OZM4srhpCGyqlfntktcwOviEJMG1dhAP0Oz3mexIsYI8rRUw57CBhdhg==
   dependencies:
     "@babel/eslint-parser" "7.24.5"
     "@typescript-eslint/eslint-plugin" "7.8.0"
