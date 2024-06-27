@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "31fda0865f896ac14bef807a75b8f5ff",
+    "content-hash": "f19fdeb13aeb3e2777424d6226eedb97",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -558,54 +558,6 @@
                 }
             ],
             "time": "2022-04-21T07:33:20+00:00"
-        },
-        {
-            "name": "log1x/acf-editor-palette",
-            "version": "v1.0.9",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Log1x/acf-editor-palette.git",
-                "reference": "449eb1a3cf14d8b6d5f1a96a1d26de846bc7bf88"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Log1x/acf-editor-palette/zipball/449eb1a3cf14d8b6d5f1a96a1d26de846bc7bf88",
-                "reference": "449eb1a3cf14d8b6d5f1a96a1d26de846bc7bf88",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.2"
-            },
-            "require-dev": {
-                "squizlabs/php_codesniffer": "^3.5"
-            },
-            "type": "wordpress-plugin",
-            "autoload": {
-                "psr-4": {
-                    "Log1x\\AcfEditorPalette\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "description": "A replica Gutenberg color picker field for Advanced Custom Fields.",
-            "keywords": [
-                "acf",
-                "acf-field",
-                "color-picker",
-                "gutenberg",
-                "wordpress",
-                "wordpress-plugin"
-            ],
-            "support": {
-                "issues": "https://github.com/Log1x/acf-editor-palette/issues",
-                "source": "https://github.com/Log1x/acf-editor-palette/tree/v1.0.9"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/log1x",
-                    "type": "github"
-                }
-            ],
-            "time": "2021-08-30T16:48:26+00:00"
         },
         {
             "name": "log1x/navi",
@@ -2127,5 +2079,5 @@
         "php": "^7.3|^8.0"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.6.0"
 }
