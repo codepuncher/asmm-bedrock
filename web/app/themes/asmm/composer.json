@@ -41,7 +41,6 @@
   "require": {
     "php": "^7.3|^8.0",
     "log1x/acf-composer": "^2.0",
-    "log1x/acf-editor-palette": "^1.0",
     "log1x/navi": "^2.0",
     "log1x/pagi": "^1.0",
     "log1x/poet": "^2.0",
