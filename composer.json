@@ -59,7 +59,7 @@
     "roots/wordpress-no-content": "^6.0",
     "roots/acorn": "^4.3",
     "wpackagist-plugin/contact-form-7": "^5.9",
-    "wpackagist-theme/twentytwentyfour": "^1.1",
+    "wpackagist-theme/twentytwentyfour": "^1.2",
     "wpackagist-plugin/post-smtp": "^2.9",
     "wpackagist-plugin/tracking-code-manager": "^3.8",
     "wpackagist-plugin/filebird": "^6.3",
