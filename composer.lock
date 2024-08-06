@@ -6625,15 +6625,15 @@
         },
         {
             "name": "wpackagist-plugin/w3-total-cache",
-            "version": "2.7.4",
+            "version": "2.7.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/w3-total-cache/",
-                "reference": "tags/2.7.4"
+                "reference": "tags/2.7.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/w3-total-cache.2.7.4.zip"
+                "url": "https://downloads.wordpress.org/plugin/w3-total-cache.2.7.5.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
