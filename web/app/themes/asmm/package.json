@@ -24,7 +24,7 @@
   "devDependencies": {
     "@roots/bud": "^6.23.1",
     "@roots/bud-eslint": "^6.23.1",
-    "@roots/bud-prettier": "^6.23.1",
+    "@roots/bud-prettier": "^6.23.2",
     "@roots/bud-stylelint": "^6.23.1",
     "@roots/bud-tailwindcss": "^6.23.1",
     "@roots/bud-typescript": "^6.23.1",
