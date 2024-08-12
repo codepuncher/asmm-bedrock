@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8ea99228d533f6c482fabde96597e4bc",
+    "content-hash": "74c412eae084da4477db7e52f4122af7",
     "packages": [
         {
             "name": "brick/math",
@@ -6571,15 +6571,15 @@
         },
         {
             "name": "wpackagist-plugin/redirection",
-            "version": "5.4.2",
+            "version": "5.5.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/redirection/",
-                "reference": "tags/5.4.2"
+                "reference": "tags/5.5.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/redirection.5.4.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/redirection.5.5.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
