@@ -1372,15 +1372,15 @@
     tslib "2.6.3"
     webpack-virtual-modules "0.6.2"
 
-"@roots/bud-typescript@^6.23.2":
-  version "6.23.2"
-  resolved "https://registry.yarnpkg.com/@roots/bud-typescript/-/bud-typescript-6.23.2.tgz#106bcbeff7ae4e7414efb420971bfbb347391f8f"
-  integrity sha512-XQfoi4c690PLkdxO/XJdgBEP39kr3ZnY+aiFqHAEyOgAE9WalgAr/t9UGAaQCfI7jxAM14YGo24COINdzUaoGg==
+"@roots/bud-typescript@^6.23.3":
+  version "6.23.3"
+  resolved "https://registry.yarnpkg.com/@roots/bud-typescript/-/bud-typescript-6.23.3.tgz#dd0d7358b5afda6d8b4c8fd59bc1aeb514843b25"
+  integrity sha512-OVMgn5AzY7jux5vbfJnTKZZjQyqfh+uCrXhm/hjktfAn+PjYKwyXgVJ9Z2RvdHxc/qEpXwkz7QydPPhGMrWOtA==
   dependencies:
-    "@roots/bud" "6.23.2"
-    "@roots/bud-build" "6.23.2"
-    "@roots/bud-framework" "6.23.2"
-    "@roots/bud-support" "6.23.2"
+    "@roots/bud" "6.23.3"
+    "@roots/bud-build" "6.23.3"
+    "@roots/bud-framework" "6.23.3"
+    "@roots/bud-support" "6.23.3"
     fork-ts-checker-webpack-plugin "7.3.0"
     react-refresh "0.14.2"
     react-refresh-typescript "2.0.9"
