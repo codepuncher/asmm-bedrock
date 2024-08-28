@@ -30,7 +30,7 @@
     "@roots/bud-typescript": "^6.23.3",
     "@roots/eslint-config": "^6.23.2",
     "@roots/sage": "^6.23.2",
-    "@tailwindcss/typography": "^0.5.14"
+    "@tailwindcss/typography": "^0.5.15"
   },
   "peerDependencies": {
     "jquery": "^3.5.1"
