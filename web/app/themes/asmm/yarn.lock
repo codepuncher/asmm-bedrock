@@ -1121,6 +1121,22 @@
     tslib "2.6.3"
     webpack "5.93.0"
 
+"@roots/bud-postcss@6.23.3":
+  version "6.23.3"
+  resolved "https://registry.yarnpkg.com/@roots/bud-postcss/-/bud-postcss-6.23.3.tgz#c670b1e69b37f9d88c3c9e9c9cad5056620f2f27"
+  integrity sha512-9BVbnD7cr6pXS7tT1b9oZT7ozYJ3ca1giYHERcXk9HDzm2n53xHE2tEhi1sPFUds4WNht//8NKBKc7tapclziQ==
+  dependencies:
+    "@roots/bud-build" "6.23.3"
+    "@roots/bud-framework" "6.23.3"
+    "@roots/bud-support" "6.23.3"
+    postcss "8.4.40"
+    postcss-import "16.1.0"
+    postcss-loader "8.1.1"
+    postcss-nested "6.2.0"
+    postcss-preset-env "9.6.0"
+    tslib "2.6.3"
+    webpack "5.93.0"
+
 "@roots/bud-preset-recommend@6.23.2":
   version "6.23.2"
   resolved "https://registry.yarnpkg.com/@roots/bud-preset-recommend/-/bud-preset-recommend-6.23.2.tgz#21566fdc068e2e0c6164a342af9c979829920408"
@@ -1357,15 +1373,15 @@
     "@roots/wordpress-theme-json-webpack-plugin" "6.23.2"
     tslib "2.6.3"
 
-"@roots/bud-tailwindcss@^6.23.2":
-  version "6.23.2"
-  resolved "https://registry.yarnpkg.com/@roots/bud-tailwindcss/-/bud-tailwindcss-6.23.2.tgz#24386e2678dab536083970d17aa7600757d5d6f7"
-  integrity sha512-Xgc98mmtMPBQRngxjvqZoXaTJxMwAjBdnAK8lnVMOAhNVg58U5FBmiQT2PljRotlyQOQTwOT7d7WqZunX1716w==
+"@roots/bud-tailwindcss@^6.23.3":
+  version "6.23.3"
+  resolved "https://registry.yarnpkg.com/@roots/bud-tailwindcss/-/bud-tailwindcss-6.23.3.tgz#5ce441b9cf410ccb8969efd8348daf65ae10b745"
+  integrity sha512-9lPASOl+1/vMADy4JdOt40xCqdkWyrvOLnNH9BxhH9shgqCZzqI2WKhEtbGl1KI1YriHc2azjPCAsf07i7J98A==
   dependencies:
-    "@roots/bud" "6.23.2"
-    "@roots/bud-framework" "6.23.2"
-    "@roots/bud-postcss" "6.23.2"
-    "@roots/bud-support" "6.23.2"
+    "@roots/bud" "6.23.3"
+    "@roots/bud-framework" "6.23.3"
+    "@roots/bud-postcss" "6.23.3"
+    "@roots/bud-support" "6.23.3"
     postcss "8.4.40"
     sucrase "3.35.0"
     tailwindcss "3.4.7"
@@ -7295,7 +7311,7 @@ postcss-value-parser@^4.0.0, postcss-value-parser@^4.1.0, postcss-value-parser@^
   resolved "https://registry.yarnpkg.com/postcss-value-parser/-/postcss-value-parser-4.2.0.tgz#723c09920836ba6d3e5af019f92bc0971c02e514"
   integrity sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==
 
-postcss@8.4.40, postcss@^8.4.23, postcss@^8.4.33:
+postcss@8.4.40:
   version "8.4.40"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.40.tgz#eb81f2a4dd7668ed869a6db25999e02e9ad909d8"
   integrity sha512-YF2kKIUzAofPMpfH6hOi2cGnv/HrUlfucspc7pDyvv7kGdqXrfj8SCl/t8owkEgKEuu8ZcRjSOxFxVLqwChZ2Q==
@@ -7304,7 +7320,7 @@ postcss@8.4.40, postcss@^8.4.23, postcss@^8.4.33:
     picocolors "^1.0.1"
     source-map-js "^1.2.0"
 
-postcss@^8.4.39:
+postcss@^8.4.23, postcss@^8.4.33, postcss@^8.4.39:
   version "8.4.41"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.41.tgz#d6104d3ba272d882fe18fc07d15dc2da62fa2681"
   integrity sha512-TesUflQ0WKZqAvg52PWL6kHgLKP6xB6heTOdoYM0Wt2UHyxNa4K25EZZMgKns3BH1RLVbZCREPpLY0rhnNoHVQ==
