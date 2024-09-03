@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "aeb282b2dec071356c53658279d46024",
+    "content-hash": "21007da128635bce90a1e81de20075be",
     "packages": [
         {
             "name": "brick/math",
@@ -6643,15 +6643,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "23.3",
+            "version": "23.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/23.3"
+                "reference": "tags/23.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.23.3.zip"
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.23.4.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
