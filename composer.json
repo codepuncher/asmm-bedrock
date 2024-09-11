@@ -47,7 +47,7 @@
     "roots/bedrock-disallow-indexing": "^2.0",
     "roots/wordpress": "^6.6",
     "roots/wp-config": "^1.0",
-    "roots/wp-password-bcrypt": "^1.1",
+    "roots/wp-password-bcrypt": "^1.2",
     "wpackagist-plugin/crop-thumbnails": "^1.8",
     "wpackagist-plugin/duplicate-post": "^4.5",
     "wpackagist-plugin/kirki": "^5.1",
